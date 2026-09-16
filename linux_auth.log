@@ -1,0 +1,7 @@
+Mar 16 10:00:01 server sshd[1234]: Failed password for invalid user admin from 192.168.1.105 port 45212 ssh2
+Mar 16 10:00:05 server sshd[1235]: Failed password for invalid user admin from 192.168.1.105 port 45214 ssh2
+Mar 16 10:00:10 server sshd[1236]: Failed password for invalid user admin from 192.168.1.105 port 45216 ssh2
+Mar 16 10:00:15 server sshd[1237]: Failed password for invalid user admin from 192.168.1.105 port 45218 ssh2
+Mar 16 10:00:20 server sshd[1238]: Failed password for invalid user admin from 192.168.1.105 port 45220 ssh2
+Mar 16 10:01:00 server sshd[1240]: Accepted password for root from 192.168.1.105 port 45222 ssh2
+Mar 16 10:05:00 server sshd[1245]: Accepted password for developer from 10.0.0.15 port 51234 ssh2
