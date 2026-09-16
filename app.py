@@ -6,12 +6,15 @@ from analyzer import parse_linux_content, parse_windows_content, analyze_events
 st.set_page_config(page_title="Security Log Analyzer", layout="wide")
 
 st.title("🛡️ Cross-Platform Security Log Analyzer & Incident Triage")
-st.markdown("Upload raw **Linux auth.log** or **Windows JSON Event Logs** to detect brute-force attacks and security anomalies.")
+st.markdown("Upload raw **Linux auth.log** or **Windows JSON Event Logs** directly below to detect brute-force attacks and security anomalies.")
 
-# Sidebar File Upload Section
-st.sidebar.header("📁 Upload Telemetry Logs")
-uploaded_linux = st.sidebar.file_uploader("Upload Linux Log (.log, .txt)", type=["log", "txt"])
-uploaded_windows = st.sidebar.file_uploader("Upload Windows Events (.json)", type=["json"])
+# Direct Upload Section on Main Page
+with st.expander("📂 Click here to Upload Your Log Files", expanded=True):
+    col_u1, col_u2 = st.columns(2)
+    with col_u1:
+        uploaded_linux = st.file_uploader("Upload Linux Log (.log, .txt)", type=["log", "txt"])
+    with col_u2:
+        uploaded_windows = st.file_uploader("Upload Windows Events (.json)", type=["json"])
 
 all_events = []
 
@@ -25,9 +28,9 @@ if uploaded_windows is not None:
     windows_text = uploaded_windows.read().decode("utf-8")
     all_events.extend(parse_windows_content(windows_text))
 
-# Fallback: Agar user ne koi file upload nahi ki toh dummy logs dikhao
+# Fallback to demo data if nothing is uploaded
 if not uploaded_linux and not uploaded_windows:
-    st.sidebar.info("💡 No files uploaded yet. Showing built-in demo sample data.")
+    st.info("💡 No files uploaded yet. Showing built-in demo sample data.")
     try:
         with open("linux_auth.log", "r") as f:
             all_events.extend(parse_linux_content(f.read()))
