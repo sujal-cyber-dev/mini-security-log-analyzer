@@ -10,31 +10,38 @@ st.set_page_config(page_title="Security Log Analyzer & SIEM", layout="wide")
 st.title("🛡️ Cross-Platform Security Log Analyzer & Incident Triage")
 st.markdown("Automated ingestion, normalization, explainable threat detection, and forensic reporting.")
 
-# PDF Generation Helper
+# PDF Generation Helper (Fixed width & clean encoding)
 def generate_pdf_report(incidents_list, total_ips):
-    pdf = FPDF()
+    pdf = FPDF(orientation='P', unit='mm', format='A4')
+    pdf.set_auto_page_break(auto=True, margin=15)
     pdf.add_page()
     
     # Title Header
-    pdf.set_font("Helvetica", "B", 18)
-    pdf.cell(0, 10, "SOC Incident Triage & Forensic Report", ln=True, align="C")
+    pdf.set_font("Helvetica", "B", 16)
+    pdf.cell(190, 10, "SOC Incident Triage & Forensic Report", new_x="LMARGIN", new_y="NEXT", align="C")
     pdf.set_font("Helvetica", "", 10)
-    pdf.cell(0, 6, f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | Monitored IPs: {total_ips}", ln=True, align="C")
-    pdf.ln(8)
+    pdf.cell(190, 6, f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | Monitored IPs: {total_ips}", new_x="LMARGIN", new_y="NEXT", align="C")
+    pdf.ln(6)
     
-    # Incident Entries
-    pdf.set_font("Helvetica", "B", 13)
-    pdf.cell(0, 8, "Detected Security Incidents Summary", ln=True)
-    pdf.ln(3)
+    # Section Title
+    pdf.set_font("Helvetica", "B", 12)
+    pdf.cell(190, 8, "Detected Security Incidents Summary", new_x="LMARGIN", new_y="NEXT")
+    pdf.ln(2)
 
     for idx, inc in enumerate(incidents_list, 1):
+        # Sanitize text to avoid encoding errors
+        risk = str(inc.get('risk_level', 'LOW')).encode('latin-1', 'replace').decode('latin-1')
+        itype = str(inc.get('incident_type', '')).encode('latin-1', 'replace').decode('latin-1')
+        ip = str(inc.get('source_ip', '')).encode('latin-1', 'replace').decode('latin-1')
+        evidence = str(inc.get('evidence', '')).encode('latin-1', 'replace').decode('latin-1')
+        reason = str(inc.get('reason', '')).encode('latin-1', 'replace').decode('latin-1')
+
         pdf.set_font("Helvetica", "B", 10)
-        # Color coding title line conceptually
-        pdf.cell(0, 6, f"{idx}. [{inc['risk_level']}] {inc['incident_type']} - IP: {inc['source_ip']}", ln=True)
+        pdf.cell(190, 6, f"{idx}. [{risk}] {itype} - Source: {ip}", new_x="LMARGIN", new_y="NEXT")
         
         pdf.set_font("Helvetica", "", 9)
-        pdf.multi_cell(0, 5, f"Evidence: {inc['evidence']}")
-        pdf.multi_cell(0, 5, f"Analyst Rationale: {inc['reason']}")
+        pdf.multi_cell(190, 5, f"Evidence: {evidence}")
+        pdf.multi_cell(190, 5, f"Analyst Rationale: {reason}")
         pdf.ln(3)
 
     return bytes(pdf.output())
