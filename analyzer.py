@@ -5,12 +5,18 @@ from collections import defaultdict
 
 def parse_linux_content(file_content):
     unified_events = []
-    pattern = r"^(?P<date>\w+\s+\d+\s+\d+:\d+:\d+).*sshd\[\d+\]:\s+(?P<status>Failed|Accepted)\s+password\s+for\s+(?:invalid user\s+)?(?P<user>\S+)\s+from\s+(?P<ip>\S+)"
     
+    # Pattern 1: Standard Linux SSH Syslog
+    ssh_pattern = r"^(?P<date>\w+\s+\d+\s+\d+:\d+:\d+).*sshd\[\d+\]:\s+(?P<status>Failed|Accepted)\s+password\s+for\s+(?:invalid user\s+)?(?P<user>\S+)\s+from\s+(?P<ip>\S+)"
+    
+    # Pattern 2: Enterprise / Application Activity Log (Teacher's Format)
+    app_pattern = r"^(?P<date>\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2})\s+\w+\s+User\s+(?P<user>\S+)\s+(?P<action>logged in successfully|failed login attempt)\s+from\s+(?P<ip>\d{1,3}(?:\.\d{1,3}){3})"
+
     for line in file_content.splitlines():
-        match = re.search(pattern, line)
-        if match:
-            data = match.groupdict()
+        # Check SSH format
+        ssh_match = re.search(ssh_pattern, line)
+        if ssh_match:
+            data = ssh_match.groupdict()
             unified_events.append({
                 "timestamp": f"2026 {data['date']}",
                 "os_source": "Linux",
@@ -18,6 +24,20 @@ def parse_linux_content(file_content):
                 "user": data["user"],
                 "ip": data["ip"]
             })
+            continue
+
+        # Check Enterprise Application format
+        app_match = re.search(app_pattern, line)
+        if app_match:
+            data = app_match.groupdict()
+            unified_events.append({
+                "timestamp": data["date"],
+                "os_source": "Enterprise App",
+                "event_type": "LOGIN_SUCCESS" if "successfully" in data["action"] else "LOGIN_FAILED",
+                "user": data["user"],
+                "ip": data["ip"]
+            })
+
     return unified_events
 
 def parse_windows_content(file_content):
