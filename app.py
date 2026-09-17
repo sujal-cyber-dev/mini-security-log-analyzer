@@ -1,12 +1,43 @@
 # app.py
 import streamlit as st
 import pandas as pd
+from fpdf import FPDF
+from datetime import datetime
 from analyzer import parse_linux_content, parse_windows_content, analyze_events
 
 st.set_page_config(page_title="Security Log Analyzer & SIEM", layout="wide")
 
 st.title("🛡️ Cross-Platform Security Log Analyzer & Incident Triage")
-st.markdown("Automated ingestion, normalization, and explainable threat detection for Windows & Linux telemetry.")
+st.markdown("Automated ingestion, normalization, explainable threat detection, and forensic reporting.")
+
+# PDF Generation Helper
+def generate_pdf_report(incidents_list, total_ips):
+    pdf = FPDF()
+    pdf.add_page()
+    
+    # Title Header
+    pdf.set_font("Helvetica", "B", 18)
+    pdf.cell(0, 10, "SOC Incident Triage & Forensic Report", ln=True, align="C")
+    pdf.set_font("Helvetica", "", 10)
+    pdf.cell(0, 6, f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | Monitored IPs: {total_ips}", ln=True, align="C")
+    pdf.ln(8)
+    
+    # Incident Entries
+    pdf.set_font("Helvetica", "B", 13)
+    pdf.cell(0, 8, "Detected Security Incidents Summary", ln=True)
+    pdf.ln(3)
+
+    for idx, inc in enumerate(incidents_list, 1):
+        pdf.set_font("Helvetica", "B", 10)
+        # Color coding title line conceptually
+        pdf.cell(0, 6, f"{idx}. [{inc['risk_level']}] {inc['incident_type']} - IP: {inc['source_ip']}", ln=True)
+        
+        pdf.set_font("Helvetica", "", 9)
+        pdf.multi_cell(0, 5, f"Evidence: {inc['evidence']}")
+        pdf.multi_cell(0, 5, f"Analyst Rationale: {inc['reason']}")
+        pdf.ln(3)
+
+    return bytes(pdf.output())
 
 # Log Upload Section
 with st.expander("📂 Click here to Upload Your Log Files", expanded=True):
@@ -40,9 +71,11 @@ if not uploaded_linux and not uploaded_windows:
 incidents = analyze_events(all_events)
 
 if incidents and all_events:
+    total_ips_count = len(set(e["ip"] for e in all_events))
+    
     # Top KPI Metrics
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Monitored IPs", len(set(e["ip"] for e in all_events)))
+    col1.metric("Monitored IPs", total_ips_count)
     col2.metric("Critical Alerts", sum(1 for i in incidents if i["risk_level"] == "CRITICAL"))
     col3.metric("High Alerts", sum(1 for i in incidents if i["risk_level"] == "HIGH"))
     col4.metric("Low / Benign", sum(1 for i in incidents if i["risk_level"] == "LOW"))
@@ -65,7 +98,7 @@ if incidents and all_events:
         event_options = sorted(list(set(e["event_type"] for e in all_events)))
         selected_events = st.multiselect("Filter Event Type:", event_options, default=event_options)
 
-    # Filter incidents table
+    # Filtered incidents
     filtered_incidents = [
         inc for inc in incidents
         if inc["risk_level"] in selected_risk and (
@@ -78,27 +111,50 @@ if incidents and all_events:
 
     st.markdown("---")
 
-    # Incidents Table
-    st.subheader("🚨 Detected Incidents & Explainable Evidence")
-    if filtered_incidents:
-        summary_data = [{
-            "Source IP": inc["source_ip"],
-            "Risk Level": inc["risk_level"],
-            "Incident Type": inc["incident_type"],
-            "Evidence": inc["evidence"],
-            "Reason": inc["reason"]
-        } for inc in filtered_incidents]
-        st.dataframe(pd.DataFrame(summary_data), use_container_width=True)
+    # Incidents Table Header & Export Buttons
+    col_title, col_csv, col_pdf = st.columns([3, 1, 1])
+    with col_title:
+        st.subheader("🚨 Detected Incidents & Explainable Evidence")
+
+    summary_data = [{
+        "Source IP": inc["source_ip"],
+        "Risk Level": inc["risk_level"],
+        "Incident Type": inc["incident_type"],
+        "Evidence": inc["evidence"],
+        "Reason": inc["reason"]
+    } for inc in filtered_incidents]
+    
+    incidents_df = pd.DataFrame(summary_data)
+
+    if not incidents_df.empty:
+        with col_csv:
+            csv_data = incidents_df.to_csv(index=False).encode('utf-8')
+            st.download_button(
+                label="📥 Export CSV",
+                data=csv_data,
+                file_name=f"incident_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
+                mime="text/csv",
+                use_container_width=True
+            )
+        with col_pdf:
+            pdf_bytes = generate_pdf_report(filtered_incidents, total_ips_count)
+            st.download_button(
+                label="📄 Export PDF",
+                data=pdf_bytes,
+                file_name=f"incident_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf",
+                mime="application/pdf",
+                use_container_width=True
+            )
+        st.dataframe(incidents_df, use_container_width=True)
     else:
         st.warning("No incidents match your selected filters.")
 
     st.markdown("---")
 
-    # Normalized Raw Telemetry Explorer with Filters
+    # Normalized Global Telemetry Explorer
     st.subheader("📋 Normalized Global Telemetry Explorer")
     events_df = pd.DataFrame(all_events)
 
-    # Apply global filters to raw events
     if not events_df.empty:
         filtered_df = events_df[
             (events_df["os_source"].isin(selected_os)) &
@@ -106,11 +162,11 @@ if incidents and all_events:
         ]
 
         if search_query:
-            query = search_query.lower()
+            q = search_query.lower()
             filtered_df = filtered_df[
-                filtered_df["ip"].astype(str).str.lower().str.contains(query) |
-                filtered_df["user"].astype(str).str.lower().str.contains(query) |
-                filtered_df["details"].astype(str).str.lower().str.contains(query)
+                filtered_df["ip"].astype(str).str.lower().str.contains(q) |
+                filtered_df["user"].astype(str).str.lower().str.contains(q) |
+                filtered_df["details"].astype(str).str.lower().str.contains(q)
             ]
 
         display_cols = ["timestamp", "os_source", "category", "event_type", "user", "ip", "details"]
