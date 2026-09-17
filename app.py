@@ -8,6 +8,98 @@ from datetime import datetime
 from analyzer import parse_linux_content, parse_windows_content, analyze_events
 
 st.set_page_config(page_title="Security Log Analyzer & SIEM", layout="wide")
+# -------------------------------------------------------------
+# 💀 CYBER SOC / TERMINAL HACKER THEME INJECTION
+# -------------------------------------------------------------
+st.markdown("""
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700;800&display=swap');
+
+    /* Global hacker dark background */
+    html, body, [class*="css"], .stApp {
+        font-family: 'JetBrains Mono', monospace !important;
+        background-color: #07090e !important;
+        color: #d1d5db !important;
+    }
+
+    /* Terminal Glowing Title */
+    h1 {
+        color: #00ff66 !important;
+        text-shadow: 0 0 10px rgba(0, 255, 102, 0.45), 0 0 20px rgba(0, 255, 102, 0.2);
+        font-family: 'JetBrains Mono', monospace !important;
+        letter-spacing: 1px;
+    }
+
+    h2, h3 {
+        color: #00e5ff !important;
+        font-family: 'JetBrains Mono', monospace !important;
+        letter-spacing: 0.5px;
+    }
+
+    /* Hacker KPI Metric Cards */
+    div[data-testid="stMetric"] {
+        background: #0d121d !important;
+        border: 1px solid #1f293d !important;
+        border-radius: 8px !important;
+        padding: 14px 18px !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    div[data-testid="stMetric"]:hover {
+        border-color: #00ff66 !important;
+        transform: translateY(-2px);
+    }
+    div[data-testid="stMetricLabel"] p {
+        color: #9ca3af !important;
+        font-size: 0.85rem !important;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+    div[data-testid="stMetricValue"] div {
+        color: #00ff66 !important;
+        font-weight: 800 !important;
+        text-shadow: 0 0 8px rgba(0, 255, 102, 0.4);
+    }
+
+    /* Terminal-style Tables */
+    div[data-testid="stDataFrame"] {
+        border: 1px solid #1e293b !important;
+        border-radius: 6px !important;
+        background-color: #0a0e17 !important;
+    }
+
+    /* Neon Buttons */
+    .stDownloadButton button, .stButton button {
+        background-color: #0f172a !important;
+        color: #00ff66 !important;
+        border: 1px solid #00ff66 !important;
+        font-family: 'JetBrains Mono', monospace !important;
+        font-weight: 600 !important;
+        box-shadow: 0 0 10px rgba(0, 255, 102, 0.2) !important;
+        transition: all 0.2s ease-in-out !important;
+    }
+    .stDownloadButton button:hover, .stButton button:hover {
+        background-color: #00ff66 !important;
+        color: #07090e !important;
+        box-shadow: 0 0 20px rgba(0, 255, 102, 0.7) !important;
+    }
+
+    /* Terminal Code blocks */
+    code, pre {
+        background-color: #080c14 !important;
+        border: 1px solid #1f2937 !important;
+        color: #38bdf8 !important;
+        font-family: 'JetBrains Mono', monospace !important;
+    }
+
+    /* Expander styling */
+    div[data-testid="stExpander"] {
+        background-color: #0d121d !important;
+        border: 1px solid #1f293d !important;
+        border-radius: 6px !important;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 st.title("🛡️ Enterprise SOC Log Analyzer & Threat Triage SIEM")
 st.markdown("Automated ingestion, telemetry normalization, explainable threat detection, visual analytics, and incident response.")
