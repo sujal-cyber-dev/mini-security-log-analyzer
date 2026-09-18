@@ -49,7 +49,7 @@ def generate_pdf_report(incidents_list, total_ips):
     pdf.add_page()
     
     pdf.set_font("Helvetica", "B", 16)
-    pdf.cell(190, 10, "SOC Incident Triage & Forensic Report", new_x="LMARGIN", new_y="NEXT", align="C")
+    pdf.cell(190, 10, "SOC Incident Triage & Forensic Report", ln=True, align="C")
     pdf.set_font("Helvetica", "", 10)
     pdf.cell(190, 6, f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | Monitored IPs: {total_ips}", new_x="LMARGIN", new_y="NEXT", align="C")
     pdf.ln(6)
