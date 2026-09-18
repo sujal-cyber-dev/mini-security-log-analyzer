@@ -10,7 +10,6 @@ from stream_collector import follow_file
 
 st.set_page_config(page_title="Security Log Analyzer & SIEM", layout="wide")
 
-
 st.title("🛡️ Mini SIEM - Security Log Analyzer")
 st.markdown("Automated ingestion, telemetry normalization, explainable threat detection, visual analytics, and incident response.")
 
@@ -23,7 +22,7 @@ def lookup_ip_intelligence(ip):
             "status": "Private/Local",
             "country": "Internal Network",
             "city": "Private Subnet",
-            "lat": 20.2961, # Default map center
+            "lat": 20.2961,
             "lon": 85.8245,
             "reputation": "Internal Asset (Low Risk)"
         }
@@ -42,20 +41,20 @@ def lookup_ip_intelligence(ip):
         pass
     return {"status": "Unknown", "country": "Unknown", "city": "Unknown", "lat": 0.0, "lon": 0.0, "reputation": "Unverified"}
 
-# PDF Generation Helper
+# Universal Safe PDF Generation Helper (Compatible with both fpdf & fpdf2)
 def generate_pdf_report(incidents_list, total_ips):
     pdf = FPDF(orientation='P', unit='mm', format='A4')
     pdf.set_auto_page_break(auto=True, margin=15)
     pdf.add_page()
     
     pdf.set_font("Helvetica", "B", 16)
-    pdf.cell(190, 10, "SOC Incident Triage & Forensic Report", ln=True, align="C")
+    pdf.cell(190, 10, "SOC Incident Triage & Forensic Report", ln=1, align="C")
     pdf.set_font("Helvetica", "", 10)
-    pdf.cell(190, 6, f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | Monitored IPs: {total_ips}", new_x="LMARGIN", new_y="NEXT", align="C")
+    pdf.cell(190, 6, f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | Monitored IPs: {total_ips}", ln=1, align="C")
     pdf.ln(6)
     
     pdf.set_font("Helvetica", "B", 12)
-    pdf.cell(190, 8, "Detected Security Incidents Summary", new_x="LMARGIN", new_y="NEXT")
+    pdf.cell(190, 8, "Detected Security Incidents Summary", ln=1)
     pdf.ln(2)
 
     for idx, inc in enumerate(incidents_list, 1):
@@ -66,13 +65,14 @@ def generate_pdf_report(incidents_list, total_ips):
         reason = str(inc.get('reason', '')).encode('latin-1', 'replace').decode('latin-1')
 
         pdf.set_font("Helvetica", "B", 10)
-        pdf.cell(190, 6, f"{idx}. [{risk}] {itype} - Source: {ip}", new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(190, 6, f"{idx}. [{risk}] {itype} - Source: {ip}", ln=1)
         pdf.set_font("Helvetica", "", 9)
         pdf.multi_cell(190, 5, f"Evidence: {evidence}")
         pdf.multi_cell(190, 5, f"Analyst Rationale: {reason}")
         pdf.ln(3)
 
-    return bytes(pdf.output())
+    return pdf.output(dest='S').encode('latin-1')
+
 # --- Real-Time Streaming Toggle ---
 st.sidebar.markdown("### ⚙️ Mode Settings")
 stream_mode = st.sidebar.radio("Log Source Mode:", ["Batch File Upload", "🔴 Live Telemetry Stream"])
@@ -106,6 +106,7 @@ if stream_mode == "🔴 Live Telemetry Stream":
                 st.write("Waiting for incoming attack traffic...")
 
     st.stop()
+
 # Ingestion Upload Area
 with st.expander("📂 Click here to Upload Your Log Files", expanded=True):
     col_u1, col_u2 = st.columns(2)
@@ -183,7 +184,6 @@ if incidents and all_events:
     c1, c2 = st.columns(2)
 
     with c1:
-        # Donut Chart for Risk Severity
         risk_counts = pd.Series([i["risk_level"] for i in filtered_incidents]).value_counts().reset_index()
         risk_counts.columns = ["Risk Level", "Count"]
         color_map = {"CRITICAL": "#ff4b4b", "HIGH": "#ffa500", "MEDIUM": "#ffe600", "LOW": "#2ecc71"}
@@ -193,7 +193,6 @@ if incidents and all_events:
         st.plotly_chart(fig_donut, use_container_width=True)
 
     with c2:
-        # Bar Chart for Top Targeted Users
         all_users = [e["user"] for e in all_events if e.get("user") and e["user"] not in ["Unknown", "SYSTEM", "System"]]
         if all_users:
             user_counts = pd.Series(all_users).value_counts().head(5).reset_index()
@@ -296,12 +295,10 @@ if incidents and all_events:
         target_incident = next((i for i in incidents if i["source_ip"] == selected_ip), None)
 
         if target_incident:
-            # Threat Intel Banner
             intel = lookup_ip_intelligence(selected_ip)
             st.markdown(f"**Threat Assessment:** `{target_incident['risk_level']}` | **Incident:** `{target_incident['incident_type']}` | **Origin:** `{intel['city']}, {intel['country']}`")
             st.info(f"**Analyst Rationale:** {target_incident['reason']}")
 
-            # Automated Incident Playbook / Actionable Remediation
             with st.expander("🛠️ Automated SOC Remediation Playbook (Actionable Response)", expanded=True):
                 st.write("Execute these recommended countermeasures on affected perimeter systems:")
                 block_linux = f"sudo iptables -A INPUT -s {selected_ip} -j DROP"
@@ -315,7 +312,6 @@ if incidents and all_events:
                     st.code(block_win, language="powershell")
                     st.caption("Windows Firewall Block Rule")
 
-            # Timeline
             timeline_df = pd.DataFrame(target_incident["timeline"])
             t_cols = [c for c in ["timestamp", "os_source", "event_type", "user", "details"] if c in timeline_df.columns]
             st.dataframe(timeline_df[t_cols], use_container_width=True)
