@@ -10,7 +10,7 @@ from analyzer import parse_linux_content, parse_windows_content, analyze_events
 st.set_page_config(page_title="Security Log Analyzer & SIEM", layout="wide")
 
 
-st.title("🛡️ Enterprise SOC Log Analyzer & Threat Triage SIEM")
+st.title("🛡️ Mini SIEM - Security Log Analyzer")
 st.markdown("Automated ingestion, telemetry normalization, explainable threat detection, visual analytics, and incident response.")
 
 # Helper: Free Public IP Intelligence & Geo-Lookup (Cached to optimize speed)
