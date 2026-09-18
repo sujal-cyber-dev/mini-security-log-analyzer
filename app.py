@@ -6,6 +6,7 @@ import requests
 from fpdf import FPDF
 from datetime import datetime
 from analyzer import parse_linux_content, parse_windows_content, analyze_events
+from stream_collector import follow_file
 
 st.set_page_config(page_title="Security Log Analyzer & SIEM", layout="wide")
 
@@ -72,7 +73,39 @@ def generate_pdf_report(incidents_list, total_ips):
         pdf.ln(3)
 
     return bytes(pdf.output())
+# --- Real-Time Streaming Toggle ---
+st.sidebar.markdown("### ⚙️ Mode Settings")
+stream_mode = st.sidebar.radio("Log Source Mode:", ["Batch File Upload", "🔴 Live Telemetry Stream"])
 
+if stream_mode == "🔴 Live Telemetry Stream":
+    st.info("🟢 Real-Time Collector is actively listening for live telemetry in 'live_stream.log'...")
+    live_placeholder = st.empty()
+
+    if "live_events" not in st.session_state:
+        st.session_state.live_events = []
+
+    live_file_path = "live_stream.log"
+
+    for new_line in follow_file(live_file_path):
+        parsed = parse_linux_content(new_line)
+        if parsed:
+            st.session_state.live_events.extend(parsed)
+            st.session_state.live_events = st.session_state.live_events[-150:]
+
+        live_incidents = analyze_events(st.session_state.live_events)
+
+        with live_placeholder.container():
+            col1, col2 = st.columns(2)
+            col1.metric("Live Telemetry Count", len(st.session_state.live_events))
+            col2.metric("Detected Critical Incidents", len(live_incidents))
+
+            st.subheader("🚨 Live Ingested Incidents")
+            if live_incidents:
+                st.dataframe(live_incidents, use_container_width=True)
+            else:
+                st.write("Waiting for incoming attack traffic...")
+
+    st.stop()
 # Ingestion Upload Area
 with st.expander("📂 Click here to Upload Your Log Files", expanded=True):
     col_u1, col_u2 = st.columns(2)
