@@ -1,20 +1,30 @@
 import time
 import os
-from analyzer import parse_linux_content, analyze_events
 
 def follow_file(filepath):
-    """Linux 'tail -f' style generator jo nayi lines aate hi read karta hai."""
+    """Windows-safe file watcher using byte offset tracking."""
     if not os.path.exists(filepath):
-        # File exist nahi karti toh create kar do
         with open(filepath, 'w') as f:
             pass
 
-    with open(filepath, 'r') as f:
-        # File ke bilkul aakhiri point par chale jao (sirf naya data lene ke liye)
-        f.seek(0, os.SEEK_END)
-        while True:
-            line = f.readline()
-            if not line:
-                time.sleep(0.5)  # Nayi line ka wait karo
-                continue
-            yield line
+    # Start tracking from the end of the file
+    last_pos = os.path.getsize(filepath)
+
+    while True:
+        current_size = os.path.getsize(filepath)
+
+        if current_size > last_pos:
+            # File ko open karke sirf naya chunk read karo, fir instantly CLOSE kar do
+            with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                f.seek(last_pos)
+                new_lines = f.readlines()
+                last_pos = f.tell()
+
+            for line in new_lines:
+                if line.strip():
+                    yield line.strip()
+        elif current_size < last_pos:
+            # Agar file truncate ya clear ho gayi ho
+            last_pos = current_size
+
+        time.sleep(0.5)
