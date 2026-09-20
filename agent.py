@@ -24,6 +24,7 @@ def run_agent():
 
     print("================================================================")
     print("🛡️  MINI-SIEM ENDPOINT TELEMETRY AGENT (Wazuh/Splunk Architecture)")
+    print("   Developed & Engineered by: Sujal")
     print(f"🖥️  Endpoint Hostname : {hostname}")
     print(f"💻 OS Platform       : {os_name} {platform.release()}")
     print(f"👤 Monitored User    : {current_user}")
@@ -33,7 +34,7 @@ def run_agent():
     print("Press [Ctrl + C] to stop the agent.\n")
 
     # 1. Agent Registration Event
-    startup_log = f"{get_timestamp()} {hostname} siem_agent[01]: AGENT_START Endpoint agent initialized for user '{current_user}'"
+    startup_log = f"{get_timestamp()} {hostname} siem_core[sujal_agent_v1]: AGENT_START Endpoint agent initialized for user '{current_user}'"
     ship_telemetry(startup_log)
     print(f"[SHIPPED] Initial registration sent.")
 
@@ -51,7 +52,7 @@ def run_agent():
 
             # Standard Telemetry Heartbeat
             telemetry_log = (
-                f"{get_timestamp()} {hostname} system_monitor[{event_counter}]: "
+                f"{get_timestamp()} {hostname} siem_core[sujal_agent_v1]: "
                 f"HEALTH_OK User='{current_user}' CPU={cpu_usage}% RAM={mem_info}% ActiveSockets={active_conn_count}"
             )
             ship_telemetry(telemetry_log)
