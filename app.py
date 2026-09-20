@@ -71,7 +71,7 @@ def generate_pdf_report(incidents_list, total_ips):
         pdf.multi_cell(190, 5, f"Analyst Rationale: {reason}")
         pdf.ln(3)
 
-    return pdf.output(dest='S').encode('latin-1')
+    return bytes(pdf.output())
 
 # --- Real-Time Streaming Toggle ---
 st.sidebar.markdown("### ⚙️ Mode Settings")
