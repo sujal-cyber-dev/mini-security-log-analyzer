@@ -1,0 +1,1578 @@
+Sep 20 09:06:55 GOKU siem_agent[01]: AGENT_START Endpoint agent initialized for user 'sujal'
+Sep 20 09:06:56 GOKU system_monitor[1]: HEALTH_OK User='sujal' CPU=30.8% RAM=56.4% ActiveSockets=173
+Sep 20 09:07:00 GOKU system_monitor[2]: HEALTH_OK User='sujal' CPU=15.8% RAM=56.3% ActiveSockets=178
+Sep 20 09:07:04 GOKU system_monitor[3]: HEALTH_OK User='sujal' CPU=22.2% RAM=56.1% ActiveSockets=171
+Sep 20 09:07:08 GOKU system_monitor[4]: HEALTH_OK User='sujal' CPU=31.3% RAM=55.8% ActiveSockets=171
+Sep 20 09:07:08 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.178 port 22 ssh2
+Sep 20 09:07:12 GOKU system_monitor[5]: HEALTH_OK User='sujal' CPU=23.0% RAM=55.6% ActiveSockets=171
+Sep 20 09:07:16 GOKU system_monitor[6]: HEALTH_OK User='sujal' CPU=19.1% RAM=55.6% ActiveSockets=171
+Sep 20 09:07:20 GOKU system_monitor[7]: HEALTH_OK User='sujal' CPU=14.6% RAM=55.7% ActiveSockets=171
+Sep 20 09:07:24 GOKU system_monitor[8]: HEALTH_OK User='sujal' CPU=23.4% RAM=55.7% ActiveSockets=171
+Sep 20 09:07:24 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.169 port 22 ssh2
+Sep 20 09:07:28 GOKU system_monitor[9]: HEALTH_OK User='sujal' CPU=15.4% RAM=55.7% ActiveSockets=171
+Sep 20 09:07:32 GOKU system_monitor[10]: HEALTH_OK User='sujal' CPU=39.1% RAM=55.7% ActiveSockets=170
+Sep 20 09:07:37 GOKU system_monitor[11]: HEALTH_OK User='sujal' CPU=23.7% RAM=55.7% ActiveSockets=170
+Sep 20 09:07:41 GOKU system_monitor[12]: HEALTH_OK User='sujal' CPU=26.0% RAM=55.8% ActiveSockets=171
+Sep 20 09:07:41 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.107 port 22 ssh2
+Sep 20 09:07:45 GOKU system_monitor[13]: HEALTH_OK User='sujal' CPU=34.0% RAM=55.8% ActiveSockets=171
+Sep 20 09:07:49 GOKU system_monitor[14]: HEALTH_OK User='sujal' CPU=29.7% RAM=55.7% ActiveSockets=170
+Sep 20 09:07:53 GOKU system_monitor[15]: HEALTH_OK User='sujal' CPU=42.5% RAM=55.8% ActiveSockets=170
+Sep 20 09:07:57 GOKU system_monitor[16]: HEALTH_OK User='sujal' CPU=26.3% RAM=55.8% ActiveSockets=170
+Sep 20 09:07:57 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.163 port 22 ssh2
+Sep 20 09:08:01 GOKU system_monitor[17]: HEALTH_OK User='sujal' CPU=33.8% RAM=55.7% ActiveSockets=170
+Sep 20 09:08:05 GOKU system_monitor[18]: HEALTH_OK User='sujal' CPU=14.8% RAM=55.7% ActiveSockets=170
+Sep 20 09:08:09 GOKU system_monitor[19]: HEALTH_OK User='sujal' CPU=44.7% RAM=55.7% ActiveSockets=168
+Sep 20 09:08:13 GOKU system_monitor[20]: HEALTH_OK User='sujal' CPU=36.9% RAM=55.8% ActiveSockets=168
+Sep 20 09:08:13 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.131 port 22 ssh2
+Sep 20 09:08:17 GOKU system_monitor[21]: HEALTH_OK User='sujal' CPU=31.9% RAM=55.8% ActiveSockets=167
+Sep 20 09:08:21 GOKU system_monitor[22]: HEALTH_OK User='sujal' CPU=26.3% RAM=55.8% ActiveSockets=167
+Sep 20 09:08:25 GOKU system_monitor[23]: HEALTH_OK User='sujal' CPU=21.6% RAM=55.8% ActiveSockets=169
+Sep 20 09:08:29 GOKU system_monitor[24]: HEALTH_OK User='sujal' CPU=40.3% RAM=55.3% ActiveSockets=170
+Sep 20 09:08:29 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.150 port 22 ssh2
+Sep 20 09:08:33 GOKU system_monitor[25]: HEALTH_OK User='sujal' CPU=30.9% RAM=55.4% ActiveSockets=170
+Sep 20 09:08:37 GOKU system_monitor[26]: HEALTH_OK User='sujal' CPU=14.4% RAM=55.3% ActiveSockets=170
+Sep 20 09:08:41 GOKU system_monitor[27]: HEALTH_OK User='sujal' CPU=30.0% RAM=55.2% ActiveSockets=170
+Sep 20 09:08:45 GOKU system_monitor[28]: HEALTH_OK User='sujal' CPU=20.5% RAM=55.1% ActiveSockets=171
+Sep 20 09:08:45 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.112 port 22 ssh2
+Sep 20 09:08:49 GOKU system_monitor[29]: HEALTH_OK User='sujal' CPU=21.8% RAM=55.1% ActiveSockets=170
+Sep 20 09:08:53 GOKU system_monitor[30]: HEALTH_OK User='sujal' CPU=12.4% RAM=55.0% ActiveSockets=170
+Sep 20 09:08:57 GOKU system_monitor[31]: HEALTH_OK User='sujal' CPU=28.3% RAM=55.0% ActiveSockets=170
+Sep 20 09:09:01 GOKU system_monitor[32]: HEALTH_OK User='sujal' CPU=20.0% RAM=55.0% ActiveSockets=171
+Sep 20 09:09:01 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.128 port 22 ssh2
+Sep 20 09:09:05 GOKU system_monitor[33]: HEALTH_OK User='sujal' CPU=27.7% RAM=55.1% ActiveSockets=171
+Sep 20 09:09:09 GOKU system_monitor[34]: HEALTH_OK User='sujal' CPU=11.0% RAM=55.0% ActiveSockets=172
+Sep 20 09:09:13 GOKU system_monitor[35]: HEALTH_OK User='sujal' CPU=21.3% RAM=55.0% ActiveSockets=172
+Sep 20 09:09:17 GOKU system_monitor[36]: HEALTH_OK User='sujal' CPU=8.2% RAM=55.0% ActiveSockets=172
+Sep 20 09:09:17 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.127 port 22 ssh2
+Sep 20 09:09:21 GOKU system_monitor[37]: HEALTH_OK User='sujal' CPU=21.2% RAM=55.1% ActiveSockets=173
+Sep 20 09:09:25 GOKU system_monitor[38]: HEALTH_OK User='sujal' CPU=20.2% RAM=55.0% ActiveSockets=172
+Sep 20 09:09:29 GOKU system_monitor[39]: HEALTH_OK User='sujal' CPU=12.4% RAM=55.1% ActiveSockets=172
+Sep 20 09:09:33 GOKU system_monitor[40]: HEALTH_OK User='sujal' CPU=30.7% RAM=55.1% ActiveSockets=172
+Sep 20 09:09:33 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.181 port 22 ssh2
+Sep 20 09:09:37 GOKU system_monitor[41]: HEALTH_OK User='sujal' CPU=7.3% RAM=55.2% ActiveSockets=172
+Sep 20 09:09:41 GOKU system_monitor[42]: HEALTH_OK User='sujal' CPU=15.9% RAM=55.2% ActiveSockets=171
+Sep 20 09:09:45 GOKU system_monitor[43]: HEALTH_OK User='sujal' CPU=17.3% RAM=55.1% ActiveSockets=171
+Sep 20 09:09:49 GOKU system_monitor[44]: HEALTH_OK User='sujal' CPU=35.0% RAM=55.3% ActiveSockets=174
+Sep 20 09:09:49 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.109 port 22 ssh2
+Sep 20 09:09:53 GOKU system_monitor[45]: HEALTH_OK User='sujal' CPU=26.7% RAM=55.3% ActiveSockets=174
+Sep 20 09:09:57 GOKU system_monitor[46]: HEALTH_OK User='sujal' CPU=29.7% RAM=55.2% ActiveSockets=170
+Sep 20 09:10:01 GOKU system_monitor[47]: HEALTH_OK User='sujal' CPU=31.6% RAM=55.4% ActiveSockets=171
+Sep 20 09:10:05 GOKU system_monitor[48]: HEALTH_OK User='sujal' CPU=11.7% RAM=55.3% ActiveSockets=171
+Sep 20 09:10:05 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.150 port 22 ssh2
+Sep 20 09:10:09 GOKU system_monitor[49]: HEALTH_OK User='sujal' CPU=15.8% RAM=55.3% ActiveSockets=171
+Sep 20 09:10:13 GOKU system_monitor[50]: HEALTH_OK User='sujal' CPU=31.8% RAM=55.3% ActiveSockets=171
+Sep 20 09:10:17 GOKU system_monitor[51]: HEALTH_OK User='sujal' CPU=23.4% RAM=55.3% ActiveSockets=171
+Sep 20 09:10:21 GOKU system_monitor[52]: HEALTH_OK User='sujal' CPU=24.3% RAM=55.0% ActiveSockets=171
+Sep 20 09:10:21 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.114 port 22 ssh2
+Sep 20 09:10:25 GOKU system_monitor[53]: HEALTH_OK User='sujal' CPU=3.8% RAM=55.1% ActiveSockets=171
+Sep 20 09:10:29 GOKU system_monitor[54]: HEALTH_OK User='sujal' CPU=42.3% RAM=55.3% ActiveSockets=177
+Sep 20 09:10:33 GOKU system_monitor[55]: HEALTH_OK User='sujal' CPU=35.5% RAM=55.5% ActiveSockets=182
+Sep 20 09:10:37 GOKU system_monitor[56]: HEALTH_OK User='sujal' CPU=1.7% RAM=55.6% ActiveSockets=182
+Sep 20 09:10:37 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.178 port 22 ssh2
+Sep 20 09:10:41 GOKU system_monitor[57]: HEALTH_OK User='sujal' CPU=5.6% RAM=55.6% ActiveSockets=180
+Sep 20 09:10:45 GOKU system_monitor[58]: HEALTH_OK User='sujal' CPU=18.6% RAM=55.8% ActiveSockets=177
+Sep 20 09:10:49 GOKU system_monitor[59]: HEALTH_OK User='sujal' CPU=12.0% RAM=56.0% ActiveSockets=177
+Sep 20 09:10:53 GOKU system_monitor[60]: HEALTH_OK User='sujal' CPU=40.0% RAM=55.6% ActiveSockets=178
+Sep 20 09:10:53 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.149 port 22 ssh2
+Sep 20 09:10:57 GOKU system_monitor[61]: HEALTH_OK User='sujal' CPU=26.2% RAM=55.6% ActiveSockets=180
+Sep 20 09:11:01 GOKU system_monitor[62]: HEALTH_OK User='sujal' CPU=11.1% RAM=55.2% ActiveSockets=186
+Sep 20 09:11:05 GOKU system_monitor[63]: HEALTH_OK User='sujal' CPU=8.0% RAM=55.2% ActiveSockets=182
+Sep 20 09:11:10 GOKU system_monitor[64]: HEALTH_OK User='sujal' CPU=8.1% RAM=55.4% ActiveSockets=182
+Sep 20 09:11:10 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.182 port 22 ssh2
+Sep 20 09:11:14 GOKU system_monitor[65]: HEALTH_OK User='sujal' CPU=24.7% RAM=55.5% ActiveSockets=183
+Sep 20 09:11:18 GOKU system_monitor[66]: HEALTH_OK User='sujal' CPU=31.2% RAM=55.5% ActiveSockets=182
+Sep 20 09:11:22 GOKU system_monitor[67]: HEALTH_OK User='sujal' CPU=11.5% RAM=55.5% ActiveSockets=182
+Sep 20 09:11:26 GOKU system_monitor[68]: HEALTH_OK User='sujal' CPU=22.1% RAM=55.6% ActiveSockets=181
+Sep 20 09:11:26 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.143 port 22 ssh2
+Sep 20 09:11:30 GOKU system_monitor[69]: HEALTH_OK User='sujal' CPU=22.8% RAM=55.7% ActiveSockets=181
+Sep 20 09:11:34 GOKU system_monitor[70]: HEALTH_OK User='sujal' CPU=14.2% RAM=55.7% ActiveSockets=182
+Sep 20 09:11:38 GOKU system_monitor[71]: HEALTH_OK User='sujal' CPU=30.5% RAM=55.8% ActiveSockets=180
+Sep 20 09:11:42 GOKU system_monitor[72]: HEALTH_OK User='sujal' CPU=31.6% RAM=56.1% ActiveSockets=180
+Sep 20 09:11:42 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.146 port 22 ssh2
+Sep 20 09:11:46 GOKU system_monitor[73]: HEALTH_OK User='sujal' CPU=81.1% RAM=56.5% ActiveSockets=179
+Sep 20 09:11:50 GOKU system_monitor[74]: HEALTH_OK User='sujal' CPU=50.1% RAM=54.9% ActiveSockets=181
+Sep 20 09:11:54 GOKU system_monitor[75]: HEALTH_OK User='sujal' CPU=10.4% RAM=54.9% ActiveSockets=180
+Sep 20 09:11:58 GOKU system_monitor[76]: HEALTH_OK User='sujal' CPU=31.2% RAM=54.9% ActiveSockets=179
+Sep 20 09:11:58 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.124 port 22 ssh2
+Sep 20 09:12:02 GOKU system_monitor[77]: HEALTH_OK User='sujal' CPU=33.5% RAM=54.9% ActiveSockets=179
+Sep 20 09:12:06 GOKU system_monitor[78]: HEALTH_OK User='sujal' CPU=33.2% RAM=55.0% ActiveSockets=179
+Sep 20 09:12:10 GOKU system_monitor[79]: HEALTH_OK User='sujal' CPU=11.4% RAM=54.7% ActiveSockets=179
+Sep 20 09:12:14 GOKU system_monitor[80]: HEALTH_OK User='sujal' CPU=15.2% RAM=54.7% ActiveSockets=179
+Sep 20 09:12:14 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.115 port 22 ssh2
+Sep 20 09:12:18 GOKU system_monitor[81]: HEALTH_OK User='sujal' CPU=15.1% RAM=54.7% ActiveSockets=179
+Sep 20 09:12:22 GOKU system_monitor[82]: HEALTH_OK User='sujal' CPU=16.8% RAM=54.7% ActiveSockets=179
+Sep 20 09:12:26 GOKU system_monitor[83]: HEALTH_OK User='sujal' CPU=14.4% RAM=54.7% ActiveSockets=179
+Sep 20 09:12:30 GOKU system_monitor[84]: HEALTH_OK User='sujal' CPU=16.5% RAM=54.7% ActiveSockets=179
+Sep 20 09:12:30 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.141 port 22 ssh2
+Sep 20 09:12:34 GOKU system_monitor[85]: HEALTH_OK User='sujal' CPU=34.9% RAM=54.7% ActiveSockets=180
+Sep 20 09:12:38 GOKU system_monitor[86]: HEALTH_OK User='sujal' CPU=23.3% RAM=54.7% ActiveSockets=180
+Sep 20 09:12:42 GOKU system_monitor[87]: HEALTH_OK User='sujal' CPU=44.5% RAM=54.7% ActiveSockets=180
+Sep 20 09:12:46 GOKU system_monitor[88]: HEALTH_OK User='sujal' CPU=49.9% RAM=54.9% ActiveSockets=181
+Sep 20 09:12:46 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.178 port 22 ssh2
+Sep 20 09:12:50 GOKU system_monitor[89]: HEALTH_OK User='sujal' CPU=10.0% RAM=54.9% ActiveSockets=180
+Sep 20 09:12:54 GOKU system_monitor[90]: HEALTH_OK User='sujal' CPU=54.3% RAM=55.7% ActiveSockets=188
+Sep 20 09:12:58 GOKU system_monitor[91]: HEALTH_OK User='sujal' CPU=35.0% RAM=56.1% ActiveSockets=200
+Sep 20 09:13:02 GOKU system_monitor[92]: HEALTH_OK User='sujal' CPU=39.2% RAM=56.7% ActiveSockets=194
+Sep 20 09:13:02 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.167 port 22 ssh2
+Sep 20 09:13:06 GOKU system_monitor[93]: HEALTH_OK User='sujal' CPU=22.1% RAM=56.6% ActiveSockets=189
+Sep 20 09:13:10 GOKU system_monitor[94]: HEALTH_OK User='sujal' CPU=30.2% RAM=56.6% ActiveSockets=188
+Sep 20 09:13:14 GOKU system_monitor[95]: HEALTH_OK User='sujal' CPU=17.0% RAM=56.5% ActiveSockets=188
+Sep 20 09:13:18 GOKU system_monitor[96]: HEALTH_OK User='sujal' CPU=7.0% RAM=56.5% ActiveSockets=188
+Sep 20 09:13:18 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.148 port 22 ssh2
+Sep 20 09:13:22 GOKU system_monitor[97]: HEALTH_OK User='sujal' CPU=22.3% RAM=56.3% ActiveSockets=190
+Sep 20 09:13:26 GOKU system_monitor[98]: HEALTH_OK User='sujal' CPU=14.5% RAM=56.2% ActiveSockets=188
+Sep 20 09:13:30 GOKU system_monitor[99]: HEALTH_OK User='sujal' CPU=29.2% RAM=56.2% ActiveSockets=187
+Sep 20 09:13:34 GOKU system_monitor[100]: HEALTH_OK User='sujal' CPU=15.0% RAM=56.2% ActiveSockets=188
+Sep 20 09:13:34 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.120 port 22 ssh2
+Sep 20 09:13:38 GOKU system_monitor[101]: HEALTH_OK User='sujal' CPU=22.9% RAM=56.2% ActiveSockets=187
+Sep 20 09:13:42 GOKU system_monitor[102]: HEALTH_OK User='sujal' CPU=48.1% RAM=56.6% ActiveSockets=205
+Sep 20 09:13:46 GOKU system_monitor[103]: HEALTH_OK User='sujal' CPU=52.6% RAM=57.6% ActiveSockets=212
+Sep 20 09:13:50 GOKU system_monitor[104]: HEALTH_OK User='sujal' CPU=20.9% RAM=57.4% ActiveSockets=200
+Sep 20 09:13:50 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.158 port 22 ssh2
+Sep 20 09:13:54 GOKU system_monitor[105]: HEALTH_OK User='sujal' CPU=34.6% RAM=57.5% ActiveSockets=202
+Sep 20 09:13:58 GOKU system_monitor[106]: HEALTH_OK User='sujal' CPU=8.6% RAM=57.5% ActiveSockets=203
+Sep 20 09:14:02 GOKU system_monitor[107]: HEALTH_OK User='sujal' CPU=9.6% RAM=57.6% ActiveSockets=204
+Sep 20 09:14:06 GOKU system_monitor[108]: HEALTH_OK User='sujal' CPU=5.6% RAM=57.6% ActiveSockets=204
+Sep 20 09:14:06 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.196 port 22 ssh2
+Sep 20 09:14:11 GOKU system_monitor[109]: HEALTH_OK User='sujal' CPU=15.5% RAM=57.7% ActiveSockets=205
+Sep 20 09:14:15 GOKU system_monitor[110]: HEALTH_OK User='sujal' CPU=11.3% RAM=57.8% ActiveSockets=205
+Sep 20 09:14:19 GOKU system_monitor[111]: HEALTH_OK User='sujal' CPU=8.7% RAM=57.8% ActiveSockets=204
+Sep 20 09:14:23 GOKU system_monitor[112]: HEALTH_OK User='sujal' CPU=5.3% RAM=57.7% ActiveSockets=202
+Sep 20 09:14:23 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.174 port 22 ssh2
+Sep 20 09:14:27 GOKU system_monitor[113]: HEALTH_OK User='sujal' CPU=4.7% RAM=57.7% ActiveSockets=202
+Sep 20 09:14:31 GOKU system_monitor[114]: HEALTH_OK User='sujal' CPU=17.3% RAM=57.8% ActiveSockets=199
+Sep 20 09:14:35 GOKU system_monitor[115]: HEALTH_OK User='sujal' CPU=8.8% RAM=57.8% ActiveSockets=200
+Sep 20 09:14:39 GOKU system_monitor[116]: HEALTH_OK User='sujal' CPU=14.4% RAM=57.8% ActiveSockets=199
+Sep 20 09:14:39 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.185 port 22 ssh2
+Sep 20 09:14:43 GOKU system_monitor[117]: HEALTH_OK User='sujal' CPU=9.5% RAM=57.8% ActiveSockets=199
+Sep 20 09:14:47 GOKU system_monitor[118]: HEALTH_OK User='sujal' CPU=32.7% RAM=58.1% ActiveSockets=199
+Sep 20 09:14:51 GOKU system_monitor[119]: HEALTH_OK User='sujal' CPU=8.4% RAM=57.8% ActiveSockets=199
+Sep 20 09:14:55 GOKU system_monitor[120]: HEALTH_OK User='sujal' CPU=9.8% RAM=57.2% ActiveSockets=200
+Sep 20 09:14:55 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.159 port 22 ssh2
+Sep 20 09:14:59 GOKU system_monitor[121]: HEALTH_OK User='sujal' CPU=27.6% RAM=57.3% ActiveSockets=199
+Sep 20 09:15:03 GOKU system_monitor[122]: HEALTH_OK User='sujal' CPU=20.2% RAM=57.5% ActiveSockets=199
+Sep 20 09:15:07 GOKU system_monitor[123]: HEALTH_OK User='sujal' CPU=22.6% RAM=57.4% ActiveSockets=199
+Sep 20 09:15:11 GOKU system_monitor[124]: HEALTH_OK User='sujal' CPU=11.0% RAM=57.5% ActiveSockets=198
+Sep 20 09:15:11 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.145 port 22 ssh2
+Sep 20 09:15:15 GOKU system_monitor[125]: HEALTH_OK User='sujal' CPU=17.9% RAM=57.5% ActiveSockets=197
+Sep 20 09:15:19 GOKU system_monitor[126]: HEALTH_OK User='sujal' CPU=7.7% RAM=57.5% ActiveSockets=198
+Sep 20 09:15:23 GOKU system_monitor[127]: HEALTH_OK User='sujal' CPU=22.0% RAM=57.4% ActiveSockets=196
+Sep 20 09:15:27 GOKU system_monitor[128]: HEALTH_OK User='sujal' CPU=6.8% RAM=57.4% ActiveSockets=196
+Sep 20 09:15:27 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.131 port 22 ssh2
+Sep 20 09:15:31 GOKU system_monitor[129]: HEALTH_OK User='sujal' CPU=22.9% RAM=57.2% ActiveSockets=201
+Sep 20 09:15:35 GOKU system_monitor[130]: HEALTH_OK User='sujal' CPU=13.2% RAM=57.3% ActiveSockets=202
+Sep 20 09:15:39 GOKU system_monitor[131]: HEALTH_OK User='sujal' CPU=8.4% RAM=57.2% ActiveSockets=202
+Sep 20 09:15:43 GOKU system_monitor[132]: HEALTH_OK User='sujal' CPU=10.6% RAM=57.2% ActiveSockets=199
+Sep 20 09:15:43 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.130 port 22 ssh2
+Sep 20 09:15:47 GOKU system_monitor[133]: HEALTH_OK User='sujal' CPU=9.3% RAM=57.4% ActiveSockets=198
+Sep 20 09:15:51 GOKU system_monitor[134]: HEALTH_OK User='sujal' CPU=10.7% RAM=57.2% ActiveSockets=198
+Sep 20 09:15:55 GOKU system_monitor[135]: HEALTH_OK User='sujal' CPU=25.7% RAM=57.2% ActiveSockets=197
+Sep 20 09:15:59 GOKU system_monitor[136]: HEALTH_OK User='sujal' CPU=23.2% RAM=57.3% ActiveSockets=196
+Sep 20 09:15:59 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.180 port 22 ssh2
+Sep 20 09:16:03 GOKU system_monitor[137]: HEALTH_OK User='sujal' CPU=28.4% RAM=57.1% ActiveSockets=198
+Sep 20 09:16:07 GOKU system_monitor[138]: HEALTH_OK User='sujal' CPU=34.3% RAM=57.2% ActiveSockets=195
+Sep 20 09:16:11 GOKU system_monitor[139]: HEALTH_OK User='sujal' CPU=49.3% RAM=57.4% ActiveSockets=195
+Sep 20 09:16:15 GOKU system_monitor[140]: HEALTH_OK User='sujal' CPU=29.1% RAM=57.4% ActiveSockets=194
+Sep 20 09:16:15 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.154 port 22 ssh2
+Sep 20 09:16:19 GOKU system_monitor[141]: HEALTH_OK User='sujal' CPU=16.1% RAM=57.4% ActiveSockets=193
+Sep 20 09:16:23 GOKU system_monitor[142]: HEALTH_OK User='sujal' CPU=40.6% RAM=57.4% ActiveSockets=192
+Sep 20 09:16:27 GOKU system_monitor[143]: HEALTH_OK User='sujal' CPU=10.9% RAM=57.3% ActiveSockets=192
+Sep 20 09:16:31 GOKU system_monitor[144]: HEALTH_OK User='sujal' CPU=13.2% RAM=57.1% ActiveSockets=191
+Sep 20 09:16:31 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.191 port 22 ssh2
+Sep 20 09:16:35 GOKU system_monitor[145]: HEALTH_OK User='sujal' CPU=8.5% RAM=57.1% ActiveSockets=191
+Sep 20 09:16:39 GOKU system_monitor[146]: HEALTH_OK User='sujal' CPU=11.7% RAM=57.1% ActiveSockets=191
+Sep 20 09:16:43 GOKU system_monitor[147]: HEALTH_OK User='sujal' CPU=9.7% RAM=57.0% ActiveSockets=191
+Sep 20 09:16:47 GOKU system_monitor[148]: HEALTH_OK User='sujal' CPU=17.9% RAM=57.3% ActiveSockets=191
+Sep 20 09:16:47 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.132 port 22 ssh2
+Sep 20 09:16:51 GOKU system_monitor[149]: HEALTH_OK User='sujal' CPU=23.6% RAM=55.0% ActiveSockets=191
+Sep 20 09:16:55 GOKU system_monitor[150]: HEALTH_OK User='sujal' CPU=13.3% RAM=55.1% ActiveSockets=192
+Sep 20 09:16:59 GOKU system_monitor[151]: HEALTH_OK User='sujal' CPU=25.4% RAM=55.4% ActiveSockets=193
+Sep 20 09:17:04 GOKU system_monitor[152]: HEALTH_OK User='sujal' CPU=21.0% RAM=55.3% ActiveSockets=191
+Sep 20 09:17:04 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.125 port 22 ssh2
+Sep 20 09:17:08 GOKU system_monitor[153]: HEALTH_OK User='sujal' CPU=26.4% RAM=55.4% ActiveSockets=190
+Sep 20 09:17:12 GOKU system_monitor[154]: HEALTH_OK User='sujal' CPU=23.1% RAM=55.9% ActiveSockets=190
+Sep 20 09:17:16 GOKU system_monitor[155]: HEALTH_OK User='sujal' CPU=23.1% RAM=56.3% ActiveSockets=190
+Sep 20 09:17:20 GOKU system_monitor[156]: HEALTH_OK User='sujal' CPU=55.2% RAM=57.2% ActiveSockets=189
+Sep 20 09:17:20 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.147 port 22 ssh2
+Sep 20 09:17:24 GOKU system_monitor[157]: HEALTH_OK User='sujal' CPU=11.3% RAM=57.3% ActiveSockets=187
+Sep 20 09:17:28 GOKU system_monitor[158]: HEALTH_OK User='sujal' CPU=25.2% RAM=57.3% ActiveSockets=188
+Sep 20 09:17:32 GOKU system_monitor[159]: HEALTH_OK User='sujal' CPU=10.7% RAM=57.1% ActiveSockets=187
+Sep 20 09:17:36 GOKU system_monitor[160]: HEALTH_OK User='sujal' CPU=37.0% RAM=57.1% ActiveSockets=189
+Sep 20 09:17:36 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.171 port 22 ssh2
+Sep 20 09:17:40 GOKU system_monitor[161]: HEALTH_OK User='sujal' CPU=7.8% RAM=57.0% ActiveSockets=185
+Sep 20 09:17:44 GOKU system_monitor[162]: HEALTH_OK User='sujal' CPU=35.7% RAM=57.2% ActiveSockets=186
+Sep 20 09:17:48 GOKU system_monitor[163]: HEALTH_OK User='sujal' CPU=32.1% RAM=57.3% ActiveSockets=185
+Sep 20 09:17:52 GOKU system_monitor[164]: HEALTH_OK User='sujal' CPU=5.4% RAM=57.3% ActiveSockets=186
+Sep 20 09:17:52 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.193 port 22 ssh2
+Sep 20 09:17:56 GOKU system_monitor[165]: HEALTH_OK User='sujal' CPU=8.5% RAM=57.1% ActiveSockets=186
+Sep 20 09:18:00 GOKU system_monitor[166]: HEALTH_OK User='sujal' CPU=12.0% RAM=57.1% ActiveSockets=186
+Sep 20 09:18:04 GOKU system_monitor[167]: HEALTH_OK User='sujal' CPU=9.7% RAM=57.1% ActiveSockets=186
+Sep 20 09:18:08 GOKU system_monitor[168]: HEALTH_OK User='sujal' CPU=15.2% RAM=57.1% ActiveSockets=186
+Sep 20 09:18:08 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.127 port 22 ssh2
+Sep 20 09:18:12 GOKU system_monitor[169]: HEALTH_OK User='sujal' CPU=9.7% RAM=57.1% ActiveSockets=187
+Sep 20 09:18:16 GOKU system_monitor[170]: HEALTH_OK User='sujal' CPU=10.1% RAM=57.1% ActiveSockets=187
+Sep 20 09:18:20 GOKU system_monitor[171]: HEALTH_OK User='sujal' CPU=18.1% RAM=57.1% ActiveSockets=187
+Sep 20 09:18:24 GOKU system_monitor[172]: HEALTH_OK User='sujal' CPU=6.2% RAM=57.1% ActiveSockets=186
+Sep 20 09:18:24 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.110 port 22 ssh2
+Sep 20 09:18:28 GOKU system_monitor[173]: HEALTH_OK User='sujal' CPU=12.2% RAM=57.1% ActiveSockets=186
+Sep 20 09:18:32 GOKU system_monitor[174]: HEALTH_OK User='sujal' CPU=10.1% RAM=57.1% ActiveSockets=186
+Sep 20 09:18:36 GOKU system_monitor[175]: HEALTH_OK User='sujal' CPU=23.5% RAM=55.3% ActiveSockets=186
+Sep 20 09:18:40 GOKU system_monitor[176]: HEALTH_OK User='sujal' CPU=25.8% RAM=55.4% ActiveSockets=186
+Sep 20 09:18:40 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.167 port 22 ssh2
+Sep 20 09:18:44 GOKU system_monitor[177]: HEALTH_OK User='sujal' CPU=33.5% RAM=55.4% ActiveSockets=186
+Sep 20 09:18:48 GOKU system_monitor[178]: HEALTH_OK User='sujal' CPU=12.6% RAM=55.3% ActiveSockets=190
+Sep 20 09:18:52 GOKU system_monitor[179]: HEALTH_OK User='sujal' CPU=8.4% RAM=55.3% ActiveSockets=186
+Sep 20 09:18:56 GOKU system_monitor[180]: HEALTH_OK User='sujal' CPU=8.9% RAM=55.3% ActiveSockets=185
+Sep 20 09:18:56 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.140 port 22 ssh2
+Sep 20 09:19:00 GOKU system_monitor[181]: HEALTH_OK User='sujal' CPU=10.5% RAM=55.3% ActiveSockets=185
+Sep 20 09:19:04 GOKU system_monitor[182]: HEALTH_OK User='sujal' CPU=28.6% RAM=55.4% ActiveSockets=187
+Sep 20 09:19:08 GOKU system_monitor[183]: HEALTH_OK User='sujal' CPU=18.3% RAM=55.4% ActiveSockets=186
+Sep 20 09:19:12 GOKU system_monitor[184]: HEALTH_OK User='sujal' CPU=21.2% RAM=55.2% ActiveSockets=187
+Sep 20 09:19:12 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.171 port 22 ssh2
+Sep 20 09:19:16 GOKU system_monitor[185]: HEALTH_OK User='sujal' CPU=36.3% RAM=55.3% ActiveSockets=187
+Sep 20 09:19:20 GOKU system_monitor[186]: HEALTH_OK User='sujal' CPU=17.2% RAM=55.3% ActiveSockets=187
+Sep 20 09:19:24 GOKU system_monitor[187]: HEALTH_OK User='sujal' CPU=7.0% RAM=55.3% ActiveSockets=189
+Sep 20 09:19:28 GOKU system_monitor[188]: HEALTH_OK User='sujal' CPU=30.4% RAM=55.5% ActiveSockets=189
+Sep 20 09:19:28 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.112 port 22 ssh2
+Sep 20 09:19:33 GOKU system_monitor[189]: HEALTH_OK User='sujal' CPU=28.3% RAM=55.3% ActiveSockets=189
+Sep 20 09:19:37 GOKU system_monitor[190]: HEALTH_OK User='sujal' CPU=34.0% RAM=55.2% ActiveSockets=189
+Sep 20 09:19:41 GOKU system_monitor[191]: HEALTH_OK User='sujal' CPU=17.8% RAM=55.4% ActiveSockets=196
+Sep 20 09:19:45 GOKU system_monitor[192]: HEALTH_OK User='sujal' CPU=29.7% RAM=55.5% ActiveSockets=189
+Sep 20 09:19:45 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.152 port 22 ssh2
+Sep 20 09:19:49 GOKU system_monitor[193]: HEALTH_OK User='sujal' CPU=20.5% RAM=55.4% ActiveSockets=189
+Sep 20 09:19:53 GOKU system_monitor[194]: HEALTH_OK User='sujal' CPU=16.5% RAM=55.5% ActiveSockets=189
+Sep 20 09:19:57 GOKU system_monitor[195]: HEALTH_OK User='sujal' CPU=19.2% RAM=55.3% ActiveSockets=189
+Sep 20 09:20:01 GOKU system_monitor[196]: HEALTH_OK User='sujal' CPU=13.5% RAM=55.3% ActiveSockets=189
+Sep 20 09:20:01 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.120 port 22 ssh2
+Sep 20 09:20:05 GOKU system_monitor[197]: HEALTH_OK User='sujal' CPU=11.9% RAM=55.3% ActiveSockets=188
+Sep 20 09:20:09 GOKU system_monitor[198]: HEALTH_OK User='sujal' CPU=11.6% RAM=55.3% ActiveSockets=190
+Sep 20 09:20:13 GOKU system_monitor[199]: HEALTH_OK User='sujal' CPU=23.3% RAM=55.3% ActiveSockets=190
+Sep 20 09:20:17 GOKU system_monitor[200]: HEALTH_OK User='sujal' CPU=12.6% RAM=55.3% ActiveSockets=190
+Sep 20 09:20:17 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.127 port 22 ssh2
+Sep 20 09:20:21 GOKU system_monitor[201]: HEALTH_OK User='sujal' CPU=11.7% RAM=55.3% ActiveSockets=190
+Sep 20 09:20:25 GOKU system_monitor[202]: HEALTH_OK User='sujal' CPU=48.7% RAM=55.3% ActiveSockets=190
+Sep 20 09:20:29 GOKU system_monitor[203]: HEALTH_OK User='sujal' CPU=17.8% RAM=55.3% ActiveSockets=190
+Sep 20 09:20:33 GOKU system_monitor[204]: HEALTH_OK User='sujal' CPU=22.4% RAM=55.5% ActiveSockets=193
+Sep 20 09:20:33 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.171 port 22 ssh2
+Sep 20 09:20:37 GOKU system_monitor[205]: HEALTH_OK User='sujal' CPU=30.2% RAM=55.9% ActiveSockets=192
+Sep 20 09:20:41 GOKU system_monitor[206]: HEALTH_OK User='sujal' CPU=25.3% RAM=55.6% ActiveSockets=191
+Sep 20 09:20:45 GOKU system_monitor[207]: HEALTH_OK User='sujal' CPU=22.8% RAM=55.6% ActiveSockets=189
+Sep 20 09:20:49 GOKU system_monitor[208]: HEALTH_OK User='sujal' CPU=15.3% RAM=55.5% ActiveSockets=193
+Sep 20 09:20:49 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.120 port 22 ssh2
+Sep 20 09:20:53 GOKU system_monitor[209]: HEALTH_OK User='sujal' CPU=33.7% RAM=55.4% ActiveSockets=187
+Sep 20 09:20:57 GOKU system_monitor[210]: HEALTH_OK User='sujal' CPU=28.5% RAM=55.4% ActiveSockets=187
+Sep 20 09:21:00 GOKU siem_agent[01]: AGENT_STOP Endpoint agent graceful shutdown
+Sep 20 09:21:13 GOKU siem_agent[01]: AGENT_START Endpoint agent initialized for user 'sujal'
+Sep 20 09:21:14 GOKU system_monitor[1]: HEALTH_OK User='sujal' CPU=25.6% RAM=55.6% ActiveSockets=187
+Sep 20 09:21:18 GOKU system_monitor[2]: HEALTH_OK User='sujal' CPU=20.2% RAM=55.8% ActiveSockets=187
+Sep 20 09:21:22 GOKU system_monitor[3]: HEALTH_OK User='sujal' CPU=18.3% RAM=55.7% ActiveSockets=189
+Sep 20 09:21:22 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:21:26 GOKU system_monitor[4]: HEALTH_OK User='sujal' CPU=15.5% RAM=55.4% ActiveSockets=187
+Sep 20 09:21:30 GOKU system_monitor[5]: HEALTH_OK User='sujal' CPU=15.0% RAM=55.4% ActiveSockets=187
+Sep 20 09:21:34 GOKU system_monitor[6]: HEALTH_OK User='sujal' CPU=11.8% RAM=55.4% ActiveSockets=187
+Sep 20 09:21:34 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:21:38 GOKU system_monitor[7]: HEALTH_OK User='sujal' CPU=11.0% RAM=55.8% ActiveSockets=187
+Sep 20 09:21:42 GOKU system_monitor[8]: HEALTH_OK User='sujal' CPU=29.6% RAM=55.4% ActiveSockets=187
+Sep 20 09:21:46 GOKU system_monitor[9]: HEALTH_OK User='sujal' CPU=29.9% RAM=55.7% ActiveSockets=188
+Sep 20 09:21:46 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:21:51 GOKU system_monitor[10]: HEALTH_OK User='sujal' CPU=41.3% RAM=54.7% ActiveSockets=188
+Sep 20 09:21:55 GOKU system_monitor[11]: HEALTH_OK User='sujal' CPU=6.2% RAM=54.5% ActiveSockets=187
+Sep 20 09:21:59 GOKU system_monitor[12]: HEALTH_OK User='sujal' CPU=15.0% RAM=54.5% ActiveSockets=187
+Sep 20 09:21:59 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:22:03 GOKU system_monitor[13]: HEALTH_OK User='sujal' CPU=9.0% RAM=54.4% ActiveSockets=187
+Sep 20 09:22:07 GOKU system_monitor[14]: HEALTH_OK User='sujal' CPU=28.2% RAM=54.3% ActiveSockets=187
+Sep 20 09:22:11 GOKU system_monitor[15]: HEALTH_OK User='sujal' CPU=26.3% RAM=54.4% ActiveSockets=188
+Sep 20 09:22:11 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:22:15 GOKU system_monitor[16]: HEALTH_OK User='sujal' CPU=14.0% RAM=54.4% ActiveSockets=188
+Sep 20 09:22:19 GOKU system_monitor[17]: HEALTH_OK User='sujal' CPU=11.8% RAM=54.4% ActiveSockets=188
+Sep 20 09:22:23 GOKU system_monitor[18]: HEALTH_OK User='sujal' CPU=46.1% RAM=54.8% ActiveSockets=188
+Sep 20 09:22:23 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:22:27 GOKU system_monitor[19]: HEALTH_OK User='sujal' CPU=16.1% RAM=54.4% ActiveSockets=188
+Sep 20 09:22:31 GOKU system_monitor[20]: HEALTH_OK User='sujal' CPU=17.2% RAM=54.7% ActiveSockets=188
+Sep 20 09:22:35 GOKU system_monitor[21]: HEALTH_OK User='sujal' CPU=11.8% RAM=54.5% ActiveSockets=187
+Sep 20 09:22:35 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:22:39 GOKU system_monitor[22]: HEALTH_OK User='sujal' CPU=31.7% RAM=54.5% ActiveSockets=187
+Sep 20 09:22:43 GOKU system_monitor[23]: HEALTH_OK User='sujal' CPU=22.9% RAM=54.7% ActiveSockets=187
+Sep 20 09:22:47 GOKU system_monitor[24]: HEALTH_OK User='sujal' CPU=15.3% RAM=54.9% ActiveSockets=187
+Sep 20 09:22:47 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:22:51 GOKU system_monitor[25]: HEALTH_OK User='sujal' CPU=18.4% RAM=54.7% ActiveSockets=187
+Sep 20 09:22:55 GOKU system_monitor[26]: HEALTH_OK User='sujal' CPU=30.3% RAM=54.7% ActiveSockets=187
+Sep 20 09:22:59 GOKU system_monitor[27]: HEALTH_OK User='sujal' CPU=19.7% RAM=54.7% ActiveSockets=186
+Sep 20 09:22:59 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:23:03 GOKU system_monitor[28]: HEALTH_OK User='sujal' CPU=46.6% RAM=54.7% ActiveSockets=185
+Sep 20 09:23:07 GOKU system_monitor[29]: HEALTH_OK User='sujal' CPU=7.7% RAM=54.6% ActiveSockets=185
+Sep 20 09:23:11 GOKU system_monitor[30]: HEALTH_OK User='sujal' CPU=10.6% RAM=54.6% ActiveSockets=185
+Sep 20 09:23:11 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:23:15 GOKU system_monitor[31]: HEALTH_OK User='sujal' CPU=11.0% RAM=54.5% ActiveSockets=185
+Sep 20 09:23:19 GOKU system_monitor[32]: HEALTH_OK User='sujal' CPU=11.4% RAM=54.5% ActiveSockets=185
+Sep 20 09:23:23 GOKU system_monitor[33]: HEALTH_OK User='sujal' CPU=11.2% RAM=54.6% ActiveSockets=183
+Sep 20 09:23:23 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:23:27 GOKU system_monitor[34]: HEALTH_OK User='sujal' CPU=11.1% RAM=54.5% ActiveSockets=183
+Sep 20 09:23:31 GOKU system_monitor[35]: HEALTH_OK User='sujal' CPU=29.5% RAM=54.5% ActiveSockets=183
+Sep 20 09:23:35 GOKU system_monitor[36]: HEALTH_OK User='sujal' CPU=40.6% RAM=54.7% ActiveSockets=184
+Sep 20 09:23:35 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:23:39 GOKU system_monitor[37]: HEALTH_OK User='sujal' CPU=29.9% RAM=54.7% ActiveSockets=182
+Sep 20 09:23:43 GOKU system_monitor[38]: HEALTH_OK User='sujal' CPU=57.8% RAM=55.0% ActiveSockets=188
+Sep 20 09:23:47 GOKU system_monitor[39]: HEALTH_OK User='sujal' CPU=57.5% RAM=55.1% ActiveSockets=192
+Sep 20 09:23:47 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:23:51 GOKU system_monitor[40]: HEALTH_OK User='sujal' CPU=18.6% RAM=54.8% ActiveSockets=190
+Sep 20 09:23:55 GOKU system_monitor[41]: HEALTH_OK User='sujal' CPU=27.1% RAM=54.8% ActiveSockets=190
+Sep 20 09:23:59 GOKU system_monitor[42]: HEALTH_OK User='sujal' CPU=21.3% RAM=54.8% ActiveSockets=190
+Sep 20 09:23:59 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:24:03 GOKU system_monitor[43]: HEALTH_OK User='sujal' CPU=13.1% RAM=54.7% ActiveSockets=190
+Sep 20 09:24:07 GOKU system_monitor[44]: HEALTH_OK User='sujal' CPU=25.7% RAM=54.6% ActiveSockets=190
+Sep 20 09:24:11 GOKU system_monitor[45]: HEALTH_OK User='sujal' CPU=19.7% RAM=54.7% ActiveSockets=190
+Sep 20 09:24:11 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:24:15 GOKU system_monitor[46]: HEALTH_OK User='sujal' CPU=20.9% RAM=54.7% ActiveSockets=189
+Sep 20 09:24:19 GOKU system_monitor[47]: HEALTH_OK User='sujal' CPU=19.6% RAM=54.6% ActiveSockets=189
+Sep 20 09:24:23 GOKU system_monitor[48]: HEALTH_OK User='sujal' CPU=38.4% RAM=54.7% ActiveSockets=189
+Sep 20 09:24:23 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:24:27 GOKU system_monitor[49]: HEALTH_OK User='sujal' CPU=16.9% RAM=54.9% ActiveSockets=189
+Sep 20 09:24:31 GOKU system_monitor[50]: HEALTH_OK User='sujal' CPU=12.4% RAM=55.2% ActiveSockets=189
+Sep 20 09:24:35 GOKU system_monitor[51]: HEALTH_OK User='sujal' CPU=16.9% RAM=54.8% ActiveSockets=189
+Sep 20 09:24:35 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:24:39 GOKU system_monitor[52]: HEALTH_OK User='sujal' CPU=19.7% RAM=54.8% ActiveSockets=190
+Sep 20 09:24:43 GOKU system_monitor[53]: HEALTH_OK User='sujal' CPU=15.0% RAM=54.8% ActiveSockets=189
+Sep 20 09:24:47 GOKU system_monitor[54]: HEALTH_OK User='sujal' CPU=26.1% RAM=54.6% ActiveSockets=188
+Sep 20 09:24:47 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:24:51 GOKU system_monitor[55]: HEALTH_OK User='sujal' CPU=9.7% RAM=54.6% ActiveSockets=197
+Sep 20 09:24:55 GOKU system_monitor[56]: HEALTH_OK User='sujal' CPU=13.3% RAM=54.6% ActiveSockets=195
+Sep 20 09:24:59 GOKU system_monitor[57]: HEALTH_OK User='sujal' CPU=12.6% RAM=54.6% ActiveSockets=192
+Sep 20 09:25:00 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:25:04 GOKU system_monitor[58]: HEALTH_OK User='sujal' CPU=34.8% RAM=55.2% ActiveSockets=192
+Sep 20 09:25:08 GOKU system_monitor[59]: HEALTH_OK User='sujal' CPU=28.6% RAM=55.2% ActiveSockets=192
+Sep 20 09:25:12 GOKU system_monitor[60]: HEALTH_OK User='sujal' CPU=37.6% RAM=55.1% ActiveSockets=191
+Sep 20 09:25:12 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:25:16 GOKU system_monitor[61]: HEALTH_OK User='sujal' CPU=8.0% RAM=55.3% ActiveSockets=192
+Sep 20 09:25:20 GOKU system_monitor[62]: HEALTH_OK User='sujal' CPU=22.5% RAM=55.2% ActiveSockets=192
+Sep 20 09:25:24 GOKU system_monitor[63]: HEALTH_OK User='sujal' CPU=27.9% RAM=55.1% ActiveSockets=192
+Sep 20 09:25:24 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:25:28 GOKU system_monitor[64]: HEALTH_OK User='sujal' CPU=9.3% RAM=55.0% ActiveSockets=192
+Sep 20 09:25:32 GOKU system_monitor[65]: HEALTH_OK User='sujal' CPU=9.7% RAM=55.0% ActiveSockets=196
+Sep 20 09:25:36 GOKU system_monitor[66]: HEALTH_OK User='sujal' CPU=21.3% RAM=54.9% ActiveSockets=196
+Sep 20 09:25:36 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:25:40 GOKU system_monitor[67]: HEALTH_OK User='sujal' CPU=29.2% RAM=54.9% ActiveSockets=196
+Sep 20 09:25:44 GOKU system_monitor[68]: HEALTH_OK User='sujal' CPU=14.5% RAM=55.0% ActiveSockets=195
+Sep 20 09:25:48 GOKU system_monitor[69]: HEALTH_OK User='sujal' CPU=22.9% RAM=55.2% ActiveSockets=194
+Sep 20 09:25:48 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:25:52 GOKU system_monitor[70]: HEALTH_OK User='sujal' CPU=12.0% RAM=55.0% ActiveSockets=194
+Sep 20 09:25:56 GOKU system_monitor[71]: HEALTH_OK User='sujal' CPU=23.5% RAM=55.0% ActiveSockets=194
+Sep 20 09:26:00 GOKU system_monitor[72]: HEALTH_OK User='sujal' CPU=23.1% RAM=55.0% ActiveSockets=194
+Sep 20 09:26:00 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:26:04 GOKU system_monitor[73]: HEALTH_OK User='sujal' CPU=15.5% RAM=54.8% ActiveSockets=195
+Sep 20 09:26:08 GOKU system_monitor[74]: HEALTH_OK User='sujal' CPU=6.6% RAM=54.8% ActiveSockets=195
+Sep 20 09:26:12 GOKU system_monitor[75]: HEALTH_OK User='sujal' CPU=6.8% RAM=54.8% ActiveSockets=195
+Sep 20 09:26:12 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:26:16 GOKU system_monitor[76]: HEALTH_OK User='sujal' CPU=17.3% RAM=54.8% ActiveSockets=195
+Sep 20 09:26:20 GOKU system_monitor[77]: HEALTH_OK User='sujal' CPU=13.7% RAM=54.8% ActiveSockets=203
+Sep 20 09:26:24 GOKU system_monitor[78]: HEALTH_OK User='sujal' CPU=7.4% RAM=54.8% ActiveSockets=194
+Sep 20 09:26:24 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:26:28 GOKU system_monitor[79]: HEALTH_OK User='sujal' CPU=11.4% RAM=54.8% ActiveSockets=191
+Sep 20 09:26:32 GOKU system_monitor[80]: HEALTH_OK User='sujal' CPU=6.6% RAM=54.7% ActiveSockets=191
+Sep 20 09:26:36 GOKU system_monitor[81]: HEALTH_OK User='sujal' CPU=15.3% RAM=54.7% ActiveSockets=191
+Sep 20 09:26:36 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:26:40 GOKU system_monitor[82]: HEALTH_OK User='sujal' CPU=10.3% RAM=54.7% ActiveSockets=191
+Sep 20 09:26:44 GOKU system_monitor[83]: HEALTH_OK User='sujal' CPU=41.0% RAM=54.8% ActiveSockets=193
+Sep 20 09:26:48 GOKU system_monitor[84]: HEALTH_OK User='sujal' CPU=8.6% RAM=54.8% ActiveSockets=194
+Sep 20 09:26:48 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:26:52 GOKU system_monitor[85]: HEALTH_OK User='sujal' CPU=12.6% RAM=54.6% ActiveSockets=196
+Sep 20 09:26:56 GOKU system_monitor[86]: HEALTH_OK User='sujal' CPU=23.8% RAM=54.6% ActiveSockets=193
+Sep 20 09:27:00 GOKU system_monitor[87]: HEALTH_OK User='sujal' CPU=12.2% RAM=54.6% ActiveSockets=192
+Sep 20 09:27:00 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:27:04 GOKU system_monitor[88]: HEALTH_OK User='sujal' CPU=16.5% RAM=54.6% ActiveSockets=190
+Sep 20 09:27:08 GOKU system_monitor[89]: HEALTH_OK User='sujal' CPU=7.8% RAM=54.5% ActiveSockets=190
+Sep 20 09:27:12 GOKU system_monitor[90]: HEALTH_OK User='sujal' CPU=23.2% RAM=54.5% ActiveSockets=192
+Sep 20 09:27:12 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:27:16 GOKU system_monitor[91]: HEALTH_OK User='sujal' CPU=8.2% RAM=54.5% ActiveSockets=190
+Sep 20 09:27:20 GOKU system_monitor[92]: HEALTH_OK User='sujal' CPU=21.7% RAM=54.5% ActiveSockets=190
+Sep 20 09:27:24 GOKU system_monitor[93]: HEALTH_OK User='sujal' CPU=9.1% RAM=54.5% ActiveSockets=190
+Sep 20 09:27:24 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:27:28 GOKU system_monitor[94]: HEALTH_OK User='sujal' CPU=5.2% RAM=54.5% ActiveSockets=190
+Sep 20 09:27:32 GOKU system_monitor[95]: HEALTH_OK User='sujal' CPU=9.7% RAM=54.5% ActiveSockets=190
+Sep 20 09:27:36 GOKU system_monitor[96]: HEALTH_OK User='sujal' CPU=9.3% RAM=54.5% ActiveSockets=188
+Sep 20 09:27:36 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:27:40 GOKU system_monitor[97]: HEALTH_OK User='sujal' CPU=12.9% RAM=54.5% ActiveSockets=188
+Sep 20 09:27:44 GOKU system_monitor[98]: HEALTH_OK User='sujal' CPU=7.0% RAM=54.6% ActiveSockets=188
+Sep 20 09:27:49 GOKU system_monitor[99]: HEALTH_OK User='sujal' CPU=17.2% RAM=55.2% ActiveSockets=189
+Sep 20 09:27:49 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:27:53 GOKU system_monitor[100]: HEALTH_OK User='sujal' CPU=13.4% RAM=54.5% ActiveSockets=188
+Sep 20 09:27:57 GOKU system_monitor[101]: HEALTH_OK User='sujal' CPU=16.3% RAM=54.5% ActiveSockets=192
+Sep 20 09:28:01 GOKU system_monitor[102]: HEALTH_OK User='sujal' CPU=13.8% RAM=54.5% ActiveSockets=187
+Sep 20 09:28:01 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:28:05 GOKU system_monitor[103]: HEALTH_OK User='sujal' CPU=12.0% RAM=54.5% ActiveSockets=187
+Sep 20 09:28:09 GOKU system_monitor[104]: HEALTH_OK User='sujal' CPU=9.1% RAM=54.5% ActiveSockets=187
+Sep 20 09:28:13 GOKU system_monitor[105]: HEALTH_OK User='sujal' CPU=34.5% RAM=54.5% ActiveSockets=187
+Sep 20 09:28:13 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:28:17 GOKU system_monitor[106]: HEALTH_OK User='sujal' CPU=32.6% RAM=54.6% ActiveSockets=188
+Sep 20 09:28:21 GOKU system_monitor[107]: HEALTH_OK User='sujal' CPU=18.6% RAM=54.6% ActiveSockets=188
+Sep 20 09:28:25 GOKU system_monitor[108]: HEALTH_OK User='sujal' CPU=28.5% RAM=54.5% ActiveSockets=187
+Sep 20 09:28:25 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:28:29 GOKU system_monitor[109]: HEALTH_OK User='sujal' CPU=26.1% RAM=54.6% ActiveSockets=187
+Sep 20 09:28:33 GOKU system_monitor[110]: HEALTH_OK User='sujal' CPU=13.5% RAM=54.6% ActiveSockets=187
+Sep 20 09:28:37 GOKU system_monitor[111]: HEALTH_OK User='sujal' CPU=9.1% RAM=54.5% ActiveSockets=187
+Sep 20 09:28:37 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:28:41 GOKU system_monitor[112]: HEALTH_OK User='sujal' CPU=28.1% RAM=54.6% ActiveSockets=187
+Sep 20 09:28:45 GOKU system_monitor[113]: HEALTH_OK User='sujal' CPU=15.0% RAM=54.6% ActiveSockets=187
+Sep 20 09:28:49 GOKU system_monitor[114]: HEALTH_OK User='sujal' CPU=10.6% RAM=54.6% ActiveSockets=187
+Sep 20 09:28:49 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:28:53 GOKU system_monitor[115]: HEALTH_OK User='sujal' CPU=26.9% RAM=54.6% ActiveSockets=190
+Sep 20 09:28:57 GOKU system_monitor[116]: HEALTH_OK User='sujal' CPU=15.8% RAM=54.6% ActiveSockets=187
+Sep 20 09:29:01 GOKU system_monitor[117]: HEALTH_OK User='sujal' CPU=16.2% RAM=54.7% ActiveSockets=187
+Sep 20 09:29:01 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:29:05 GOKU system_monitor[118]: HEALTH_OK User='sujal' CPU=20.5% RAM=54.7% ActiveSockets=187
+Sep 20 09:29:09 GOKU system_monitor[119]: HEALTH_OK User='sujal' CPU=11.4% RAM=54.7% ActiveSockets=187
+Sep 20 09:29:13 GOKU system_monitor[120]: HEALTH_OK User='sujal' CPU=13.0% RAM=54.7% ActiveSockets=187
+Sep 20 09:29:13 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:29:17 GOKU system_monitor[121]: HEALTH_OK User='sujal' CPU=8.0% RAM=54.7% ActiveSockets=187
+Sep 20 09:29:21 GOKU system_monitor[122]: HEALTH_OK User='sujal' CPU=20.0% RAM=54.8% ActiveSockets=187
+Sep 20 09:29:25 GOKU system_monitor[123]: HEALTH_OK User='sujal' CPU=11.6% RAM=54.7% ActiveSockets=219
+Sep 20 09:29:25 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:29:29 GOKU system_monitor[124]: HEALTH_OK User='sujal' CPU=15.5% RAM=54.7% ActiveSockets=187
+Sep 20 09:29:33 GOKU system_monitor[125]: HEALTH_OK User='sujal' CPU=45.6% RAM=54.8% ActiveSockets=186
+Sep 20 09:29:37 GOKU system_monitor[126]: HEALTH_OK User='sujal' CPU=7.1% RAM=54.7% ActiveSockets=186
+Sep 20 09:29:37 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:29:41 GOKU system_monitor[127]: HEALTH_OK User='sujal' CPU=41.3% RAM=55.8% ActiveSockets=188
+Sep 20 09:29:45 GOKU system_monitor[128]: HEALTH_OK User='sujal' CPU=67.2% RAM=56.2% ActiveSockets=189
+Sep 20 09:29:49 GOKU system_monitor[129]: HEALTH_OK User='sujal' CPU=60.7% RAM=55.5% ActiveSockets=190
+Sep 20 09:29:49 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:29:53 GOKU system_monitor[130]: HEALTH_OK User='sujal' CPU=65.2% RAM=55.7% ActiveSockets=189
+Sep 20 09:29:57 GOKU system_monitor[131]: HEALTH_OK User='sujal' CPU=49.8% RAM=55.6% ActiveSockets=189
+Sep 20 09:30:01 GOKU system_monitor[132]: HEALTH_OK User='sujal' CPU=49.5% RAM=55.7% ActiveSockets=189
+Sep 20 09:30:01 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:30:05 GOKU system_monitor[133]: HEALTH_OK User='sujal' CPU=44.4% RAM=55.9% ActiveSockets=190
+Sep 20 09:30:09 GOKU system_monitor[134]: HEALTH_OK User='sujal' CPU=40.4% RAM=56.8% ActiveSockets=191
+Sep 20 09:30:13 GOKU system_monitor[135]: HEALTH_OK User='sujal' CPU=49.5% RAM=56.9% ActiveSockets=191
+Sep 20 09:30:13 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:30:17 GOKU system_monitor[136]: HEALTH_OK User='sujal' CPU=31.3% RAM=56.5% ActiveSockets=191
+Sep 20 09:30:21 GOKU system_monitor[137]: HEALTH_OK User='sujal' CPU=8.5% RAM=56.9% ActiveSockets=191
+Sep 20 09:30:25 GOKU system_monitor[138]: HEALTH_OK User='sujal' CPU=12.8% RAM=56.8% ActiveSockets=195
+Sep 20 09:30:25 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:30:30 GOKU system_monitor[139]: HEALTH_OK User='sujal' CPU=15.1% RAM=56.6% ActiveSockets=195
+Sep 20 09:30:34 GOKU system_monitor[140]: HEALTH_OK User='sujal' CPU=11.9% RAM=56.6% ActiveSockets=198
+Sep 20 09:30:38 GOKU system_monitor[141]: HEALTH_OK User='sujal' CPU=21.0% RAM=55.5% ActiveSockets=198
+Sep 20 09:30:38 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:30:42 GOKU system_monitor[142]: HEALTH_OK User='sujal' CPU=34.0% RAM=55.8% ActiveSockets=198
+Sep 20 09:30:46 GOKU system_monitor[143]: HEALTH_OK User='sujal' CPU=21.4% RAM=55.7% ActiveSockets=196
+Sep 20 09:30:50 GOKU system_monitor[144]: HEALTH_OK User='sujal' CPU=16.8% RAM=55.6% ActiveSockets=196
+Sep 20 09:30:50 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:30:54 GOKU system_monitor[145]: HEALTH_OK User='sujal' CPU=6.9% RAM=55.5% ActiveSockets=196
+Sep 20 09:30:58 GOKU system_monitor[146]: HEALTH_OK User='sujal' CPU=13.0% RAM=55.3% ActiveSockets=196
+Sep 20 09:31:02 GOKU system_monitor[147]: HEALTH_OK User='sujal' CPU=6.0% RAM=55.4% ActiveSockets=196
+Sep 20 09:31:02 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:31:06 GOKU system_monitor[148]: HEALTH_OK User='sujal' CPU=5.5% RAM=55.2% ActiveSockets=196
+Sep 20 09:31:10 GOKU system_monitor[149]: HEALTH_OK User='sujal' CPU=15.6% RAM=55.4% ActiveSockets=195
+Sep 20 09:31:14 GOKU system_monitor[150]: HEALTH_OK User='sujal' CPU=14.3% RAM=55.4% ActiveSockets=194
+Sep 20 09:31:14 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:31:18 GOKU system_monitor[151]: HEALTH_OK User='sujal' CPU=28.3% RAM=55.1% ActiveSockets=194
+Sep 20 09:31:22 GOKU system_monitor[152]: HEALTH_OK User='sujal' CPU=30.0% RAM=55.2% ActiveSockets=194
+Sep 20 09:31:26 GOKU system_monitor[153]: HEALTH_OK User='sujal' CPU=14.7% RAM=55.2% ActiveSockets=194
+Sep 20 09:31:26 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:31:30 GOKU system_monitor[154]: HEALTH_OK User='sujal' CPU=34.4% RAM=55.2% ActiveSockets=195
+Sep 20 09:31:34 GOKU system_monitor[155]: HEALTH_OK User='sujal' CPU=10.4% RAM=55.2% ActiveSockets=195
+Sep 20 09:31:38 GOKU system_monitor[156]: HEALTH_OK User='sujal' CPU=6.8% RAM=55.1% ActiveSockets=194
+Sep 20 09:31:38 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:31:42 GOKU system_monitor[157]: HEALTH_OK User='sujal' CPU=6.2% RAM=55.1% ActiveSockets=194
+Sep 20 09:31:46 GOKU system_monitor[158]: HEALTH_OK User='sujal' CPU=19.0% RAM=55.2% ActiveSockets=193
+Sep 20 09:31:50 GOKU system_monitor[159]: HEALTH_OK User='sujal' CPU=19.5% RAM=55.0% ActiveSockets=193
+Sep 20 09:31:50 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:31:54 GOKU system_monitor[160]: HEALTH_OK User='sujal' CPU=6.6% RAM=55.0% ActiveSockets=191
+Sep 20 09:31:58 GOKU system_monitor[161]: HEALTH_OK User='sujal' CPU=7.6% RAM=55.0% ActiveSockets=191
+Sep 20 09:32:02 GOKU system_monitor[162]: HEALTH_OK User='sujal' CPU=13.1% RAM=55.0% ActiveSockets=189
+Sep 20 09:32:02 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:32:06 GOKU system_monitor[163]: HEALTH_OK User='sujal' CPU=25.1% RAM=55.1% ActiveSockets=189
+Sep 20 09:32:10 GOKU system_monitor[164]: HEALTH_OK User='sujal' CPU=26.3% RAM=54.8% ActiveSockets=189
+Sep 20 09:32:14 GOKU system_monitor[165]: HEALTH_OK User='sujal' CPU=11.2% RAM=54.8% ActiveSockets=188
+Sep 20 09:32:14 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:32:18 GOKU system_monitor[166]: HEALTH_OK User='sujal' CPU=5.3% RAM=54.7% ActiveSockets=188
+Sep 20 09:32:22 GOKU system_monitor[167]: HEALTH_OK User='sujal' CPU=9.5% RAM=54.7% ActiveSockets=188
+Sep 20 09:32:26 GOKU system_monitor[168]: HEALTH_OK User='sujal' CPU=13.3% RAM=54.8% ActiveSockets=188
+Sep 20 09:32:26 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:32:30 GOKU system_monitor[169]: HEALTH_OK User='sujal' CPU=28.0% RAM=54.8% ActiveSockets=188
+Sep 20 09:32:34 GOKU system_monitor[170]: HEALTH_OK User='sujal' CPU=16.4% RAM=54.8% ActiveSockets=187
+Sep 20 09:32:38 GOKU system_monitor[171]: HEALTH_OK User='sujal' CPU=14.8% RAM=54.8% ActiveSockets=186
+Sep 20 09:32:38 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:32:42 GOKU system_monitor[172]: HEALTH_OK User='sujal' CPU=13.5% RAM=54.8% ActiveSockets=186
+Sep 20 09:32:46 GOKU system_monitor[173]: HEALTH_OK User='sujal' CPU=32.1% RAM=55.1% ActiveSockets=186
+Sep 20 09:32:50 GOKU system_monitor[174]: HEALTH_OK User='sujal' CPU=47.1% RAM=54.9% ActiveSockets=187
+Sep 20 09:32:50 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:32:54 GOKU system_monitor[175]: HEALTH_OK User='sujal' CPU=36.7% RAM=54.9% ActiveSockets=187
+Sep 20 09:32:58 GOKU system_monitor[176]: HEALTH_OK User='sujal' CPU=25.4% RAM=55.0% ActiveSockets=187
+Sep 20 09:33:02 GOKU system_monitor[177]: HEALTH_OK User='sujal' CPU=19.0% RAM=55.0% ActiveSockets=189
+Sep 20 09:33:02 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:33:06 GOKU system_monitor[178]: HEALTH_OK User='sujal' CPU=7.6% RAM=55.4% ActiveSockets=187
+Sep 20 09:33:10 GOKU system_monitor[179]: HEALTH_OK User='sujal' CPU=19.0% RAM=55.5% ActiveSockets=189
+Sep 20 09:33:14 GOKU system_monitor[180]: HEALTH_OK User='sujal' CPU=10.5% RAM=55.6% ActiveSockets=189
+Sep 20 09:33:14 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:33:18 GOKU system_monitor[181]: HEALTH_OK User='sujal' CPU=9.1% RAM=55.9% ActiveSockets=188
+Sep 20 09:33:23 GOKU system_monitor[182]: HEALTH_OK User='sujal' CPU=25.4% RAM=55.6% ActiveSockets=188
+Sep 20 09:33:27 GOKU system_monitor[183]: HEALTH_OK User='sujal' CPU=14.4% RAM=55.5% ActiveSockets=188
+Sep 20 09:33:27 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:33:31 GOKU system_monitor[184]: HEALTH_OK User='sujal' CPU=9.0% RAM=55.5% ActiveSockets=188
+Sep 20 09:33:35 GOKU system_monitor[185]: HEALTH_OK User='sujal' CPU=14.4% RAM=55.5% ActiveSockets=188
+Sep 20 09:33:39 GOKU system_monitor[186]: HEALTH_OK User='sujal' CPU=12.5% RAM=55.4% ActiveSockets=189
+Sep 20 09:33:39 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:33:43 GOKU system_monitor[187]: HEALTH_OK User='sujal' CPU=11.4% RAM=54.6% ActiveSockets=189
+Sep 20 09:33:47 GOKU system_monitor[188]: HEALTH_OK User='sujal' CPU=23.7% RAM=54.8% ActiveSockets=189
+Sep 20 09:33:51 GOKU system_monitor[189]: HEALTH_OK User='sujal' CPU=5.7% RAM=54.3% ActiveSockets=189
+Sep 20 09:33:51 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:33:55 GOKU system_monitor[190]: HEALTH_OK User='sujal' CPU=27.9% RAM=54.3% ActiveSockets=190
+Sep 20 09:33:59 GOKU system_monitor[191]: HEALTH_OK User='sujal' CPU=13.8% RAM=54.3% ActiveSockets=190
+Sep 20 09:34:03 GOKU system_monitor[192]: HEALTH_OK User='sujal' CPU=37.0% RAM=54.4% ActiveSockets=190
+Sep 20 09:34:03 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:34:07 GOKU system_monitor[193]: HEALTH_OK User='sujal' CPU=16.5% RAM=54.6% ActiveSockets=188
+Sep 20 09:34:11 GOKU system_monitor[194]: HEALTH_OK User='sujal' CPU=23.6% RAM=54.6% ActiveSockets=188
+Sep 20 09:34:15 GOKU system_monitor[195]: HEALTH_OK User='sujal' CPU=17.3% RAM=54.7% ActiveSockets=188
+Sep 20 09:34:15 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:34:19 GOKU system_monitor[196]: HEALTH_OK User='sujal' CPU=24.2% RAM=54.7% ActiveSockets=189
+Sep 20 09:34:23 GOKU system_monitor[197]: HEALTH_OK User='sujal' CPU=20.8% RAM=54.8% ActiveSockets=188
+Sep 20 09:34:27 GOKU system_monitor[198]: HEALTH_OK User='sujal' CPU=24.9% RAM=54.8% ActiveSockets=188
+Sep 20 09:34:27 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:34:31 GOKU system_monitor[199]: HEALTH_OK User='sujal' CPU=36.2% RAM=54.8% ActiveSockets=188
+Sep 20 09:34:35 GOKU system_monitor[200]: HEALTH_OK User='sujal' CPU=17.3% RAM=54.8% ActiveSockets=188
+Sep 20 09:34:39 GOKU system_monitor[201]: HEALTH_OK User='sujal' CPU=28.8% RAM=54.5% ActiveSockets=188
+Sep 20 09:34:39 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:34:43 GOKU system_monitor[202]: HEALTH_OK User='sujal' CPU=16.6% RAM=54.5% ActiveSockets=188
+Sep 20 09:34:47 GOKU system_monitor[203]: HEALTH_OK User='sujal' CPU=20.6% RAM=54.7% ActiveSockets=188
+Sep 20 09:34:51 GOKU system_monitor[204]: HEALTH_OK User='sujal' CPU=25.9% RAM=54.6% ActiveSockets=187
+Sep 20 09:34:51 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:34:55 GOKU system_monitor[205]: HEALTH_OK User='sujal' CPU=12.8% RAM=54.6% ActiveSockets=188
+Sep 20 09:34:59 GOKU system_monitor[206]: HEALTH_OK User='sujal' CPU=11.5% RAM=54.6% ActiveSockets=187
+Sep 20 09:35:03 GOKU system_monitor[207]: HEALTH_OK User='sujal' CPU=21.4% RAM=54.8% ActiveSockets=187
+Sep 20 09:35:03 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:35:07 GOKU system_monitor[208]: HEALTH_OK User='sujal' CPU=36.0% RAM=54.9% ActiveSockets=182
+Sep 20 09:35:11 GOKU system_monitor[209]: HEALTH_OK User='sujal' CPU=9.7% RAM=54.9% ActiveSockets=181
+Sep 20 09:35:15 GOKU system_monitor[210]: HEALTH_OK User='sujal' CPU=15.1% RAM=54.9% ActiveSockets=181
+Sep 20 09:35:15 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:35:19 GOKU system_monitor[211]: HEALTH_OK User='sujal' CPU=18.3% RAM=55.0% ActiveSockets=181
+Sep 20 09:35:23 GOKU system_monitor[212]: HEALTH_OK User='sujal' CPU=13.3% RAM=55.0% ActiveSockets=181
+Sep 20 09:35:27 GOKU system_monitor[213]: HEALTH_OK User='sujal' CPU=12.6% RAM=55.0% ActiveSockets=181
+Sep 20 09:35:27 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:35:31 GOKU system_monitor[214]: HEALTH_OK User='sujal' CPU=13.5% RAM=55.1% ActiveSockets=181
+Sep 20 09:35:35 GOKU system_monitor[215]: HEALTH_OK User='sujal' CPU=17.3% RAM=55.2% ActiveSockets=182
+Sep 20 09:35:39 GOKU system_monitor[216]: HEALTH_OK User='sujal' CPU=9.9% RAM=55.2% ActiveSockets=181
+Sep 20 09:35:39 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:35:43 GOKU system_monitor[217]: HEALTH_OK User='sujal' CPU=13.0% RAM=55.3% ActiveSockets=179
+Sep 20 09:35:47 GOKU system_monitor[218]: HEALTH_OK User='sujal' CPU=10.5% RAM=55.5% ActiveSockets=179
+Sep 20 09:35:51 GOKU system_monitor[219]: HEALTH_OK User='sujal' CPU=26.5% RAM=55.4% ActiveSockets=181
+Sep 20 09:35:51 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:35:55 GOKU system_monitor[220]: HEALTH_OK User='sujal' CPU=6.8% RAM=55.4% ActiveSockets=183
+Sep 20 09:35:59 GOKU system_monitor[221]: HEALTH_OK User='sujal' CPU=33.3% RAM=55.4% ActiveSockets=183
+Sep 20 09:36:03 GOKU system_monitor[222]: HEALTH_OK User='sujal' CPU=14.0% RAM=55.3% ActiveSockets=183
+Sep 20 09:36:03 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:36:07 GOKU system_monitor[223]: HEALTH_OK User='sujal' CPU=6.6% RAM=55.3% ActiveSockets=189
+Sep 20 09:36:11 GOKU system_monitor[224]: HEALTH_OK User='sujal' CPU=10.5% RAM=55.4% ActiveSockets=184
+Sep 20 09:36:15 GOKU system_monitor[225]: HEALTH_OK User='sujal' CPU=27.7% RAM=55.5% ActiveSockets=184
+Sep 20 09:36:15 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:36:19 GOKU system_monitor[226]: HEALTH_OK User='sujal' CPU=7.2% RAM=55.4% ActiveSockets=184
+Sep 20 09:36:23 GOKU system_monitor[227]: HEALTH_OK User='sujal' CPU=10.2% RAM=55.5% ActiveSockets=184
+Sep 20 09:36:27 GOKU system_monitor[228]: HEALTH_OK User='sujal' CPU=14.0% RAM=55.3% ActiveSockets=184
+Sep 20 09:36:27 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:36:32 GOKU system_monitor[229]: HEALTH_OK User='sujal' CPU=31.2% RAM=55.4% ActiveSockets=184
+Sep 20 09:36:36 GOKU system_monitor[230]: HEALTH_OK User='sujal' CPU=11.6% RAM=55.4% ActiveSockets=184
+Sep 20 09:36:40 GOKU system_monitor[231]: HEALTH_OK User='sujal' CPU=11.4% RAM=55.4% ActiveSockets=184
+Sep 20 09:36:40 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:36:44 GOKU system_monitor[232]: HEALTH_OK User='sujal' CPU=12.5% RAM=55.5% ActiveSockets=184
+Sep 20 09:36:48 GOKU system_monitor[233]: HEALTH_OK User='sujal' CPU=11.6% RAM=55.6% ActiveSockets=184
+Sep 20 09:36:52 GOKU system_monitor[234]: HEALTH_OK User='sujal' CPU=10.1% RAM=55.4% ActiveSockets=184
+Sep 20 09:36:52 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:36:56 GOKU system_monitor[235]: HEALTH_OK User='sujal' CPU=11.8% RAM=54.9% ActiveSockets=184
+Sep 20 09:37:00 GOKU system_monitor[236]: HEALTH_OK User='sujal' CPU=9.0% RAM=55.0% ActiveSockets=183
+Sep 20 09:37:04 GOKU system_monitor[237]: HEALTH_OK User='sujal' CPU=9.6% RAM=55.0% ActiveSockets=183
+Sep 20 09:37:04 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:37:08 GOKU system_monitor[238]: HEALTH_OK User='sujal' CPU=21.9% RAM=55.0% ActiveSockets=183
+Sep 20 09:37:12 GOKU system_monitor[239]: HEALTH_OK User='sujal' CPU=11.6% RAM=55.0% ActiveSockets=182
+Sep 20 09:37:16 GOKU system_monitor[240]: HEALTH_OK User='sujal' CPU=15.6% RAM=55.0% ActiveSockets=182
+Sep 20 09:37:16 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:37:20 GOKU system_monitor[241]: HEALTH_OK User='sujal' CPU=29.4% RAM=55.0% ActiveSockets=181
+Sep 20 09:37:24 GOKU system_monitor[242]: HEALTH_OK User='sujal' CPU=29.5% RAM=55.0% ActiveSockets=180
+Sep 20 09:37:28 GOKU system_monitor[243]: HEALTH_OK User='sujal' CPU=20.7% RAM=54.9% ActiveSockets=180
+Sep 20 09:37:28 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:37:32 GOKU system_monitor[244]: HEALTH_OK User='sujal' CPU=11.3% RAM=55.0% ActiveSockets=180
+Sep 20 09:37:36 GOKU system_monitor[245]: HEALTH_OK User='sujal' CPU=28.2% RAM=55.0% ActiveSockets=179
+Sep 20 09:37:40 GOKU system_monitor[246]: HEALTH_OK User='sujal' CPU=16.1% RAM=55.0% ActiveSockets=179
+Sep 20 09:37:40 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:37:44 GOKU system_monitor[247]: HEALTH_OK User='sujal' CPU=10.4% RAM=55.0% ActiveSockets=179
+Sep 20 09:37:48 GOKU system_monitor[248]: HEALTH_OK User='sujal' CPU=14.8% RAM=55.0% ActiveSockets=180
+Sep 20 09:37:52 GOKU system_monitor[249]: HEALTH_OK User='sujal' CPU=11.0% RAM=54.9% ActiveSockets=179
+Sep 20 09:37:52 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:37:56 GOKU system_monitor[250]: HEALTH_OK User='sujal' CPU=8.7% RAM=54.9% ActiveSockets=179
+Sep 20 09:38:00 GOKU system_monitor[251]: HEALTH_OK User='sujal' CPU=18.3% RAM=54.9% ActiveSockets=179
+Sep 20 09:38:04 GOKU system_monitor[252]: HEALTH_OK User='sujal' CPU=30.0% RAM=54.9% ActiveSockets=179
+Sep 20 09:38:04 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:38:08 GOKU system_monitor[253]: HEALTH_OK User='sujal' CPU=10.1% RAM=54.9% ActiveSockets=179
+Sep 20 09:38:12 GOKU system_monitor[254]: HEALTH_OK User='sujal' CPU=12.6% RAM=54.9% ActiveSockets=180
+Sep 20 09:38:16 GOKU system_monitor[255]: HEALTH_OK User='sujal' CPU=8.2% RAM=54.9% ActiveSockets=179
+Sep 20 09:38:16 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:38:20 GOKU system_monitor[256]: HEALTH_OK User='sujal' CPU=18.6% RAM=55.1% ActiveSockets=179
+Sep 20 09:38:24 GOKU system_monitor[257]: HEALTH_OK User='sujal' CPU=17.4% RAM=55.0% ActiveSockets=179
+Sep 20 09:38:28 GOKU system_monitor[258]: HEALTH_OK User='sujal' CPU=12.0% RAM=55.0% ActiveSockets=179
+Sep 20 09:38:28 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:38:32 GOKU system_monitor[259]: HEALTH_OK User='sujal' CPU=22.0% RAM=55.0% ActiveSockets=179
+Sep 20 09:38:36 GOKU system_monitor[260]: HEALTH_OK User='sujal' CPU=10.6% RAM=55.0% ActiveSockets=179
+Sep 20 09:38:40 GOKU system_monitor[261]: HEALTH_OK User='sujal' CPU=14.9% RAM=55.0% ActiveSockets=178
+Sep 20 09:38:40 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:38:44 GOKU system_monitor[262]: HEALTH_OK User='sujal' CPU=9.9% RAM=55.0% ActiveSockets=178
+Sep 20 09:38:48 GOKU system_monitor[263]: HEALTH_OK User='sujal' CPU=18.3% RAM=55.4% ActiveSockets=180
+Sep 20 09:38:52 GOKU system_monitor[264]: HEALTH_OK User='sujal' CPU=13.0% RAM=55.1% ActiveSockets=180
+Sep 20 09:38:52 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:38:56 GOKU system_monitor[265]: HEALTH_OK User='sujal' CPU=14.7% RAM=55.2% ActiveSockets=180
+Sep 20 09:39:00 GOKU system_monitor[266]: HEALTH_OK User='sujal' CPU=21.2% RAM=55.1% ActiveSockets=180
+Sep 20 09:39:04 GOKU system_monitor[267]: HEALTH_OK User='sujal' CPU=23.2% RAM=55.1% ActiveSockets=180
+Sep 20 09:39:04 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:39:08 GOKU system_monitor[268]: HEALTH_OK User='sujal' CPU=9.1% RAM=55.0% ActiveSockets=180
+Sep 20 09:39:12 GOKU system_monitor[269]: HEALTH_OK User='sujal' CPU=22.7% RAM=55.0% ActiveSockets=182
+Sep 20 09:39:16 GOKU system_monitor[270]: HEALTH_OK User='sujal' CPU=8.4% RAM=55.0% ActiveSockets=180
+Sep 20 09:39:16 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:39:20 GOKU system_monitor[271]: HEALTH_OK User='sujal' CPU=37.3% RAM=55.1% ActiveSockets=180
+Sep 20 09:39:24 GOKU system_monitor[272]: HEALTH_OK User='sujal' CPU=12.1% RAM=55.0% ActiveSockets=180
+Sep 20 09:39:28 GOKU system_monitor[273]: HEALTH_OK User='sujal' CPU=7.9% RAM=55.0% ActiveSockets=180
+Sep 20 09:39:28 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:39:32 GOKU system_monitor[274]: HEALTH_OK User='sujal' CPU=12.0% RAM=55.0% ActiveSockets=182
+Sep 20 09:39:36 GOKU system_monitor[275]: HEALTH_OK User='sujal' CPU=16.2% RAM=55.0% ActiveSockets=181
+Sep 20 09:39:40 GOKU system_monitor[276]: HEALTH_OK User='sujal' CPU=6.0% RAM=55.0% ActiveSockets=181
+Sep 20 09:39:40 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:39:44 GOKU system_monitor[277]: HEALTH_OK User='sujal' CPU=14.9% RAM=55.0% ActiveSockets=181
+Sep 20 09:39:48 GOKU system_monitor[278]: HEALTH_OK User='sujal' CPU=13.9% RAM=55.0% ActiveSockets=182
+Sep 20 09:39:52 GOKU system_monitor[279]: HEALTH_OK User='sujal' CPU=11.3% RAM=55.1% ActiveSockets=183
+Sep 20 09:39:52 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:39:56 GOKU system_monitor[280]: HEALTH_OK User='sujal' CPU=13.2% RAM=55.0% ActiveSockets=181
+Sep 20 09:40:00 GOKU system_monitor[281]: HEALTH_OK User='sujal' CPU=15.9% RAM=55.1% ActiveSockets=181
+Sep 20 09:40:05 GOKU system_monitor[282]: HEALTH_OK User='sujal' CPU=25.5% RAM=55.1% ActiveSockets=181
+Sep 20 09:40:05 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:40:09 GOKU system_monitor[283]: HEALTH_OK User='sujal' CPU=12.5% RAM=55.1% ActiveSockets=180
+Sep 20 09:40:13 GOKU system_monitor[284]: HEALTH_OK User='sujal' CPU=17.6% RAM=55.0% ActiveSockets=180
+Sep 20 09:40:17 GOKU system_monitor[285]: HEALTH_OK User='sujal' CPU=16.6% RAM=55.0% ActiveSockets=181
+Sep 20 09:40:17 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:40:21 GOKU system_monitor[286]: HEALTH_OK User='sujal' CPU=21.3% RAM=55.1% ActiveSockets=180
+Sep 20 09:40:25 GOKU system_monitor[287]: HEALTH_OK User='sujal' CPU=28.0% RAM=55.1% ActiveSockets=181
+Sep 20 09:40:29 GOKU system_monitor[288]: HEALTH_OK User='sujal' CPU=11.5% RAM=55.1% ActiveSockets=181
+Sep 20 09:40:29 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:40:33 GOKU system_monitor[289]: HEALTH_OK User='sujal' CPU=27.7% RAM=55.1% ActiveSockets=184
+Sep 20 09:40:37 GOKU system_monitor[290]: HEALTH_OK User='sujal' CPU=29.4% RAM=55.1% ActiveSockets=184
+Sep 20 09:40:41 GOKU system_monitor[291]: HEALTH_OK User='sujal' CPU=12.4% RAM=55.1% ActiveSockets=184
+Sep 20 09:40:41 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:40:45 GOKU system_monitor[292]: HEALTH_OK User='sujal' CPU=8.2% RAM=54.9% ActiveSockets=182
+Sep 20 09:40:49 GOKU system_monitor[293]: HEALTH_OK User='sujal' CPU=18.4% RAM=54.9% ActiveSockets=182
+Sep 20 09:40:53 GOKU system_monitor[294]: HEALTH_OK User='sujal' CPU=15.3% RAM=54.9% ActiveSockets=182
+Sep 20 09:40:53 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:40:57 GOKU system_monitor[295]: HEALTH_OK User='sujal' CPU=25.8% RAM=54.5% ActiveSockets=183
+Sep 20 09:41:01 GOKU system_monitor[296]: HEALTH_OK User='sujal' CPU=26.0% RAM=54.5% ActiveSockets=190
+Sep 20 09:41:05 GOKU system_monitor[297]: HEALTH_OK User='sujal' CPU=26.1% RAM=54.8% ActiveSockets=192
+Sep 20 09:41:05 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:41:09 GOKU system_monitor[298]: HEALTH_OK User='sujal' CPU=16.6% RAM=54.9% ActiveSockets=196
+Sep 20 09:41:13 GOKU system_monitor[299]: HEALTH_OK User='sujal' CPU=32.2% RAM=54.9% ActiveSockets=201
+Sep 20 09:41:17 GOKU system_monitor[300]: HEALTH_OK User='sujal' CPU=18.4% RAM=54.9% ActiveSockets=200
+Sep 20 09:41:17 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:41:21 GOKU system_monitor[301]: HEALTH_OK User='sujal' CPU=14.3% RAM=55.0% ActiveSockets=201
+Sep 20 09:41:25 GOKU system_monitor[302]: HEALTH_OK User='sujal' CPU=13.6% RAM=55.0% ActiveSockets=200
+Sep 20 09:41:29 GOKU system_monitor[303]: HEALTH_OK User='sujal' CPU=11.4% RAM=54.9% ActiveSockets=200
+Sep 20 09:41:29 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:41:33 GOKU system_monitor[304]: HEALTH_OK User='sujal' CPU=33.5% RAM=55.0% ActiveSockets=200
+Sep 20 09:41:37 GOKU system_monitor[305]: HEALTH_OK User='sujal' CPU=9.9% RAM=54.9% ActiveSockets=200
+Sep 20 09:41:41 GOKU system_monitor[306]: HEALTH_OK User='sujal' CPU=8.2% RAM=54.9% ActiveSockets=199
+Sep 20 09:41:41 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:41:45 GOKU system_monitor[307]: HEALTH_OK User='sujal' CPU=19.3% RAM=55.1% ActiveSockets=199
+Sep 20 09:41:49 GOKU system_monitor[308]: HEALTH_OK User='sujal' CPU=21.5% RAM=55.0% ActiveSockets=193
+Sep 20 09:41:53 GOKU system_monitor[309]: HEALTH_OK User='sujal' CPU=14.2% RAM=54.9% ActiveSockets=194
+Sep 20 09:41:53 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:41:57 GOKU system_monitor[310]: HEALTH_OK User='sujal' CPU=38.6% RAM=53.5% ActiveSockets=196
+Sep 20 09:42:01 GOKU system_monitor[311]: HEALTH_OK User='sujal' CPU=47.5% RAM=53.5% ActiveSockets=196
+Sep 20 09:42:05 GOKU system_monitor[312]: HEALTH_OK User='sujal' CPU=11.5% RAM=53.6% ActiveSockets=194
+Sep 20 09:42:05 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:42:09 GOKU system_monitor[313]: HEALTH_OK User='sujal' CPU=41.6% RAM=53.6% ActiveSockets=194
+Sep 20 09:42:13 GOKU system_monitor[314]: HEALTH_OK User='sujal' CPU=15.5% RAM=53.6% ActiveSockets=195
+Sep 20 09:42:17 GOKU system_monitor[315]: HEALTH_OK User='sujal' CPU=12.8% RAM=53.6% ActiveSockets=195
+Sep 20 09:42:17 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:42:21 GOKU system_monitor[316]: HEALTH_OK User='sujal' CPU=23.2% RAM=53.4% ActiveSockets=195
+Sep 20 09:42:25 GOKU system_monitor[317]: HEALTH_OK User='sujal' CPU=10.4% RAM=53.6% ActiveSockets=199
+Sep 20 09:42:29 GOKU system_monitor[318]: HEALTH_OK User='sujal' CPU=30.2% RAM=53.5% ActiveSockets=199
+Sep 20 09:42:29 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:42:33 GOKU system_monitor[319]: HEALTH_OK User='sujal' CPU=19.7% RAM=53.6% ActiveSockets=199
+Sep 20 09:42:37 GOKU system_monitor[320]: HEALTH_OK User='sujal' CPU=15.7% RAM=53.6% ActiveSockets=197
+Sep 20 09:42:41 GOKU system_monitor[321]: HEALTH_OK User='sujal' CPU=20.5% RAM=53.6% ActiveSockets=197
+Sep 20 09:42:41 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:42:45 GOKU system_monitor[322]: HEALTH_OK User='sujal' CPU=12.5% RAM=53.6% ActiveSockets=197
+Sep 20 09:42:49 GOKU system_monitor[323]: HEALTH_OK User='sujal' CPU=17.2% RAM=53.6% ActiveSockets=195
+Sep 20 09:42:53 GOKU system_monitor[324]: HEALTH_OK User='sujal' CPU=18.6% RAM=53.7% ActiveSockets=194
+Sep 20 09:42:53 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:42:57 GOKU system_monitor[325]: HEALTH_OK User='sujal' CPU=13.1% RAM=53.6% ActiveSockets=194
+Sep 20 09:43:01 GOKU system_monitor[326]: HEALTH_OK User='sujal' CPU=27.0% RAM=53.6% ActiveSockets=195
+Sep 20 09:43:05 GOKU system_monitor[327]: HEALTH_OK User='sujal' CPU=28.4% RAM=53.6% ActiveSockets=193
+Sep 20 09:43:05 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:43:09 GOKU system_monitor[328]: HEALTH_OK User='sujal' CPU=15.6% RAM=53.7% ActiveSockets=190
+Sep 20 09:43:13 GOKU system_monitor[329]: HEALTH_OK User='sujal' CPU=14.6% RAM=53.7% ActiveSockets=186
+Sep 20 09:43:17 GOKU system_monitor[330]: HEALTH_OK User='sujal' CPU=5.8% RAM=53.6% ActiveSockets=185
+Sep 20 09:43:17 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:43:21 GOKU system_monitor[331]: HEALTH_OK User='sujal' CPU=22.6% RAM=53.7% ActiveSockets=185
+Sep 20 09:43:25 GOKU system_monitor[332]: HEALTH_OK User='sujal' CPU=14.7% RAM=53.7% ActiveSockets=192
+Sep 20 09:43:29 GOKU system_monitor[333]: HEALTH_OK User='sujal' CPU=19.8% RAM=53.9% ActiveSockets=192
+Sep 20 09:43:29 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:43:33 GOKU system_monitor[334]: HEALTH_OK User='sujal' CPU=9.5% RAM=53.9% ActiveSockets=191
+Sep 20 09:43:37 GOKU system_monitor[335]: HEALTH_OK User='sujal' CPU=21.9% RAM=54.0% ActiveSockets=190
+Sep 20 09:43:42 GOKU system_monitor[336]: HEALTH_OK User='sujal' CPU=10.3% RAM=54.0% ActiveSockets=189
+Sep 20 09:43:42 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:43:46 GOKU system_monitor[337]: HEALTH_OK User='sujal' CPU=45.8% RAM=54.3% ActiveSockets=189
+Sep 20 09:43:50 GOKU system_monitor[338]: HEALTH_OK User='sujal' CPU=15.9% RAM=55.0% ActiveSockets=191
+Sep 20 09:43:54 GOKU system_monitor[339]: HEALTH_OK User='sujal' CPU=28.4% RAM=54.3% ActiveSockets=190
+Sep 20 09:43:54 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:43:58 GOKU system_monitor[340]: HEALTH_OK User='sujal' CPU=31.2% RAM=54.2% ActiveSockets=190
+Sep 20 09:44:02 GOKU system_monitor[341]: HEALTH_OK User='sujal' CPU=18.1% RAM=54.3% ActiveSockets=192
+Sep 20 09:44:06 GOKU system_monitor[342]: HEALTH_OK User='sujal' CPU=13.4% RAM=54.3% ActiveSockets=190
+Sep 20 09:44:06 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:44:10 GOKU system_monitor[343]: HEALTH_OK User='sujal' CPU=17.0% RAM=54.3% ActiveSockets=190
+Sep 20 09:44:14 GOKU system_monitor[344]: HEALTH_OK User='sujal' CPU=6.0% RAM=54.3% ActiveSockets=190
+Sep 20 09:44:18 GOKU system_monitor[345]: HEALTH_OK User='sujal' CPU=18.9% RAM=54.3% ActiveSockets=190
+Sep 20 09:44:18 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:44:22 GOKU system_monitor[346]: HEALTH_OK User='sujal' CPU=12.9% RAM=54.3% ActiveSockets=189
+Sep 20 09:44:26 GOKU system_monitor[347]: HEALTH_OK User='sujal' CPU=8.3% RAM=54.2% ActiveSockets=188
+Sep 20 09:44:30 GOKU system_monitor[348]: HEALTH_OK User='sujal' CPU=9.9% RAM=54.2% ActiveSockets=188
+Sep 20 09:44:30 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:44:34 GOKU system_monitor[349]: HEALTH_OK User='sujal' CPU=8.9% RAM=54.3% ActiveSockets=188
+Sep 20 09:44:38 GOKU system_monitor[350]: HEALTH_OK User='sujal' CPU=24.4% RAM=54.3% ActiveSockets=178
+Sep 20 09:44:42 GOKU system_monitor[351]: HEALTH_OK User='sujal' CPU=9.3% RAM=54.3% ActiveSockets=178
+Sep 20 09:44:42 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:44:46 GOKU system_monitor[352]: HEALTH_OK User='sujal' CPU=27.8% RAM=54.5% ActiveSockets=177
+Sep 20 09:44:50 GOKU system_monitor[353]: HEALTH_OK User='sujal' CPU=22.9% RAM=54.3% ActiveSockets=176
+Sep 20 09:44:54 GOKU system_monitor[354]: HEALTH_OK User='sujal' CPU=12.6% RAM=54.4% ActiveSockets=176
+Sep 20 09:44:54 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:44:58 GOKU system_monitor[355]: HEALTH_OK User='sujal' CPU=42.4% RAM=54.6% ActiveSockets=178
+Sep 20 09:45:02 GOKU system_monitor[356]: HEALTH_OK User='sujal' CPU=9.3% RAM=54.7% ActiveSockets=178
+Sep 20 09:45:06 GOKU system_monitor[357]: HEALTH_OK User='sujal' CPU=24.0% RAM=54.7% ActiveSockets=178
+Sep 20 09:45:06 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:45:10 GOKU system_monitor[358]: HEALTH_OK User='sujal' CPU=15.1% RAM=54.8% ActiveSockets=178
+Sep 20 09:45:14 GOKU system_monitor[359]: HEALTH_OK User='sujal' CPU=13.3% RAM=54.8% ActiveSockets=178
+Sep 20 09:45:18 GOKU system_monitor[360]: HEALTH_OK User='sujal' CPU=11.8% RAM=54.8% ActiveSockets=178
+Sep 20 09:45:18 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:45:22 GOKU system_monitor[361]: HEALTH_OK User='sujal' CPU=11.0% RAM=54.7% ActiveSockets=178
+Sep 20 09:45:26 GOKU system_monitor[362]: HEALTH_OK User='sujal' CPU=11.6% RAM=54.7% ActiveSockets=178
+Sep 20 09:45:30 GOKU system_monitor[363]: HEALTH_OK User='sujal' CPU=11.2% RAM=54.7% ActiveSockets=178
+Sep 20 09:45:30 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:45:34 GOKU system_monitor[364]: HEALTH_OK User='sujal' CPU=14.8% RAM=54.8% ActiveSockets=180
+Sep 20 09:45:38 GOKU system_monitor[365]: HEALTH_OK User='sujal' CPU=8.8% RAM=54.8% ActiveSockets=180
+Sep 20 09:45:42 GOKU system_monitor[366]: HEALTH_OK User='sujal' CPU=13.0% RAM=54.8% ActiveSockets=180
+Sep 20 09:45:42 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:45:46 GOKU system_monitor[367]: HEALTH_OK User='sujal' CPU=26.6% RAM=55.0% ActiveSockets=178
+Sep 20 09:45:50 GOKU system_monitor[368]: HEALTH_OK User='sujal' CPU=17.6% RAM=54.9% ActiveSockets=178
+Sep 20 09:45:54 GOKU system_monitor[369]: HEALTH_OK User='sujal' CPU=11.1% RAM=54.9% ActiveSockets=178
+Sep 20 09:45:54 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:45:58 GOKU system_monitor[370]: HEALTH_OK User='sujal' CPU=8.2% RAM=54.8% ActiveSockets=178
+Sep 20 09:46:02 GOKU system_monitor[371]: HEALTH_OK User='sujal' CPU=19.8% RAM=54.6% ActiveSockets=181
+Sep 20 09:46:06 GOKU system_monitor[372]: HEALTH_OK User='sujal' CPU=11.8% RAM=54.6% ActiveSockets=181
+Sep 20 09:46:06 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:46:10 GOKU system_monitor[373]: HEALTH_OK User='sujal' CPU=9.6% RAM=54.5% ActiveSockets=180
+Sep 20 09:46:14 GOKU system_monitor[374]: HEALTH_OK User='sujal' CPU=14.1% RAM=54.5% ActiveSockets=179
+Sep 20 09:46:18 GOKU system_monitor[375]: HEALTH_OK User='sujal' CPU=6.2% RAM=54.5% ActiveSockets=179
+Sep 20 09:46:18 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:46:22 GOKU system_monitor[376]: HEALTH_OK User='sujal' CPU=9.3% RAM=54.5% ActiveSockets=181
+Sep 20 09:46:26 GOKU system_monitor[377]: HEALTH_OK User='sujal' CPU=16.2% RAM=54.5% ActiveSockets=179
+Sep 20 09:46:30 GOKU system_monitor[378]: HEALTH_OK User='sujal' CPU=19.9% RAM=54.6% ActiveSockets=179
+Sep 20 09:46:30 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:46:34 GOKU system_monitor[379]: HEALTH_OK User='sujal' CPU=17.9% RAM=54.5% ActiveSockets=179
+Sep 20 09:46:38 GOKU system_monitor[380]: HEALTH_OK User='sujal' CPU=11.5% RAM=54.5% ActiveSockets=180
+Sep 20 09:46:43 GOKU system_monitor[381]: HEALTH_OK User='sujal' CPU=31.1% RAM=54.6% ActiveSockets=181
+Sep 20 09:46:43 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:46:47 GOKU system_monitor[382]: HEALTH_OK User='sujal' CPU=34.6% RAM=54.8% ActiveSockets=181
+Sep 20 09:46:51 GOKU system_monitor[383]: HEALTH_OK User='sujal' CPU=16.9% RAM=54.5% ActiveSockets=180
+Sep 20 09:46:55 GOKU system_monitor[384]: HEALTH_OK User='sujal' CPU=24.1% RAM=54.6% ActiveSockets=182
+Sep 20 09:46:55 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:46:59 GOKU system_monitor[385]: HEALTH_OK User='sujal' CPU=8.7% RAM=53.0% ActiveSockets=182
+Sep 20 09:47:03 GOKU system_monitor[386]: HEALTH_OK User='sujal' CPU=28.2% RAM=53.2% ActiveSockets=182
+Sep 20 09:47:07 GOKU system_monitor[387]: HEALTH_OK User='sujal' CPU=6.2% RAM=53.2% ActiveSockets=182
+Sep 20 09:47:07 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:47:11 GOKU system_monitor[388]: HEALTH_OK User='sujal' CPU=13.8% RAM=53.2% ActiveSockets=182
+Sep 20 09:47:15 GOKU system_monitor[389]: HEALTH_OK User='sujal' CPU=6.4% RAM=53.2% ActiveSockets=182
+Sep 20 09:47:19 GOKU system_monitor[390]: HEALTH_OK User='sujal' CPU=8.2% RAM=53.2% ActiveSockets=182
+Sep 20 09:47:19 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:47:23 GOKU system_monitor[391]: HEALTH_OK User='sujal' CPU=30.9% RAM=53.2% ActiveSockets=183
+Sep 20 09:47:27 GOKU system_monitor[392]: HEALTH_OK User='sujal' CPU=11.5% RAM=53.1% ActiveSockets=183
+Sep 20 09:47:31 GOKU system_monitor[393]: HEALTH_OK User='sujal' CPU=19.8% RAM=53.4% ActiveSockets=182
+Sep 20 09:47:31 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:47:35 GOKU system_monitor[394]: HEALTH_OK User='sujal' CPU=8.2% RAM=51.2% ActiveSockets=181
+Sep 20 09:47:39 GOKU system_monitor[395]: HEALTH_OK User='sujal' CPU=9.3% RAM=51.3% ActiveSockets=181
+Sep 20 09:47:43 GOKU system_monitor[396]: HEALTH_OK User='sujal' CPU=14.8% RAM=51.5% ActiveSockets=182
+Sep 20 09:47:43 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:47:47 GOKU system_monitor[397]: HEALTH_OK User='sujal' CPU=13.5% RAM=51.9% ActiveSockets=182
+Sep 20 09:47:51 GOKU system_monitor[398]: HEALTH_OK User='sujal' CPU=20.9% RAM=51.7% ActiveSockets=181
+Sep 20 09:47:55 GOKU system_monitor[399]: HEALTH_OK User='sujal' CPU=8.6% RAM=51.8% ActiveSockets=181
+Sep 20 09:47:55 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:47:59 GOKU system_monitor[400]: HEALTH_OK User='sujal' CPU=45.9% RAM=52.0% ActiveSockets=181
+Sep 20 09:48:03 GOKU system_monitor[401]: HEALTH_OK User='sujal' CPU=16.1% RAM=52.1% ActiveSockets=182
+Sep 20 09:48:07 GOKU system_monitor[402]: HEALTH_OK User='sujal' CPU=8.6% RAM=52.0% ActiveSockets=182
+Sep 20 09:48:07 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:48:11 GOKU system_monitor[403]: HEALTH_OK User='sujal' CPU=37.7% RAM=52.1% ActiveSockets=182
+Sep 20 09:48:15 GOKU system_monitor[404]: HEALTH_OK User='sujal' CPU=24.7% RAM=52.1% ActiveSockets=182
+Sep 20 09:48:19 GOKU system_monitor[405]: HEALTH_OK User='sujal' CPU=15.7% RAM=52.1% ActiveSockets=182
+Sep 20 09:48:19 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:48:23 GOKU system_monitor[406]: HEALTH_OK User='sujal' CPU=17.8% RAM=52.0% ActiveSockets=180
+Sep 20 09:48:27 GOKU system_monitor[407]: HEALTH_OK User='sujal' CPU=9.9% RAM=52.0% ActiveSockets=180
+Sep 20 09:48:31 GOKU system_monitor[408]: HEALTH_OK User='sujal' CPU=23.2% RAM=52.0% ActiveSockets=180
+Sep 20 09:48:31 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:48:35 GOKU system_monitor[409]: HEALTH_OK User='sujal' CPU=14.9% RAM=52.1% ActiveSockets=180
+Sep 20 09:48:39 GOKU system_monitor[410]: HEALTH_OK User='sujal' CPU=11.9% RAM=52.1% ActiveSockets=180
+Sep 20 09:48:43 GOKU system_monitor[411]: HEALTH_OK User='sujal' CPU=12.8% RAM=52.1% ActiveSockets=180
+Sep 20 09:48:43 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:48:47 GOKU system_monitor[412]: HEALTH_OK User='sujal' CPU=23.0% RAM=52.3% ActiveSockets=179
+Sep 20 09:48:51 GOKU system_monitor[413]: HEALTH_OK User='sujal' CPU=7.5% RAM=52.2% ActiveSockets=179
+Sep 20 09:48:55 GOKU system_monitor[414]: HEALTH_OK User='sujal' CPU=12.5% RAM=52.1% ActiveSockets=179
+Sep 20 09:48:55 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:48:59 GOKU system_monitor[415]: HEALTH_OK User='sujal' CPU=11.5% RAM=52.1% ActiveSockets=179
+Sep 20 09:49:03 GOKU system_monitor[416]: HEALTH_OK User='sujal' CPU=12.5% RAM=52.1% ActiveSockets=179
+Sep 20 09:49:07 GOKU system_monitor[417]: HEALTH_OK User='sujal' CPU=12.8% RAM=52.1% ActiveSockets=179
+Sep 20 09:49:07 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:49:11 GOKU system_monitor[418]: HEALTH_OK User='sujal' CPU=24.5% RAM=52.1% ActiveSockets=179
+Sep 20 09:49:15 GOKU system_monitor[419]: HEALTH_OK User='sujal' CPU=5.0% RAM=52.2% ActiveSockets=177
+Sep 20 09:49:19 GOKU system_monitor[420]: HEALTH_OK User='sujal' CPU=15.8% RAM=52.2% ActiveSockets=177
+Sep 20 09:49:19 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:49:23 GOKU system_monitor[421]: HEALTH_OK User='sujal' CPU=20.8% RAM=52.2% ActiveSockets=177
+Sep 20 09:49:27 GOKU system_monitor[422]: HEALTH_OK User='sujal' CPU=9.4% RAM=52.1% ActiveSockets=177
+Sep 20 09:49:31 GOKU system_monitor[423]: HEALTH_OK User='sujal' CPU=18.9% RAM=52.1% ActiveSockets=178
+Sep 20 09:49:31 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:49:35 GOKU system_monitor[424]: HEALTH_OK User='sujal' CPU=10.7% RAM=52.1% ActiveSockets=178
+Sep 20 09:49:39 GOKU system_monitor[425]: HEALTH_OK User='sujal' CPU=11.3% RAM=52.1% ActiveSockets=178
+Sep 20 09:49:43 GOKU system_monitor[426]: HEALTH_OK User='sujal' CPU=25.0% RAM=52.2% ActiveSockets=179
+Sep 20 09:49:43 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:49:47 GOKU system_monitor[427]: HEALTH_OK User='sujal' CPU=33.2% RAM=52.5% ActiveSockets=181
+Sep 20 09:49:51 GOKU system_monitor[428]: HEALTH_OK User='sujal' CPU=14.2% RAM=52.2% ActiveSockets=179
+Sep 20 09:49:55 GOKU system_monitor[429]: HEALTH_OK User='sujal' CPU=16.1% RAM=52.1% ActiveSockets=179
+Sep 20 09:49:55 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:50:00 GOKU system_monitor[430]: HEALTH_OK User='sujal' CPU=14.1% RAM=52.1% ActiveSockets=179
+Sep 20 09:50:04 GOKU system_monitor[431]: HEALTH_OK User='sujal' CPU=21.7% RAM=52.2% ActiveSockets=179
+Sep 20 09:50:08 GOKU system_monitor[432]: HEALTH_OK User='sujal' CPU=27.8% RAM=52.2% ActiveSockets=178
+Sep 20 09:50:08 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:50:12 GOKU system_monitor[433]: HEALTH_OK User='sujal' CPU=17.0% RAM=52.2% ActiveSockets=178
+Sep 20 09:50:16 GOKU system_monitor[434]: HEALTH_OK User='sujal' CPU=8.4% RAM=52.2% ActiveSockets=178
+Sep 20 09:50:20 GOKU system_monitor[435]: HEALTH_OK User='sujal' CPU=15.2% RAM=52.2% ActiveSockets=178
+Sep 20 09:50:20 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:50:24 GOKU system_monitor[436]: HEALTH_OK User='sujal' CPU=25.8% RAM=52.2% ActiveSockets=178
+Sep 20 09:50:28 GOKU system_monitor[437]: HEALTH_OK User='sujal' CPU=24.7% RAM=52.2% ActiveSockets=178
+Sep 20 09:50:32 GOKU system_monitor[438]: HEALTH_OK User='sujal' CPU=7.4% RAM=52.2% ActiveSockets=184
+Sep 20 09:50:32 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:50:36 GOKU system_monitor[439]: HEALTH_OK User='sujal' CPU=11.4% RAM=52.2% ActiveSockets=184
+Sep 20 09:50:40 GOKU system_monitor[440]: HEALTH_OK User='sujal' CPU=9.7% RAM=52.2% ActiveSockets=184
+Sep 20 09:50:44 GOKU system_monitor[441]: HEALTH_OK User='sujal' CPU=8.6% RAM=52.2% ActiveSockets=182
+Sep 20 09:50:44 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:50:48 GOKU system_monitor[442]: HEALTH_OK User='sujal' CPU=13.2% RAM=52.3% ActiveSockets=182
+Sep 20 09:50:52 GOKU system_monitor[443]: HEALTH_OK User='sujal' CPU=21.4% RAM=52.3% ActiveSockets=181
+Sep 20 09:50:56 GOKU system_monitor[444]: HEALTH_OK User='sujal' CPU=12.0% RAM=52.3% ActiveSockets=181
+Sep 20 09:50:56 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:51:00 GOKU system_monitor[445]: HEALTH_OK User='sujal' CPU=11.7% RAM=52.2% ActiveSockets=180
+Sep 20 09:51:04 GOKU system_monitor[446]: HEALTH_OK User='sujal' CPU=24.2% RAM=52.4% ActiveSockets=181
+Sep 20 09:51:08 GOKU system_monitor[447]: HEALTH_OK User='sujal' CPU=17.0% RAM=52.4% ActiveSockets=182
+Sep 20 09:51:08 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:51:12 GOKU system_monitor[448]: HEALTH_OK User='sujal' CPU=29.0% RAM=52.4% ActiveSockets=182
+Sep 20 09:51:16 GOKU system_monitor[449]: HEALTH_OK User='sujal' CPU=21.7% RAM=52.4% ActiveSockets=182
+Sep 20 09:51:20 GOKU system_monitor[450]: HEALTH_OK User='sujal' CPU=23.7% RAM=52.4% ActiveSockets=182
+Sep 20 09:51:20 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:51:24 GOKU system_monitor[451]: HEALTH_OK User='sujal' CPU=17.5% RAM=52.4% ActiveSockets=182
+Sep 20 09:51:28 GOKU system_monitor[452]: HEALTH_OK User='sujal' CPU=5.8% RAM=52.4% ActiveSockets=182
+Sep 20 09:51:32 GOKU system_monitor[453]: HEALTH_OK User='sujal' CPU=8.1% RAM=52.3% ActiveSockets=182
+Sep 20 09:51:32 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:51:36 GOKU system_monitor[454]: HEALTH_OK User='sujal' CPU=7.0% RAM=52.3% ActiveSockets=182
+Sep 20 09:51:40 GOKU system_monitor[455]: HEALTH_OK User='sujal' CPU=11.4% RAM=52.3% ActiveSockets=182
+Sep 20 09:51:44 GOKU system_monitor[456]: HEALTH_OK User='sujal' CPU=7.0% RAM=52.3% ActiveSockets=182
+Sep 20 09:51:44 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:51:48 GOKU system_monitor[457]: HEALTH_OK User='sujal' CPU=19.6% RAM=52.6% ActiveSockets=183
+Sep 20 09:51:52 GOKU system_monitor[458]: HEALTH_OK User='sujal' CPU=5.1% RAM=52.4% ActiveSockets=182
+Sep 20 09:51:56 GOKU system_monitor[459]: HEALTH_OK User='sujal' CPU=11.1% RAM=52.3% ActiveSockets=182
+Sep 20 09:51:56 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:52:00 GOKU system_monitor[460]: HEALTH_OK User='sujal' CPU=18.8% RAM=51.8% ActiveSockets=182
+Sep 20 09:52:04 GOKU system_monitor[461]: HEALTH_OK User='sujal' CPU=11.3% RAM=51.7% ActiveSockets=180
+Sep 20 09:52:08 GOKU system_monitor[462]: HEALTH_OK User='sujal' CPU=13.4% RAM=51.7% ActiveSockets=180
+Sep 20 09:52:08 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:52:12 GOKU system_monitor[463]: HEALTH_OK User='sujal' CPU=17.2% RAM=51.7% ActiveSockets=180
+Sep 20 09:52:16 GOKU system_monitor[464]: HEALTH_OK User='sujal' CPU=15.0% RAM=51.7% ActiveSockets=180
+Sep 20 09:52:20 GOKU system_monitor[465]: HEALTH_OK User='sujal' CPU=15.0% RAM=51.7% ActiveSockets=179
+Sep 20 09:52:20 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:52:24 GOKU system_monitor[466]: HEALTH_OK User='sujal' CPU=8.3% RAM=51.8% ActiveSockets=181
+Sep 20 09:52:28 GOKU system_monitor[467]: HEALTH_OK User='sujal' CPU=18.2% RAM=51.8% ActiveSockets=181
+Sep 20 09:52:32 GOKU system_monitor[468]: HEALTH_OK User='sujal' CPU=23.4% RAM=51.9% ActiveSockets=183
+Sep 20 09:52:32 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:52:36 GOKU system_monitor[469]: HEALTH_OK User='sujal' CPU=24.2% RAM=51.9% ActiveSockets=181
+Sep 20 09:52:40 GOKU system_monitor[470]: HEALTH_OK User='sujal' CPU=5.1% RAM=51.9% ActiveSockets=181
+Sep 20 09:52:44 GOKU system_monitor[471]: HEALTH_OK User='sujal' CPU=40.8% RAM=51.9% ActiveSockets=181
+Sep 20 09:52:44 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:52:48 GOKU system_monitor[472]: HEALTH_OK User='sujal' CPU=32.8% RAM=52.0% ActiveSockets=182
+Sep 20 09:52:52 GOKU system_monitor[473]: HEALTH_OK User='sujal' CPU=11.9% RAM=52.0% ActiveSockets=183
+Sep 20 09:52:56 GOKU system_monitor[474]: HEALTH_OK User='sujal' CPU=7.4% RAM=51.9% ActiveSockets=181
+Sep 20 09:52:56 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:53:00 GOKU system_monitor[475]: HEALTH_OK User='sujal' CPU=19.5% RAM=51.8% ActiveSockets=181
+Sep 20 09:53:04 GOKU system_monitor[476]: HEALTH_OK User='sujal' CPU=14.1% RAM=51.9% ActiveSockets=181
+Sep 20 09:53:08 GOKU system_monitor[477]: HEALTH_OK User='sujal' CPU=30.4% RAM=51.9% ActiveSockets=181
+Sep 20 09:53:08 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:53:12 GOKU system_monitor[478]: HEALTH_OK User='sujal' CPU=19.9% RAM=52.1% ActiveSockets=181
+Sep 20 09:53:16 GOKU system_monitor[479]: HEALTH_OK User='sujal' CPU=6.4% RAM=52.0% ActiveSockets=181
+Sep 20 09:53:20 GOKU system_monitor[480]: HEALTH_OK User='sujal' CPU=11.4% RAM=52.0% ActiveSockets=180
+Sep 20 09:53:20 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:53:25 GOKU system_monitor[481]: HEALTH_OK User='sujal' CPU=15.1% RAM=52.1% ActiveSockets=180
+Sep 20 09:53:29 GOKU system_monitor[482]: HEALTH_OK User='sujal' CPU=9.3% RAM=52.0% ActiveSockets=180
+Sep 20 09:53:33 GOKU system_monitor[483]: HEALTH_OK User='sujal' CPU=20.2% RAM=52.0% ActiveSockets=180
+Sep 20 09:53:33 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:53:37 GOKU system_monitor[484]: HEALTH_OK User='sujal' CPU=24.1% RAM=51.9% ActiveSockets=181
+Sep 20 09:53:41 GOKU system_monitor[485]: HEALTH_OK User='sujal' CPU=10.3% RAM=52.0% ActiveSockets=180
+Sep 20 09:53:45 GOKU system_monitor[486]: HEALTH_OK User='sujal' CPU=21.8% RAM=52.0% ActiveSockets=180
+Sep 20 09:53:45 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:53:49 GOKU system_monitor[487]: HEALTH_OK User='sujal' CPU=11.5% RAM=52.0% ActiveSockets=180
+Sep 20 09:53:53 GOKU system_monitor[488]: HEALTH_OK User='sujal' CPU=13.2% RAM=52.0% ActiveSockets=177
+Sep 20 09:53:57 GOKU system_monitor[489]: HEALTH_OK User='sujal' CPU=5.8% RAM=51.9% ActiveSockets=176
+Sep 20 09:53:57 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:54:01 GOKU system_monitor[490]: HEALTH_OK User='sujal' CPU=13.1% RAM=51.9% ActiveSockets=176
+Sep 20 09:54:05 GOKU system_monitor[491]: HEALTH_OK User='sujal' CPU=9.0% RAM=51.9% ActiveSockets=176
+Sep 20 09:54:09 GOKU system_monitor[492]: HEALTH_OK User='sujal' CPU=32.0% RAM=52.0% ActiveSockets=178
+Sep 20 09:54:09 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:54:13 GOKU system_monitor[493]: HEALTH_OK User='sujal' CPU=37.1% RAM=52.0% ActiveSockets=178
+Sep 20 09:54:17 GOKU system_monitor[494]: HEALTH_OK User='sujal' CPU=8.8% RAM=51.9% ActiveSockets=178
+Sep 20 09:54:21 GOKU system_monitor[495]: HEALTH_OK User='sujal' CPU=15.0% RAM=51.9% ActiveSockets=178
+Sep 20 09:54:21 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:54:25 GOKU system_monitor[496]: HEALTH_OK User='sujal' CPU=18.3% RAM=52.0% ActiveSockets=178
+Sep 20 09:54:29 GOKU system_monitor[497]: HEALTH_OK User='sujal' CPU=15.3% RAM=52.0% ActiveSockets=178
+Sep 20 09:54:33 GOKU system_monitor[498]: HEALTH_OK User='sujal' CPU=12.8% RAM=51.9% ActiveSockets=178
+Sep 20 09:54:33 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:54:37 GOKU system_monitor[499]: HEALTH_OK User='sujal' CPU=22.4% RAM=51.8% ActiveSockets=178
+Sep 20 09:54:41 GOKU system_monitor[500]: HEALTH_OK User='sujal' CPU=7.0% RAM=51.9% ActiveSockets=178
+Sep 20 09:54:45 GOKU system_monitor[501]: HEALTH_OK User='sujal' CPU=18.2% RAM=51.9% ActiveSockets=178
+Sep 20 09:54:45 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:54:49 GOKU system_monitor[502]: HEALTH_OK User='sujal' CPU=25.0% RAM=51.9% ActiveSockets=178
+Sep 20 09:54:53 GOKU system_monitor[503]: HEALTH_OK User='sujal' CPU=13.5% RAM=52.0% ActiveSockets=178
+Sep 20 09:54:57 GOKU system_monitor[504]: HEALTH_OK User='sujal' CPU=12.4% RAM=51.9% ActiveSockets=178
+Sep 20 09:54:57 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:55:01 GOKU system_monitor[505]: HEALTH_OK User='sujal' CPU=21.8% RAM=52.2% ActiveSockets=178
+Sep 20 09:55:05 GOKU system_monitor[506]: HEALTH_OK User='sujal' CPU=14.8% RAM=52.2% ActiveSockets=178
+Sep 20 09:55:09 GOKU system_monitor[507]: HEALTH_OK User='sujal' CPU=8.4% RAM=52.2% ActiveSockets=178
+Sep 20 09:55:09 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:55:13 GOKU system_monitor[508]: HEALTH_OK User='sujal' CPU=17.0% RAM=52.2% ActiveSockets=178
+Sep 20 09:55:17 GOKU system_monitor[509]: HEALTH_OK User='sujal' CPU=8.3% RAM=52.2% ActiveSockets=178
+Sep 20 09:55:21 GOKU system_monitor[510]: HEALTH_OK User='sujal' CPU=18.0% RAM=52.1% ActiveSockets=178
+Sep 20 09:55:21 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:55:25 GOKU system_monitor[511]: HEALTH_OK User='sujal' CPU=16.7% RAM=52.2% ActiveSockets=178
+Sep 20 09:55:29 GOKU system_monitor[512]: HEALTH_OK User='sujal' CPU=6.6% RAM=52.2% ActiveSockets=177
+Sep 20 09:55:33 GOKU system_monitor[513]: HEALTH_OK User='sujal' CPU=15.3% RAM=52.2% ActiveSockets=179
+Sep 20 09:55:33 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:55:37 GOKU system_monitor[514]: HEALTH_OK User='sujal' CPU=28.4% RAM=52.3% ActiveSockets=179
+Sep 20 09:55:41 GOKU system_monitor[515]: HEALTH_OK User='sujal' CPU=35.2% RAM=52.3% ActiveSockets=180
+Sep 20 09:55:45 GOKU system_monitor[516]: HEALTH_OK User='sujal' CPU=19.7% RAM=52.3% ActiveSockets=178
+Sep 20 09:55:45 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:55:49 GOKU system_monitor[517]: HEALTH_OK User='sujal' CPU=18.7% RAM=52.4% ActiveSockets=177
+Sep 20 09:55:53 GOKU system_monitor[518]: HEALTH_OK User='sujal' CPU=49.4% RAM=52.4% ActiveSockets=177
+Sep 20 09:55:57 GOKU system_monitor[519]: HEALTH_OK User='sujal' CPU=29.2% RAM=52.3% ActiveSockets=177
+Sep 20 09:55:57 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:56:01 GOKU system_monitor[520]: HEALTH_OK User='sujal' CPU=9.2% RAM=52.0% ActiveSockets=177
+Sep 20 09:56:05 GOKU system_monitor[521]: HEALTH_OK User='sujal' CPU=13.7% RAM=52.0% ActiveSockets=178
+Sep 20 09:56:09 GOKU system_monitor[522]: HEALTH_OK User='sujal' CPU=13.4% RAM=52.0% ActiveSockets=178
+Sep 20 09:56:09 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:56:13 GOKU system_monitor[523]: HEALTH_OK User='sujal' CPU=10.8% RAM=52.1% ActiveSockets=179
+Sep 20 09:56:17 GOKU system_monitor[524]: HEALTH_OK User='sujal' CPU=9.5% RAM=52.0% ActiveSockets=179
+Sep 20 09:56:21 GOKU system_monitor[525]: HEALTH_OK User='sujal' CPU=48.5% RAM=52.0% ActiveSockets=179
+Sep 20 09:56:21 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:56:25 GOKU system_monitor[526]: HEALTH_OK User='sujal' CPU=9.7% RAM=52.0% ActiveSockets=179
+Sep 20 09:56:29 GOKU system_monitor[527]: HEALTH_OK User='sujal' CPU=9.9% RAM=52.0% ActiveSockets=179
+Sep 20 09:56:33 GOKU system_monitor[528]: HEALTH_OK User='sujal' CPU=12.0% RAM=52.0% ActiveSockets=179
+Sep 20 09:56:33 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:56:37 GOKU system_monitor[529]: HEALTH_OK User='sujal' CPU=6.6% RAM=52.0% ActiveSockets=179
+Sep 20 09:56:41 GOKU system_monitor[530]: HEALTH_OK User='sujal' CPU=11.4% RAM=52.0% ActiveSockets=180
+Sep 20 09:56:46 GOKU system_monitor[531]: HEALTH_OK User='sujal' CPU=18.8% RAM=52.0% ActiveSockets=179
+Sep 20 09:56:46 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:56:50 GOKU system_monitor[532]: HEALTH_OK User='sujal' CPU=23.7% RAM=52.0% ActiveSockets=179
+Sep 20 09:56:54 GOKU system_monitor[533]: HEALTH_OK User='sujal' CPU=10.1% RAM=52.0% ActiveSockets=178
+Sep 20 09:56:58 GOKU system_monitor[534]: HEALTH_OK User='sujal' CPU=7.2% RAM=52.0% ActiveSockets=178
+Sep 20 09:56:58 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:57:02 GOKU system_monitor[535]: HEALTH_OK User='sujal' CPU=10.0% RAM=51.6% ActiveSockets=178
+Sep 20 09:57:06 GOKU system_monitor[536]: HEALTH_OK User='sujal' CPU=24.4% RAM=51.5% ActiveSockets=178
+Sep 20 09:57:10 GOKU system_monitor[537]: HEALTH_OK User='sujal' CPU=11.6% RAM=51.6% ActiveSockets=179
+Sep 20 09:57:10 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:57:14 GOKU system_monitor[538]: HEALTH_OK User='sujal' CPU=23.5% RAM=51.6% ActiveSockets=179
+Sep 20 09:57:18 GOKU system_monitor[539]: HEALTH_OK User='sujal' CPU=8.7% RAM=51.6% ActiveSockets=180
+Sep 20 09:57:22 GOKU system_monitor[540]: HEALTH_OK User='sujal' CPU=28.4% RAM=51.5% ActiveSockets=181
+Sep 20 09:57:22 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:57:26 GOKU system_monitor[541]: HEALTH_OK User='sujal' CPU=8.4% RAM=51.5% ActiveSockets=179
+Sep 20 09:57:30 GOKU system_monitor[542]: HEALTH_OK User='sujal' CPU=7.2% RAM=51.5% ActiveSockets=179
+Sep 20 09:57:34 GOKU system_monitor[543]: HEALTH_OK User='sujal' CPU=16.1% RAM=51.5% ActiveSockets=179
+Sep 20 09:57:34 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:57:38 GOKU system_monitor[544]: HEALTH_OK User='sujal' CPU=11.0% RAM=51.5% ActiveSockets=178
+Sep 20 09:57:42 GOKU system_monitor[545]: HEALTH_OK User='sujal' CPU=15.2% RAM=51.5% ActiveSockets=178
+Sep 20 09:57:46 GOKU system_monitor[546]: HEALTH_OK User='sujal' CPU=18.9% RAM=51.5% ActiveSockets=178
+Sep 20 09:57:46 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:57:50 GOKU system_monitor[547]: HEALTH_OK User='sujal' CPU=19.1% RAM=51.5% ActiveSockets=178
+Sep 20 09:57:54 GOKU system_monitor[548]: HEALTH_OK User='sujal' CPU=20.9% RAM=51.5% ActiveSockets=180
+Sep 20 09:57:58 GOKU system_monitor[549]: HEALTH_OK User='sujal' CPU=27.3% RAM=51.5% ActiveSockets=180
+Sep 20 09:57:58 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:58:02 GOKU system_monitor[550]: HEALTH_OK User='sujal' CPU=9.5% RAM=51.5% ActiveSockets=180
+Sep 20 09:58:06 GOKU system_monitor[551]: HEALTH_OK User='sujal' CPU=16.3% RAM=51.5% ActiveSockets=180
+Sep 20 09:58:10 GOKU system_monitor[552]: HEALTH_OK User='sujal' CPU=7.1% RAM=51.5% ActiveSockets=180
+Sep 20 09:58:10 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:58:14 GOKU system_monitor[553]: HEALTH_OK User='sujal' CPU=21.8% RAM=51.6% ActiveSockets=180
+Sep 20 09:58:18 GOKU system_monitor[554]: HEALTH_OK User='sujal' CPU=22.9% RAM=51.6% ActiveSockets=180
+Sep 20 09:58:22 GOKU system_monitor[555]: HEALTH_OK User='sujal' CPU=12.1% RAM=51.6% ActiveSockets=180
+Sep 20 09:58:22 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:58:26 GOKU system_monitor[556]: HEALTH_OK User='sujal' CPU=7.0% RAM=51.6% ActiveSockets=179
+Sep 20 09:58:30 GOKU system_monitor[557]: HEALTH_OK User='sujal' CPU=8.9% RAM=51.6% ActiveSockets=179
+Sep 20 09:58:34 GOKU system_monitor[558]: HEALTH_OK User='sujal' CPU=14.5% RAM=51.6% ActiveSockets=179
+Sep 20 09:58:34 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:58:38 GOKU system_monitor[559]: HEALTH_OK User='sujal' CPU=12.8% RAM=51.5% ActiveSockets=180
+Sep 20 09:58:42 GOKU system_monitor[560]: HEALTH_OK User='sujal' CPU=28.9% RAM=51.7% ActiveSockets=180
+Sep 20 09:58:46 GOKU system_monitor[561]: HEALTH_OK User='sujal' CPU=32.2% RAM=51.9% ActiveSockets=180
+Sep 20 09:58:46 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:58:50 GOKU system_monitor[562]: HEALTH_OK User='sujal' CPU=44.0% RAM=51.7% ActiveSockets=180
+Sep 20 09:58:54 GOKU system_monitor[563]: HEALTH_OK User='sujal' CPU=14.2% RAM=51.7% ActiveSockets=180
+Sep 20 09:58:58 GOKU system_monitor[564]: HEALTH_OK User='sujal' CPU=12.9% RAM=51.7% ActiveSockets=180
+Sep 20 09:58:58 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:59:02 GOKU system_monitor[565]: HEALTH_OK User='sujal' CPU=14.6% RAM=51.7% ActiveSockets=180
+Sep 20 09:59:06 GOKU system_monitor[566]: HEALTH_OK User='sujal' CPU=13.1% RAM=51.6% ActiveSockets=180
+Sep 20 09:59:10 GOKU system_monitor[567]: HEALTH_OK User='sujal' CPU=9.6% RAM=51.6% ActiveSockets=180
+Sep 20 09:59:10 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:59:14 GOKU system_monitor[568]: HEALTH_OK User='sujal' CPU=9.9% RAM=51.7% ActiveSockets=183
+Sep 20 09:59:18 GOKU system_monitor[569]: HEALTH_OK User='sujal' CPU=11.2% RAM=51.7% ActiveSockets=181
+Sep 20 09:59:22 GOKU system_monitor[570]: HEALTH_OK User='sujal' CPU=30.3% RAM=51.7% ActiveSockets=181
+Sep 20 09:59:22 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:59:26 GOKU system_monitor[571]: HEALTH_OK User='sujal' CPU=13.3% RAM=51.7% ActiveSockets=179
+Sep 20 09:59:30 GOKU system_monitor[572]: HEALTH_OK User='sujal' CPU=8.5% RAM=51.6% ActiveSockets=179
+Sep 20 09:59:34 GOKU system_monitor[573]: HEALTH_OK User='sujal' CPU=7.0% RAM=51.6% ActiveSockets=179
+Sep 20 09:59:34 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:59:38 GOKU system_monitor[574]: HEALTH_OK User='sujal' CPU=11.1% RAM=51.6% ActiveSockets=179
+Sep 20 09:59:42 GOKU system_monitor[575]: HEALTH_OK User='sujal' CPU=17.0% RAM=51.6% ActiveSockets=179
+Sep 20 09:59:46 GOKU system_monitor[576]: HEALTH_OK User='sujal' CPU=40.1% RAM=51.8% ActiveSockets=180
+Sep 20 09:59:46 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 09:59:50 GOKU system_monitor[577]: HEALTH_OK User='sujal' CPU=17.6% RAM=51.6% ActiveSockets=179
+Sep 20 09:59:54 GOKU system_monitor[578]: HEALTH_OK User='sujal' CPU=7.8% RAM=51.6% ActiveSockets=179
+Sep 20 09:59:59 GOKU system_monitor[579]: HEALTH_OK User='sujal' CPU=11.1% RAM=51.6% ActiveSockets=177
+Sep 20 09:59:59 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:00:03 GOKU system_monitor[580]: HEALTH_OK User='sujal' CPU=14.0% RAM=51.6% ActiveSockets=177
+Sep 20 10:00:07 GOKU system_monitor[581]: HEALTH_OK User='sujal' CPU=8.5% RAM=51.6% ActiveSockets=177
+Sep 20 10:00:11 GOKU system_monitor[582]: HEALTH_OK User='sujal' CPU=48.1% RAM=51.6% ActiveSockets=178
+Sep 20 10:00:11 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:00:15 GOKU system_monitor[583]: HEALTH_OK User='sujal' CPU=17.5% RAM=51.6% ActiveSockets=178
+Sep 20 10:00:19 GOKU system_monitor[584]: HEALTH_OK User='sujal' CPU=19.7% RAM=51.6% ActiveSockets=178
+Sep 20 10:00:23 GOKU system_monitor[585]: HEALTH_OK User='sujal' CPU=33.5% RAM=51.7% ActiveSockets=178
+Sep 20 10:00:23 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:00:27 GOKU system_monitor[586]: HEALTH_OK User='sujal' CPU=20.6% RAM=51.7% ActiveSockets=178
+Sep 20 10:00:31 GOKU system_monitor[587]: HEALTH_OK User='sujal' CPU=33.6% RAM=51.7% ActiveSockets=178
+Sep 20 10:00:35 GOKU system_monitor[588]: HEALTH_OK User='sujal' CPU=19.3% RAM=51.7% ActiveSockets=182
+Sep 20 10:00:35 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:00:39 GOKU system_monitor[589]: HEALTH_OK User='sujal' CPU=14.6% RAM=51.7% ActiveSockets=182
+Sep 20 10:00:43 GOKU system_monitor[590]: HEALTH_OK User='sujal' CPU=14.5% RAM=51.8% ActiveSockets=180
+Sep 20 10:00:47 GOKU system_monitor[591]: HEALTH_OK User='sujal' CPU=25.8% RAM=51.9% ActiveSockets=180
+Sep 20 10:00:47 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:00:51 GOKU system_monitor[592]: HEALTH_OK User='sujal' CPU=10.6% RAM=51.8% ActiveSockets=180
+Sep 20 10:00:55 GOKU system_monitor[593]: HEALTH_OK User='sujal' CPU=6.2% RAM=51.8% ActiveSockets=180
+Sep 20 10:00:59 GOKU system_monitor[594]: HEALTH_OK User='sujal' CPU=14.0% RAM=51.7% ActiveSockets=182
+Sep 20 10:00:59 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:01:03 GOKU system_monitor[595]: HEALTH_OK User='sujal' CPU=23.9% RAM=51.8% ActiveSockets=180
+Sep 20 10:01:07 GOKU system_monitor[596]: HEALTH_OK User='sujal' CPU=11.9% RAM=51.8% ActiveSockets=181
+Sep 20 10:01:11 GOKU system_monitor[597]: HEALTH_OK User='sujal' CPU=22.9% RAM=51.8% ActiveSockets=181
+Sep 20 10:01:11 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:01:15 GOKU system_monitor[598]: HEALTH_OK User='sujal' CPU=22.4% RAM=51.7% ActiveSockets=181
+Sep 20 10:01:19 GOKU system_monitor[599]: HEALTH_OK User='sujal' CPU=7.8% RAM=51.6% ActiveSockets=181
+Sep 20 10:01:23 GOKU system_monitor[600]: HEALTH_OK User='sujal' CPU=9.4% RAM=51.7% ActiveSockets=181
+Sep 20 10:01:23 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:01:27 GOKU system_monitor[601]: HEALTH_OK User='sujal' CPU=9.4% RAM=51.6% ActiveSockets=180
+Sep 20 10:01:31 GOKU system_monitor[602]: HEALTH_OK User='sujal' CPU=14.0% RAM=51.7% ActiveSockets=180
+Sep 20 10:01:35 GOKU system_monitor[603]: HEALTH_OK User='sujal' CPU=7.6% RAM=51.7% ActiveSockets=179
+Sep 20 10:01:35 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:01:39 GOKU system_monitor[604]: HEALTH_OK User='sujal' CPU=24.1% RAM=51.6% ActiveSockets=180
+Sep 20 10:01:43 GOKU system_monitor[605]: HEALTH_OK User='sujal' CPU=18.1% RAM=51.7% ActiveSockets=181
+Sep 20 10:01:47 GOKU system_monitor[606]: HEALTH_OK User='sujal' CPU=22.9% RAM=51.9% ActiveSockets=181
+Sep 20 10:01:47 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:01:51 GOKU system_monitor[607]: HEALTH_OK User='sujal' CPU=34.8% RAM=51.7% ActiveSockets=181
+Sep 20 10:01:55 GOKU system_monitor[608]: HEALTH_OK User='sujal' CPU=14.2% RAM=51.8% ActiveSockets=181
+Sep 20 10:01:59 GOKU system_monitor[609]: HEALTH_OK User='sujal' CPU=15.8% RAM=51.7% ActiveSockets=181
+Sep 20 10:01:59 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:02:03 GOKU system_monitor[610]: HEALTH_OK User='sujal' CPU=19.0% RAM=51.7% ActiveSockets=179
+Sep 20 10:02:07 GOKU system_monitor[611]: HEALTH_OK User='sujal' CPU=13.7% RAM=51.7% ActiveSockets=179
+Sep 20 10:02:11 GOKU system_monitor[612]: HEALTH_OK User='sujal' CPU=6.8% RAM=51.7% ActiveSockets=179
+Sep 20 10:02:11 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:02:15 GOKU system_monitor[613]: HEALTH_OK User='sujal' CPU=7.5% RAM=51.6% ActiveSockets=179
+Sep 20 10:02:19 GOKU system_monitor[614]: HEALTH_OK User='sujal' CPU=10.4% RAM=51.6% ActiveSockets=179
+Sep 20 10:02:23 GOKU system_monitor[615]: HEALTH_OK User='sujal' CPU=17.0% RAM=51.6% ActiveSockets=179
+Sep 20 10:02:23 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:02:27 GOKU system_monitor[616]: HEALTH_OK User='sujal' CPU=9.7% RAM=51.7% ActiveSockets=179
+Sep 20 10:02:31 GOKU system_monitor[617]: HEALTH_OK User='sujal' CPU=9.3% RAM=51.7% ActiveSockets=179
+Sep 20 10:02:35 GOKU system_monitor[618]: HEALTH_OK User='sujal' CPU=15.3% RAM=51.7% ActiveSockets=179
+Sep 20 10:02:35 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:02:39 GOKU system_monitor[619]: HEALTH_OK User='sujal' CPU=9.4% RAM=51.7% ActiveSockets=178
+Sep 20 10:02:43 GOKU system_monitor[620]: HEALTH_OK User='sujal' CPU=16.0% RAM=51.7% ActiveSockets=178
+Sep 20 10:02:47 GOKU system_monitor[621]: HEALTH_OK User='sujal' CPU=28.3% RAM=51.9% ActiveSockets=178
+Sep 20 10:02:47 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:02:51 GOKU system_monitor[622]: HEALTH_OK User='sujal' CPU=25.0% RAM=51.7% ActiveSockets=211
+Sep 20 10:02:55 GOKU system_monitor[623]: HEALTH_OK User='sujal' CPU=30.6% RAM=51.8% ActiveSockets=177
+Sep 20 10:02:59 GOKU system_monitor[624]: HEALTH_OK User='sujal' CPU=28.5% RAM=51.7% ActiveSockets=177
+Sep 20 10:03:00 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:03:04 GOKU system_monitor[625]: HEALTH_OK User='sujal' CPU=7.6% RAM=51.8% ActiveSockets=177
+Sep 20 10:03:08 GOKU system_monitor[626]: HEALTH_OK User='sujal' CPU=8.9% RAM=51.9% ActiveSockets=176
+Sep 20 10:03:12 GOKU system_monitor[627]: HEALTH_OK User='sujal' CPU=13.5% RAM=51.9% ActiveSockets=177
+Sep 20 10:03:12 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:03:16 GOKU system_monitor[628]: HEALTH_OK User='sujal' CPU=18.6% RAM=52.0% ActiveSockets=178
+Sep 20 10:03:20 GOKU system_monitor[629]: HEALTH_OK User='sujal' CPU=15.8% RAM=52.0% ActiveSockets=178
+Sep 20 10:03:24 GOKU system_monitor[630]: HEALTH_OK User='sujal' CPU=29.9% RAM=51.9% ActiveSockets=181
+Sep 20 10:03:24 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:03:28 GOKU system_monitor[631]: HEALTH_OK User='sujal' CPU=11.8% RAM=51.8% ActiveSockets=178
+Sep 20 10:03:32 GOKU system_monitor[632]: HEALTH_OK User='sujal' CPU=9.7% RAM=51.8% ActiveSockets=178
+Sep 20 10:03:36 GOKU system_monitor[633]: HEALTH_OK User='sujal' CPU=8.7% RAM=51.8% ActiveSockets=178
+Sep 20 10:03:36 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:03:40 GOKU system_monitor[634]: HEALTH_OK User='sujal' CPU=12.0% RAM=51.8% ActiveSockets=178
+Sep 20 10:03:44 GOKU system_monitor[635]: HEALTH_OK User='sujal' CPU=12.4% RAM=51.9% ActiveSockets=178
+Sep 20 10:03:48 GOKU system_monitor[636]: HEALTH_OK User='sujal' CPU=26.7% RAM=52.1% ActiveSockets=180
+Sep 20 10:03:48 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:03:52 GOKU system_monitor[637]: HEALTH_OK User='sujal' CPU=10.1% RAM=52.0% ActiveSockets=180
+Sep 20 10:03:56 GOKU system_monitor[638]: HEALTH_OK User='sujal' CPU=7.0% RAM=51.9% ActiveSockets=180
+Sep 20 10:04:00 GOKU system_monitor[639]: HEALTH_OK User='sujal' CPU=11.5% RAM=51.9% ActiveSockets=180
+Sep 20 10:04:00 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:04:04 GOKU system_monitor[640]: HEALTH_OK User='sujal' CPU=10.9% RAM=51.9% ActiveSockets=180
+Sep 20 10:04:08 GOKU system_monitor[641]: HEALTH_OK User='sujal' CPU=15.1% RAM=51.9% ActiveSockets=180
+Sep 20 10:04:12 GOKU system_monitor[642]: HEALTH_OK User='sujal' CPU=4.5% RAM=51.9% ActiveSockets=180
+Sep 20 10:04:12 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:04:16 GOKU system_monitor[643]: HEALTH_OK User='sujal' CPU=9.3% RAM=51.9% ActiveSockets=180
+Sep 20 10:04:20 GOKU system_monitor[644]: HEALTH_OK User='sujal' CPU=22.4% RAM=51.9% ActiveSockets=180
+Sep 20 10:04:24 GOKU system_monitor[645]: HEALTH_OK User='sujal' CPU=5.3% RAM=51.8% ActiveSockets=180
+Sep 20 10:04:24 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:04:28 GOKU system_monitor[646]: HEALTH_OK User='sujal' CPU=6.8% RAM=51.8% ActiveSockets=180
+Sep 20 10:04:32 GOKU system_monitor[647]: HEALTH_OK User='sujal' CPU=14.6% RAM=51.7% ActiveSockets=179
+Sep 20 10:04:36 GOKU system_monitor[648]: HEALTH_OK User='sujal' CPU=13.3% RAM=51.7% ActiveSockets=179
+Sep 20 10:04:36 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:04:40 GOKU system_monitor[649]: HEALTH_OK User='sujal' CPU=9.5% RAM=51.7% ActiveSockets=179
+Sep 20 10:04:44 GOKU system_monitor[650]: HEALTH_OK User='sujal' CPU=28.5% RAM=51.8% ActiveSockets=180
+Sep 20 10:04:48 GOKU system_monitor[651]: HEALTH_OK User='sujal' CPU=18.4% RAM=51.8% ActiveSockets=181
+Sep 20 10:04:48 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:04:52 GOKU system_monitor[652]: HEALTH_OK User='sujal' CPU=29.1% RAM=51.9% ActiveSockets=178
+Sep 20 10:04:56 GOKU system_monitor[653]: HEALTH_OK User='sujal' CPU=7.5% RAM=51.9% ActiveSockets=179
+Sep 20 10:05:00 GOKU system_monitor[654]: HEALTH_OK User='sujal' CPU=20.8% RAM=52.0% ActiveSockets=178
+Sep 20 10:05:00 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:05:04 GOKU system_monitor[655]: HEALTH_OK User='sujal' CPU=6.0% RAM=52.0% ActiveSockets=178
+Sep 20 10:05:08 GOKU system_monitor[656]: HEALTH_OK User='sujal' CPU=18.4% RAM=51.2% ActiveSockets=178
+Sep 20 10:05:12 GOKU system_monitor[657]: HEALTH_OK User='sujal' CPU=7.2% RAM=51.2% ActiveSockets=178
+Sep 20 10:05:12 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:05:16 GOKU system_monitor[658]: HEALTH_OK User='sujal' CPU=8.9% RAM=51.2% ActiveSockets=178
+Sep 20 10:05:20 GOKU system_monitor[659]: HEALTH_OK User='sujal' CPU=16.8% RAM=51.2% ActiveSockets=178
+Sep 20 10:05:24 GOKU system_monitor[660]: HEALTH_OK User='sujal' CPU=10.3% RAM=51.2% ActiveSockets=178
+Sep 20 10:05:24 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:05:28 GOKU system_monitor[661]: HEALTH_OK User='sujal' CPU=12.5% RAM=51.2% ActiveSockets=178
+Sep 20 10:05:32 GOKU system_monitor[662]: HEALTH_OK User='sujal' CPU=22.8% RAM=51.2% ActiveSockets=180
+Sep 20 10:05:36 GOKU system_monitor[663]: HEALTH_OK User='sujal' CPU=17.7% RAM=51.3% ActiveSockets=180
+Sep 20 10:05:36 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:05:40 GOKU system_monitor[664]: HEALTH_OK User='sujal' CPU=10.3% RAM=51.4% ActiveSockets=181
+Sep 20 10:05:44 GOKU system_monitor[665]: HEALTH_OK User='sujal' CPU=11.8% RAM=51.4% ActiveSockets=179
+Sep 20 10:05:48 GOKU system_monitor[666]: HEALTH_OK User='sujal' CPU=17.5% RAM=51.4% ActiveSockets=180
+Sep 20 10:05:48 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:05:52 GOKU system_monitor[667]: HEALTH_OK User='sujal' CPU=33.3% RAM=51.3% ActiveSockets=181
+Sep 20 10:05:56 GOKU system_monitor[668]: HEALTH_OK User='sujal' CPU=10.9% RAM=51.3% ActiveSockets=179
+Sep 20 10:06:00 GOKU system_monitor[669]: HEALTH_OK User='sujal' CPU=17.5% RAM=51.2% ActiveSockets=179
+Sep 20 10:06:00 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:06:04 GOKU system_monitor[670]: HEALTH_OK User='sujal' CPU=12.4% RAM=51.2% ActiveSockets=177
+Sep 20 10:06:08 GOKU system_monitor[671]: HEALTH_OK User='sujal' CPU=8.5% RAM=51.1% ActiveSockets=179
+Sep 20 10:06:12 GOKU system_monitor[672]: HEALTH_OK User='sujal' CPU=32.7% RAM=51.2% ActiveSockets=183
+Sep 20 10:06:12 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:06:16 GOKU system_monitor[673]: HEALTH_OK User='sujal' CPU=19.2% RAM=51.2% ActiveSockets=183
+Sep 20 10:06:20 GOKU system_monitor[674]: HEALTH_OK User='sujal' CPU=21.0% RAM=51.3% ActiveSockets=183
+Sep 20 10:06:24 GOKU system_monitor[675]: HEALTH_OK User='sujal' CPU=16.5% RAM=51.2% ActiveSockets=183
+Sep 20 10:06:24 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:06:28 GOKU system_monitor[676]: HEALTH_OK User='sujal' CPU=20.9% RAM=51.3% ActiveSockets=184
+Sep 20 10:06:32 GOKU system_monitor[677]: HEALTH_OK User='sujal' CPU=21.7% RAM=51.2% ActiveSockets=183
+Sep 20 10:06:37 GOKU system_monitor[678]: HEALTH_OK User='sujal' CPU=19.4% RAM=51.2% ActiveSockets=183
+Sep 20 10:06:37 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:06:41 GOKU system_monitor[679]: HEALTH_OK User='sujal' CPU=23.9% RAM=51.5% ActiveSockets=184
+Sep 20 10:06:45 GOKU system_monitor[680]: HEALTH_OK User='sujal' CPU=19.8% RAM=51.5% ActiveSockets=184
+Sep 20 10:06:49 GOKU system_monitor[681]: HEALTH_OK User='sujal' CPU=29.5% RAM=51.5% ActiveSockets=184
+Sep 20 10:06:49 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:06:53 GOKU system_monitor[682]: HEALTH_OK User='sujal' CPU=15.6% RAM=51.5% ActiveSockets=184
+Sep 20 10:06:57 GOKU system_monitor[683]: HEALTH_OK User='sujal' CPU=15.4% RAM=51.4% ActiveSockets=184
+Sep 20 10:07:01 GOKU system_monitor[684]: HEALTH_OK User='sujal' CPU=19.9% RAM=51.4% ActiveSockets=184
+Sep 20 10:07:01 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:07:05 GOKU system_monitor[685]: HEALTH_OK User='sujal' CPU=14.8% RAM=51.4% ActiveSockets=184
+Sep 20 10:07:09 GOKU system_monitor[686]: HEALTH_OK User='sujal' CPU=19.3% RAM=51.4% ActiveSockets=184
+Sep 20 10:07:13 GOKU system_monitor[687]: HEALTH_OK User='sujal' CPU=11.7% RAM=51.4% ActiveSockets=184
+Sep 20 10:07:13 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:07:17 GOKU system_monitor[688]: HEALTH_OK User='sujal' CPU=21.0% RAM=51.4% ActiveSockets=184
+Sep 20 10:07:21 GOKU system_monitor[689]: HEALTH_OK User='sujal' CPU=23.4% RAM=51.5% ActiveSockets=184
+Sep 20 10:07:25 GOKU system_monitor[690]: HEALTH_OK User='sujal' CPU=17.5% RAM=51.5% ActiveSockets=183
+Sep 20 10:07:25 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:07:29 GOKU system_monitor[691]: HEALTH_OK User='sujal' CPU=13.4% RAM=51.7% ActiveSockets=182
+Sep 20 10:07:33 GOKU system_monitor[692]: HEALTH_OK User='sujal' CPU=14.5% RAM=51.8% ActiveSockets=181
+Sep 20 10:07:37 GOKU system_monitor[693]: HEALTH_OK User='sujal' CPU=7.0% RAM=51.8% ActiveSockets=180
+Sep 20 10:07:37 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:07:41 GOKU system_monitor[694]: HEALTH_OK User='sujal' CPU=20.3% RAM=51.9% ActiveSockets=180
+Sep 20 10:07:45 GOKU system_monitor[695]: HEALTH_OK User='sujal' CPU=19.8% RAM=52.0% ActiveSockets=179
+Sep 20 10:07:49 GOKU system_monitor[696]: HEALTH_OK User='sujal' CPU=29.6% RAM=52.1% ActiveSockets=181
+Sep 20 10:07:49 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:07:53 GOKU system_monitor[697]: HEALTH_OK User='sujal' CPU=29.7% RAM=52.0% ActiveSockets=181
+Sep 20 10:07:57 GOKU system_monitor[698]: HEALTH_OK User='sujal' CPU=11.4% RAM=51.9% ActiveSockets=181
+Sep 20 10:08:01 GOKU system_monitor[699]: HEALTH_OK User='sujal' CPU=31.6% RAM=52.0% ActiveSockets=181
+Sep 20 10:08:01 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:08:05 GOKU system_monitor[700]: HEALTH_OK User='sujal' CPU=9.7% RAM=52.0% ActiveSockets=181
+Sep 20 10:08:09 GOKU system_monitor[701]: HEALTH_OK User='sujal' CPU=16.3% RAM=52.0% ActiveSockets=181
+Sep 20 10:08:13 GOKU system_monitor[702]: HEALTH_OK User='sujal' CPU=13.4% RAM=51.9% ActiveSockets=180
+Sep 20 10:08:13 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:08:17 GOKU system_monitor[703]: HEALTH_OK User='sujal' CPU=7.0% RAM=51.9% ActiveSockets=179
+Sep 20 10:08:21 GOKU system_monitor[704]: HEALTH_OK User='sujal' CPU=12.7% RAM=51.9% ActiveSockets=179
+Sep 20 10:08:25 GOKU system_monitor[705]: HEALTH_OK User='sujal' CPU=7.6% RAM=51.9% ActiveSockets=179
+Sep 20 10:08:25 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:08:29 GOKU system_monitor[706]: HEALTH_OK User='sujal' CPU=21.9% RAM=51.9% ActiveSockets=179
+Sep 20 10:08:33 GOKU system_monitor[707]: HEALTH_OK User='sujal' CPU=14.9% RAM=51.9% ActiveSockets=179
+Sep 20 10:08:37 GOKU system_monitor[708]: HEALTH_OK User='sujal' CPU=12.6% RAM=51.9% ActiveSockets=179
+Sep 20 10:08:37 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:08:41 GOKU system_monitor[709]: HEALTH_OK User='sujal' CPU=10.1% RAM=51.9% ActiveSockets=179
+Sep 20 10:08:45 GOKU system_monitor[710]: HEALTH_OK User='sujal' CPU=10.3% RAM=51.9% ActiveSockets=179
+Sep 20 10:08:49 GOKU system_monitor[711]: HEALTH_OK User='sujal' CPU=15.9% RAM=51.9% ActiveSockets=179
+Sep 20 10:08:49 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:08:53 GOKU system_monitor[712]: HEALTH_OK User='sujal' CPU=13.0% RAM=51.9% ActiveSockets=181
+Sep 20 10:08:57 GOKU system_monitor[713]: HEALTH_OK User='sujal' CPU=9.1% RAM=51.8% ActiveSockets=181
+Sep 20 10:09:01 GOKU system_monitor[714]: HEALTH_OK User='sujal' CPU=11.0% RAM=51.8% ActiveSockets=180
+Sep 20 10:09:01 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:09:05 GOKU system_monitor[715]: HEALTH_OK User='sujal' CPU=5.4% RAM=51.8% ActiveSockets=179
+Sep 20 10:09:09 GOKU system_monitor[716]: HEALTH_OK User='sujal' CPU=30.6% RAM=51.8% ActiveSockets=178
+Sep 20 10:09:13 GOKU system_monitor[717]: HEALTH_OK User='sujal' CPU=9.4% RAM=51.8% ActiveSockets=178
+Sep 20 10:09:13 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:09:17 GOKU system_monitor[718]: HEALTH_OK User='sujal' CPU=24.5% RAM=51.8% ActiveSockets=179
+Sep 20 10:09:21 GOKU system_monitor[719]: HEALTH_OK User='sujal' CPU=33.0% RAM=51.9% ActiveSockets=179
+Sep 20 10:09:25 GOKU system_monitor[720]: HEALTH_OK User='sujal' CPU=8.2% RAM=51.9% ActiveSockets=179
+Sep 20 10:09:25 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:09:29 GOKU system_monitor[721]: HEALTH_OK User='sujal' CPU=17.0% RAM=51.9% ActiveSockets=179
+Sep 20 10:09:33 GOKU system_monitor[722]: HEALTH_OK User='sujal' CPU=8.8% RAM=51.9% ActiveSockets=179
+Sep 20 10:09:37 GOKU system_monitor[723]: HEALTH_OK User='sujal' CPU=25.8% RAM=51.9% ActiveSockets=179
+Sep 20 10:09:37 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:09:41 GOKU system_monitor[724]: HEALTH_OK User='sujal' CPU=12.9% RAM=52.3% ActiveSockets=179
+Sep 20 10:09:45 GOKU system_monitor[725]: HEALTH_OK User='sujal' CPU=9.7% RAM=51.8% ActiveSockets=179
+Sep 20 10:09:50 GOKU system_monitor[726]: HEALTH_OK User='sujal' CPU=22.7% RAM=51.8% ActiveSockets=179
+Sep 20 10:09:50 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:09:54 GOKU system_monitor[727]: HEALTH_OK User='sujal' CPU=7.8% RAM=51.8% ActiveSockets=179
+Sep 20 10:09:58 GOKU system_monitor[728]: HEALTH_OK User='sujal' CPU=10.2% RAM=51.8% ActiveSockets=179
+Sep 20 10:10:02 GOKU system_monitor[729]: HEALTH_OK User='sujal' CPU=23.3% RAM=51.8% ActiveSockets=179
+Sep 20 10:10:02 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:10:06 GOKU system_monitor[730]: HEALTH_OK User='sujal' CPU=14.8% RAM=51.8% ActiveSockets=179
+Sep 20 10:10:10 GOKU system_monitor[731]: HEALTH_OK User='sujal' CPU=9.0% RAM=51.8% ActiveSockets=179
+Sep 20 10:10:14 GOKU system_monitor[732]: HEALTH_OK User='sujal' CPU=7.2% RAM=51.8% ActiveSockets=179
+Sep 20 10:10:14 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:10:18 GOKU system_monitor[733]: HEALTH_OK User='sujal' CPU=27.1% RAM=51.8% ActiveSockets=179
+Sep 20 10:10:22 GOKU system_monitor[734]: HEALTH_OK User='sujal' CPU=8.2% RAM=51.8% ActiveSockets=179
+Sep 20 10:10:26 GOKU system_monitor[735]: HEALTH_OK User='sujal' CPU=5.8% RAM=51.9% ActiveSockets=176
+Sep 20 10:10:26 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:10:30 GOKU system_monitor[736]: HEALTH_OK User='sujal' CPU=8.4% RAM=51.9% ActiveSockets=176
+Sep 20 10:10:34 GOKU system_monitor[737]: HEALTH_OK User='sujal' CPU=25.0% RAM=51.9% ActiveSockets=180
+Sep 20 10:10:38 GOKU system_monitor[738]: HEALTH_OK User='sujal' CPU=12.9% RAM=51.8% ActiveSockets=178
+Sep 20 10:10:38 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:10:42 GOKU system_monitor[739]: HEALTH_OK User='sujal' CPU=7.6% RAM=51.8% ActiveSockets=178
+Sep 20 10:10:46 GOKU system_monitor[740]: HEALTH_OK User='sujal' CPU=26.4% RAM=52.0% ActiveSockets=176
+Sep 20 10:10:50 GOKU system_monitor[741]: HEALTH_OK User='sujal' CPU=40.7% RAM=51.9% ActiveSockets=177
+Sep 20 10:10:50 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:10:54 GOKU system_monitor[742]: HEALTH_OK User='sujal' CPU=10.0% RAM=51.9% ActiveSockets=177
+Sep 20 10:10:58 GOKU system_monitor[743]: HEALTH_OK User='sujal' CPU=9.7% RAM=51.9% ActiveSockets=177
+Sep 20 10:11:02 GOKU system_monitor[744]: HEALTH_OK User='sujal' CPU=29.6% RAM=51.9% ActiveSockets=182
+Sep 20 10:11:02 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:11:06 GOKU system_monitor[745]: HEALTH_OK User='sujal' CPU=14.1% RAM=51.9% ActiveSockets=178
+Sep 20 10:11:10 GOKU system_monitor[746]: HEALTH_OK User='sujal' CPU=9.7% RAM=51.9% ActiveSockets=181
+Sep 20 10:11:14 GOKU system_monitor[747]: HEALTH_OK User='sujal' CPU=5.0% RAM=51.9% ActiveSockets=181
+Sep 20 10:11:14 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:11:18 GOKU system_monitor[748]: HEALTH_OK User='sujal' CPU=8.1% RAM=51.9% ActiveSockets=181
+Sep 20 10:11:22 GOKU system_monitor[749]: HEALTH_OK User='sujal' CPU=13.5% RAM=51.9% ActiveSockets=181
+Sep 20 10:11:26 GOKU system_monitor[750]: HEALTH_OK User='sujal' CPU=6.2% RAM=51.9% ActiveSockets=181
+Sep 20 10:11:26 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:11:30 GOKU system_monitor[751]: HEALTH_OK User='sujal' CPU=11.7% RAM=51.9% ActiveSockets=181
+Sep 20 10:11:34 GOKU system_monitor[752]: HEALTH_OK User='sujal' CPU=6.6% RAM=51.8% ActiveSockets=181
+Sep 20 10:11:38 GOKU system_monitor[753]: HEALTH_OK User='sujal' CPU=9.1% RAM=51.8% ActiveSockets=181
+Sep 20 10:11:38 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:11:42 GOKU system_monitor[754]: HEALTH_OK User='sujal' CPU=8.6% RAM=51.9% ActiveSockets=181
+Sep 20 10:11:46 GOKU system_monitor[755]: HEALTH_OK User='sujal' CPU=15.4% RAM=51.9% ActiveSockets=179
+Sep 20 10:11:50 GOKU system_monitor[756]: HEALTH_OK User='sujal' CPU=26.8% RAM=51.8% ActiveSockets=179
+Sep 20 10:11:50 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:11:54 GOKU system_monitor[757]: HEALTH_OK User='sujal' CPU=8.0% RAM=51.9% ActiveSockets=179
+Sep 20 10:11:58 GOKU system_monitor[758]: HEALTH_OK User='sujal' CPU=9.6% RAM=51.9% ActiveSockets=179
+Sep 20 10:12:02 GOKU system_monitor[759]: HEALTH_OK User='sujal' CPU=16.2% RAM=51.9% ActiveSockets=177
+Sep 20 10:12:02 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:12:06 GOKU system_monitor[760]: HEALTH_OK User='sujal' CPU=9.3% RAM=50.2% ActiveSockets=177
+Sep 20 10:12:10 GOKU system_monitor[761]: HEALTH_OK User='sujal' CPU=5.1% RAM=50.2% ActiveSockets=177
+Sep 20 10:12:14 GOKU system_monitor[762]: HEALTH_OK User='sujal' CPU=7.0% RAM=50.2% ActiveSockets=177
+Sep 20 10:12:14 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:12:18 GOKU system_monitor[763]: HEALTH_OK User='sujal' CPU=14.0% RAM=50.2% ActiveSockets=175
+Sep 20 10:12:22 GOKU system_monitor[764]: HEALTH_OK User='sujal' CPU=20.0% RAM=50.8% ActiveSockets=165
+Sep 20 10:12:26 GOKU system_monitor[765]: HEALTH_OK User='sujal' CPU=17.3% RAM=50.7% ActiveSockets=164
+Sep 20 10:12:26 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:12:30 GOKU system_monitor[766]: HEALTH_OK User='sujal' CPU=16.1% RAM=50.7% ActiveSockets=164
+Sep 20 10:12:34 GOKU system_monitor[767]: HEALTH_OK User='sujal' CPU=8.0% RAM=50.6% ActiveSockets=164
+Sep 20 10:12:38 GOKU system_monitor[768]: HEALTH_OK User='sujal' CPU=9.8% RAM=50.7% ActiveSockets=164
+Sep 20 10:12:38 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:12:42 GOKU system_monitor[769]: HEALTH_OK User='sujal' CPU=14.0% RAM=50.7% ActiveSockets=165
+Sep 20 10:12:46 GOKU system_monitor[770]: HEALTH_OK User='sujal' CPU=24.3% RAM=51.0% ActiveSockets=162
+Sep 20 10:12:50 GOKU system_monitor[771]: HEALTH_OK User='sujal' CPU=27.6% RAM=50.8% ActiveSockets=160
+Sep 20 10:12:50 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:12:54 GOKU system_monitor[772]: HEALTH_OK User='sujal' CPU=13.2% RAM=50.8% ActiveSockets=160
+Sep 20 10:12:58 GOKU system_monitor[773]: HEALTH_OK User='sujal' CPU=7.4% RAM=50.9% ActiveSockets=160
+Sep 20 10:13:02 GOKU system_monitor[774]: HEALTH_OK User='sujal' CPU=7.6% RAM=51.0% ActiveSockets=162
+Sep 20 10:13:02 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:13:06 GOKU system_monitor[775]: HEALTH_OK User='sujal' CPU=10.3% RAM=51.0% ActiveSockets=160
+Sep 20 10:13:10 GOKU system_monitor[776]: HEALTH_OK User='sujal' CPU=10.1% RAM=51.4% ActiveSockets=160
+Sep 20 10:13:14 GOKU system_monitor[777]: HEALTH_OK User='sujal' CPU=7.8% RAM=51.0% ActiveSockets=160
+Sep 20 10:13:14 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:13:19 GOKU system_monitor[778]: HEALTH_OK User='sujal' CPU=7.4% RAM=51.1% ActiveSockets=160
+Sep 20 10:13:23 GOKU system_monitor[779]: HEALTH_OK User='sujal' CPU=18.7% RAM=51.2% ActiveSockets=160
+Sep 20 10:13:27 GOKU system_monitor[780]: HEALTH_OK User='sujal' CPU=8.4% RAM=51.2% ActiveSockets=160
+Sep 20 10:13:27 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:13:31 GOKU system_monitor[781]: HEALTH_OK User='sujal' CPU=26.1% RAM=51.4% ActiveSockets=160
+Sep 20 10:13:35 GOKU system_monitor[782]: HEALTH_OK User='sujal' CPU=6.4% RAM=51.4% ActiveSockets=160
+Sep 20 10:13:39 GOKU system_monitor[783]: HEALTH_OK User='sujal' CPU=18.1% RAM=51.4% ActiveSockets=160
+Sep 20 10:13:39 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:13:43 GOKU system_monitor[784]: HEALTH_OK User='sujal' CPU=11.7% RAM=51.3% ActiveSockets=160
+Sep 20 10:13:47 GOKU system_monitor[785]: HEALTH_OK User='sujal' CPU=27.2% RAM=51.6% ActiveSockets=160
+Sep 20 10:13:51 GOKU system_monitor[786]: HEALTH_OK User='sujal' CPU=25.6% RAM=51.3% ActiveSockets=160
+Sep 20 10:13:51 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:13:55 GOKU system_monitor[787]: HEALTH_OK User='sujal' CPU=11.6% RAM=51.3% ActiveSockets=160
+Sep 20 10:13:59 GOKU system_monitor[788]: HEALTH_OK User='sujal' CPU=15.7% RAM=51.3% ActiveSockets=160
+Sep 20 10:14:03 GOKU system_monitor[789]: HEALTH_OK User='sujal' CPU=14.4% RAM=51.3% ActiveSockets=160
+Sep 20 10:14:03 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:14:07 GOKU system_monitor[790]: HEALTH_OK User='sujal' CPU=18.6% RAM=51.0% ActiveSockets=160
+Sep 20 10:14:11 GOKU system_monitor[791]: HEALTH_OK User='sujal' CPU=83.8% RAM=51.6% ActiveSockets=160
+Sep 20 10:14:15 GOKU system_monitor[792]: HEALTH_OK User='sujal' CPU=87.3% RAM=51.7% ActiveSockets=160
+Sep 20 10:14:15 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:14:19 GOKU system_monitor[793]: HEALTH_OK User='sujal' CPU=38.4% RAM=53.3% ActiveSockets=160
+Sep 20 10:14:23 GOKU system_monitor[794]: HEALTH_OK User='sujal' CPU=16.9% RAM=53.4% ActiveSockets=162
+Sep 20 10:14:27 GOKU system_monitor[795]: HEALTH_OK User='sujal' CPU=29.8% RAM=54.0% ActiveSockets=162
+Sep 20 10:14:27 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:14:31 GOKU system_monitor[796]: HEALTH_OK User='sujal' CPU=9.9% RAM=54.6% ActiveSockets=162
+Sep 20 10:14:35 GOKU system_monitor[797]: HEALTH_OK User='sujal' CPU=10.6% RAM=54.6% ActiveSockets=162
+Sep 20 10:14:39 GOKU system_monitor[798]: HEALTH_OK User='sujal' CPU=20.3% RAM=54.9% ActiveSockets=162
+Sep 20 10:14:39 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:14:43 GOKU system_monitor[799]: HEALTH_OK User='sujal' CPU=27.5% RAM=53.0% ActiveSockets=162
+Sep 20 10:14:47 GOKU system_monitor[800]: HEALTH_OK User='sujal' CPU=13.4% RAM=53.1% ActiveSockets=162
+Sep 20 10:14:51 GOKU system_monitor[801]: HEALTH_OK User='sujal' CPU=10.9% RAM=53.0% ActiveSockets=162
+Sep 20 10:14:51 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:14:55 GOKU system_monitor[802]: HEALTH_OK User='sujal' CPU=13.0% RAM=53.1% ActiveSockets=162
+Sep 20 10:14:59 GOKU system_monitor[803]: HEALTH_OK User='sujal' CPU=11.1% RAM=53.2% ActiveSockets=162
+Sep 20 10:15:03 GOKU system_monitor[804]: HEALTH_OK User='sujal' CPU=12.1% RAM=53.6% ActiveSockets=162
+Sep 20 10:15:03 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:15:07 GOKU system_monitor[805]: HEALTH_OK User='sujal' CPU=20.4% RAM=53.7% ActiveSockets=162
+Sep 20 10:15:11 GOKU system_monitor[806]: HEALTH_OK User='sujal' CPU=13.2% RAM=53.8% ActiveSockets=162
+Sep 20 10:15:15 GOKU system_monitor[807]: HEALTH_OK User='sujal' CPU=9.9% RAM=53.9% ActiveSockets=162
+Sep 20 10:15:15 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:15:19 GOKU system_monitor[808]: HEALTH_OK User='sujal' CPU=17.4% RAM=53.2% ActiveSockets=162
+Sep 20 10:15:23 GOKU system_monitor[809]: HEALTH_OK User='sujal' CPU=9.1% RAM=53.1% ActiveSockets=162
+Sep 20 10:15:27 GOKU system_monitor[810]: HEALTH_OK User='sujal' CPU=29.3% RAM=53.1% ActiveSockets=162
+Sep 20 10:15:27 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:15:31 GOKU system_monitor[811]: HEALTH_OK User='sujal' CPU=17.5% RAM=53.1% ActiveSockets=162
+Sep 20 10:15:35 GOKU system_monitor[812]: HEALTH_OK User='sujal' CPU=12.8% RAM=53.1% ActiveSockets=164
+Sep 20 10:15:39 GOKU system_monitor[813]: HEALTH_OK User='sujal' CPU=7.8% RAM=53.2% ActiveSockets=164
+Sep 20 10:15:39 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:15:43 GOKU system_monitor[814]: HEALTH_OK User='sujal' CPU=19.3% RAM=53.2% ActiveSockets=162
+Sep 20 10:15:47 GOKU system_monitor[815]: HEALTH_OK User='sujal' CPU=17.6% RAM=53.4% ActiveSockets=162
+Sep 20 10:15:51 GOKU system_monitor[816]: HEALTH_OK User='sujal' CPU=10.6% RAM=53.2% ActiveSockets=162
+Sep 20 10:15:51 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:15:55 GOKU system_monitor[817]: HEALTH_OK User='sujal' CPU=12.1% RAM=53.3% ActiveSockets=160
+Sep 20 10:15:59 GOKU system_monitor[818]: HEALTH_OK User='sujal' CPU=7.4% RAM=53.2% ActiveSockets=160
+Sep 20 10:16:03 GOKU system_monitor[819]: HEALTH_OK User='sujal' CPU=11.9% RAM=53.0% ActiveSockets=160
+Sep 20 10:16:03 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:16:07 GOKU system_monitor[820]: HEALTH_OK User='sujal' CPU=5.8% RAM=53.0% ActiveSockets=160
+Sep 20 10:16:11 GOKU system_monitor[821]: HEALTH_OK User='sujal' CPU=15.5% RAM=53.0% ActiveSockets=160
+Sep 20 10:16:15 GOKU system_monitor[822]: HEALTH_OK User='sujal' CPU=10.1% RAM=53.0% ActiveSockets=160
+Sep 20 10:16:15 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:16:19 GOKU system_monitor[823]: HEALTH_OK User='sujal' CPU=17.3% RAM=53.0% ActiveSockets=160
+Sep 20 10:16:23 GOKU system_monitor[824]: HEALTH_OK User='sujal' CPU=17.6% RAM=53.0% ActiveSockets=160
+Sep 20 10:16:27 GOKU system_monitor[825]: HEALTH_OK User='sujal' CPU=12.4% RAM=53.0% ActiveSockets=160
+Sep 20 10:16:27 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:16:31 GOKU system_monitor[826]: HEALTH_OK User='sujal' CPU=19.3% RAM=53.0% ActiveSockets=160
+Sep 20 10:16:36 GOKU system_monitor[827]: HEALTH_OK User='sujal' CPU=21.8% RAM=53.1% ActiveSockets=160
+Sep 20 10:16:40 GOKU system_monitor[828]: HEALTH_OK User='sujal' CPU=15.9% RAM=53.1% ActiveSockets=160
+Sep 20 10:16:40 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:16:44 GOKU system_monitor[829]: HEALTH_OK User='sujal' CPU=21.1% RAM=53.1% ActiveSockets=160
+Sep 20 10:16:48 GOKU system_monitor[830]: HEALTH_OK User='sujal' CPU=13.0% RAM=53.4% ActiveSockets=160
+Sep 20 10:16:52 GOKU system_monitor[831]: HEALTH_OK User='sujal' CPU=34.1% RAM=53.1% ActiveSockets=160
+Sep 20 10:16:52 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:16:56 GOKU system_monitor[832]: HEALTH_OK User='sujal' CPU=12.3% RAM=53.1% ActiveSockets=160
+Sep 20 10:17:00 GOKU system_monitor[833]: HEALTH_OK User='sujal' CPU=35.9% RAM=53.1% ActiveSockets=160
+Sep 20 10:17:04 GOKU system_monitor[834]: HEALTH_OK User='sujal' CPU=8.3% RAM=53.1% ActiveSockets=160
+Sep 20 10:17:04 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:17:08 GOKU system_monitor[835]: HEALTH_OK User='sujal' CPU=16.1% RAM=53.1% ActiveSockets=160
+Sep 20 10:17:12 GOKU system_monitor[836]: HEALTH_OK User='sujal' CPU=28.3% RAM=53.1% ActiveSockets=160
+Sep 20 10:17:16 GOKU system_monitor[837]: HEALTH_OK User='sujal' CPU=6.2% RAM=53.1% ActiveSockets=160
+Sep 20 10:17:16 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:17:20 GOKU system_monitor[838]: HEALTH_OK User='sujal' CPU=19.7% RAM=53.1% ActiveSockets=162
+Sep 20 10:17:24 GOKU system_monitor[839]: HEALTH_OK User='sujal' CPU=16.9% RAM=53.1% ActiveSockets=160
+Sep 20 10:17:28 GOKU system_monitor[840]: HEALTH_OK User='sujal' CPU=4.3% RAM=53.0% ActiveSockets=160
+Sep 20 10:17:28 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:17:32 GOKU system_monitor[841]: HEALTH_OK User='sujal' CPU=18.3% RAM=53.0% ActiveSockets=160
+Sep 20 10:17:36 GOKU system_monitor[842]: HEALTH_OK User='sujal' CPU=16.1% RAM=53.1% ActiveSockets=160
+Sep 20 10:17:40 GOKU system_monitor[843]: HEALTH_OK User='sujal' CPU=8.6% RAM=53.0% ActiveSockets=160
+Sep 20 10:17:40 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:17:44 GOKU system_monitor[844]: HEALTH_OK User='sujal' CPU=8.7% RAM=53.1% ActiveSockets=160
+Sep 20 10:17:48 GOKU system_monitor[845]: HEALTH_OK User='sujal' CPU=9.9% RAM=53.3% ActiveSockets=160
+Sep 20 10:17:52 GOKU system_monitor[846]: HEALTH_OK User='sujal' CPU=9.5% RAM=53.1% ActiveSockets=160
+Sep 20 10:17:52 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:17:56 GOKU system_monitor[847]: HEALTH_OK User='sujal' CPU=7.9% RAM=53.1% ActiveSockets=160
+Sep 20 10:18:00 GOKU system_monitor[848]: HEALTH_OK User='sujal' CPU=19.0% RAM=53.0% ActiveSockets=160
+Sep 20 10:18:04 GOKU system_monitor[849]: HEALTH_OK User='sujal' CPU=12.7% RAM=53.1% ActiveSockets=160
+Sep 20 10:18:04 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:18:08 GOKU system_monitor[850]: HEALTH_OK User='sujal' CPU=7.0% RAM=53.0% ActiveSockets=160
+Sep 20 10:18:12 GOKU system_monitor[851]: HEALTH_OK User='sujal' CPU=15.6% RAM=53.1% ActiveSockets=160
+Sep 20 10:18:16 GOKU system_monitor[852]: HEALTH_OK User='sujal' CPU=6.2% RAM=53.1% ActiveSockets=160
+Sep 20 10:18:16 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:18:20 GOKU system_monitor[853]: HEALTH_OK User='sujal' CPU=13.5% RAM=53.0% ActiveSockets=160
+Sep 20 10:18:24 GOKU system_monitor[854]: HEALTH_OK User='sujal' CPU=9.3% RAM=53.0% ActiveSockets=160
+Sep 20 10:18:28 GOKU system_monitor[855]: HEALTH_OK User='sujal' CPU=6.6% RAM=53.0% ActiveSockets=160
+Sep 20 10:18:28 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:18:32 GOKU system_monitor[856]: HEALTH_OK User='sujal' CPU=27.3% RAM=53.0% ActiveSockets=160
+Sep 20 10:18:36 GOKU system_monitor[857]: HEALTH_OK User='sujal' CPU=10.2% RAM=53.0% ActiveSockets=160
+Sep 20 10:18:40 GOKU system_monitor[858]: HEALTH_OK User='sujal' CPU=10.1% RAM=52.9% ActiveSockets=160
+Sep 20 10:18:40 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:18:44 GOKU system_monitor[859]: HEALTH_OK User='sujal' CPU=13.2% RAM=53.0% ActiveSockets=160
+Sep 20 10:18:48 GOKU system_monitor[860]: HEALTH_OK User='sujal' CPU=15.3% RAM=53.0% ActiveSockets=160
+Sep 20 10:18:52 GOKU system_monitor[861]: HEALTH_OK User='sujal' CPU=26.3% RAM=53.0% ActiveSockets=160
+Sep 20 10:18:52 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:18:56 GOKU system_monitor[862]: HEALTH_OK User='sujal' CPU=11.1% RAM=53.0% ActiveSockets=160
+Sep 20 10:19:00 GOKU system_monitor[863]: HEALTH_OK User='sujal' CPU=9.8% RAM=53.0% ActiveSockets=160
+Sep 20 10:19:04 GOKU system_monitor[864]: HEALTH_OK User='sujal' CPU=13.0% RAM=53.0% ActiveSockets=160
+Sep 20 10:19:04 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:19:08 GOKU system_monitor[865]: HEALTH_OK User='sujal' CPU=7.3% RAM=53.0% ActiveSockets=160
+Sep 20 10:19:12 GOKU system_monitor[866]: HEALTH_OK User='sujal' CPU=13.3% RAM=52.9% ActiveSockets=162
+Sep 20 10:19:16 GOKU system_monitor[867]: HEALTH_OK User='sujal' CPU=15.6% RAM=52.9% ActiveSockets=160
+Sep 20 10:19:16 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:19:20 GOKU system_monitor[868]: HEALTH_OK User='sujal' CPU=21.8% RAM=53.0% ActiveSockets=160
+Sep 20 10:19:24 GOKU system_monitor[869]: HEALTH_OK User='sujal' CPU=10.3% RAM=53.0% ActiveSockets=160
+Sep 20 10:19:28 GOKU system_monitor[870]: HEALTH_OK User='sujal' CPU=3.9% RAM=52.4% ActiveSockets=160
+Sep 20 10:19:28 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:19:32 GOKU system_monitor[871]: HEALTH_OK User='sujal' CPU=26.7% RAM=52.4% ActiveSockets=162
+Sep 20 10:19:36 GOKU system_monitor[872]: HEALTH_OK User='sujal' CPU=7.0% RAM=52.4% ActiveSockets=160
+Sep 20 10:19:40 GOKU system_monitor[873]: HEALTH_OK User='sujal' CPU=7.0% RAM=52.4% ActiveSockets=160
+Sep 20 10:19:40 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:19:44 GOKU system_monitor[874]: HEALTH_OK User='sujal' CPU=8.5% RAM=52.4% ActiveSockets=160
+Sep 20 10:19:48 GOKU system_monitor[875]: HEALTH_OK User='sujal' CPU=18.7% RAM=52.6% ActiveSockets=160
+Sep 20 10:19:52 GOKU system_monitor[876]: HEALTH_OK User='sujal' CPU=23.0% RAM=52.8% ActiveSockets=164
+Sep 20 10:19:52 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:19:57 GOKU system_monitor[877]: HEALTH_OK User='sujal' CPU=14.2% RAM=52.3% ActiveSockets=162
+Sep 20 10:20:01 GOKU system_monitor[878]: HEALTH_OK User='sujal' CPU=13.9% RAM=52.4% ActiveSockets=162
+Sep 20 10:20:05 GOKU system_monitor[879]: HEALTH_OK User='sujal' CPU=23.7% RAM=52.4% ActiveSockets=162
+Sep 20 10:20:05 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:20:09 GOKU system_monitor[880]: HEALTH_OK User='sujal' CPU=13.2% RAM=52.4% ActiveSockets=162
+Sep 20 10:20:13 GOKU system_monitor[881]: HEALTH_OK User='sujal' CPU=18.7% RAM=52.4% ActiveSockets=162
+Sep 20 10:20:17 GOKU system_monitor[882]: HEALTH_OK User='sujal' CPU=16.9% RAM=52.4% ActiveSockets=162
+Sep 20 10:20:17 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:20:21 GOKU system_monitor[883]: HEALTH_OK User='sujal' CPU=9.6% RAM=52.4% ActiveSockets=162
+Sep 20 10:20:25 GOKU system_monitor[884]: HEALTH_OK User='sujal' CPU=20.7% RAM=52.4% ActiveSockets=162
+Sep 20 10:20:29 GOKU system_monitor[885]: HEALTH_OK User='sujal' CPU=8.0% RAM=52.4% ActiveSockets=162
+Sep 20 10:20:29 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:20:33 GOKU system_monitor[886]: HEALTH_OK User='sujal' CPU=14.1% RAM=52.4% ActiveSockets=166
+Sep 20 10:20:37 GOKU system_monitor[887]: HEALTH_OK User='sujal' CPU=8.2% RAM=52.4% ActiveSockets=168
+Sep 20 10:20:41 GOKU system_monitor[888]: HEALTH_OK User='sujal' CPU=9.3% RAM=52.4% ActiveSockets=166
+Sep 20 10:20:41 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:20:45 GOKU system_monitor[889]: HEALTH_OK User='sujal' CPU=11.0% RAM=52.4% ActiveSockets=164
+Sep 20 10:20:49 GOKU system_monitor[890]: HEALTH_OK User='sujal' CPU=21.5% RAM=52.4% ActiveSockets=164
+Sep 20 10:20:53 GOKU system_monitor[891]: HEALTH_OK User='sujal' CPU=24.5% RAM=52.5% ActiveSockets=164
+Sep 20 10:20:53 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:20:57 GOKU system_monitor[892]: HEALTH_OK User='sujal' CPU=10.9% RAM=52.4% ActiveSockets=164
+Sep 20 10:21:01 GOKU system_monitor[893]: HEALTH_OK User='sujal' CPU=9.0% RAM=52.4% ActiveSockets=164
+Sep 20 10:21:05 GOKU system_monitor[894]: HEALTH_OK User='sujal' CPU=6.3% RAM=52.4% ActiveSockets=164
+Sep 20 10:21:05 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:21:09 GOKU system_monitor[895]: HEALTH_OK User='sujal' CPU=6.1% RAM=52.4% ActiveSockets=164
+Sep 20 10:21:13 GOKU system_monitor[896]: HEALTH_OK User='sujal' CPU=25.0% RAM=52.5% ActiveSockets=164
+Sep 20 10:21:17 GOKU system_monitor[897]: HEALTH_OK User='sujal' CPU=15.9% RAM=52.5% ActiveSockets=164
+Sep 20 10:21:17 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:21:21 GOKU system_monitor[898]: HEALTH_OK User='sujal' CPU=12.3% RAM=52.5% ActiveSockets=164
+Sep 20 10:21:25 GOKU system_monitor[899]: HEALTH_OK User='sujal' CPU=13.2% RAM=52.5% ActiveSockets=162
+Sep 20 10:21:29 GOKU system_monitor[900]: HEALTH_OK User='sujal' CPU=4.9% RAM=52.3% ActiveSockets=162
+Sep 20 10:21:29 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:21:33 GOKU system_monitor[901]: HEALTH_OK User='sujal' CPU=17.9% RAM=52.3% ActiveSockets=162
+Sep 20 10:21:37 GOKU system_monitor[902]: HEALTH_OK User='sujal' CPU=11.4% RAM=52.3% ActiveSockets=162
+Sep 20 10:21:41 GOKU system_monitor[903]: HEALTH_OK User='sujal' CPU=11.8% RAM=52.3% ActiveSockets=162
+Sep 20 10:21:41 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:21:45 GOKU system_monitor[904]: HEALTH_OK User='sujal' CPU=20.1% RAM=52.4% ActiveSockets=162
+Sep 20 10:21:49 GOKU system_monitor[905]: HEALTH_OK User='sujal' CPU=8.7% RAM=52.3% ActiveSockets=162
+Sep 20 10:21:53 GOKU system_monitor[906]: HEALTH_OK User='sujal' CPU=17.6% RAM=52.7% ActiveSockets=162
+Sep 20 10:21:53 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:21:57 GOKU system_monitor[907]: HEALTH_OK User='sujal' CPU=71.4% RAM=53.0% ActiveSockets=180
+Sep 20 10:22:01 GOKU system_monitor[908]: HEALTH_OK User='sujal' CPU=21.9% RAM=52.9% ActiveSockets=176
+Sep 20 10:22:05 GOKU system_monitor[909]: HEALTH_OK User='sujal' CPU=9.1% RAM=52.8% ActiveSockets=175
+Sep 20 10:22:05 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:22:09 GOKU system_monitor[910]: HEALTH_OK User='sujal' CPU=19.3% RAM=52.9% ActiveSockets=175
+Sep 20 10:22:13 GOKU system_monitor[911]: HEALTH_OK User='sujal' CPU=15.9% RAM=52.9% ActiveSockets=175
+Sep 20 10:22:17 GOKU system_monitor[912]: HEALTH_OK User='sujal' CPU=16.1% RAM=52.9% ActiveSockets=175
+Sep 20 10:22:17 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:22:21 GOKU system_monitor[913]: HEALTH_OK User='sujal' CPU=43.0% RAM=52.8% ActiveSockets=176
+Sep 20 10:22:25 GOKU system_monitor[914]: HEALTH_OK User='sujal' CPU=11.0% RAM=52.8% ActiveSockets=174
+Sep 20 10:22:29 GOKU system_monitor[915]: HEALTH_OK User='sujal' CPU=10.1% RAM=52.8% ActiveSockets=172
+Sep 20 10:22:29 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:22:33 GOKU system_monitor[916]: HEALTH_OK User='sujal' CPU=9.2% RAM=52.8% ActiveSockets=173
+Sep 20 10:22:37 GOKU system_monitor[917]: HEALTH_OK User='sujal' CPU=8.3% RAM=52.8% ActiveSockets=173
+Sep 20 10:22:41 GOKU system_monitor[918]: HEALTH_OK User='sujal' CPU=6.6% RAM=52.8% ActiveSockets=173
+Sep 20 10:22:41 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:22:45 GOKU system_monitor[919]: HEALTH_OK User='sujal' CPU=8.5% RAM=52.8% ActiveSockets=173
+Sep 20 10:22:49 GOKU system_monitor[920]: HEALTH_OK User='sujal' CPU=17.4% RAM=52.8% ActiveSockets=175
+Sep 20 10:22:53 GOKU system_monitor[921]: HEALTH_OK User='sujal' CPU=19.6% RAM=52.8% ActiveSockets=174
+Sep 20 10:22:53 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:22:57 GOKU system_monitor[922]: HEALTH_OK User='sujal' CPU=11.7% RAM=52.6% ActiveSockets=173
+Sep 20 10:23:01 GOKU system_monitor[923]: HEALTH_OK User='sujal' CPU=15.1% RAM=53.0% ActiveSockets=173
+Sep 20 10:23:05 GOKU system_monitor[924]: HEALTH_OK User='sujal' CPU=5.4% RAM=52.6% ActiveSockets=173
+Sep 20 10:23:05 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:23:10 GOKU system_monitor[925]: HEALTH_OK User='sujal' CPU=10.3% RAM=52.6% ActiveSockets=173
+Sep 20 10:23:14 GOKU system_monitor[926]: HEALTH_OK User='sujal' CPU=12.8% RAM=52.6% ActiveSockets=173
+Sep 20 10:23:18 GOKU system_monitor[927]: HEALTH_OK User='sujal' CPU=6.8% RAM=52.6% ActiveSockets=171
+Sep 20 10:23:18 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:23:22 GOKU system_monitor[928]: HEALTH_OK User='sujal' CPU=16.8% RAM=52.6% ActiveSockets=171
+Sep 20 10:23:26 GOKU system_monitor[929]: HEALTH_OK User='sujal' CPU=11.9% RAM=52.6% ActiveSockets=171
+Sep 20 10:23:30 GOKU system_monitor[930]: HEALTH_OK User='sujal' CPU=28.0% RAM=52.6% ActiveSockets=172
+Sep 20 10:23:30 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:23:34 GOKU system_monitor[931]: HEALTH_OK User='sujal' CPU=10.2% RAM=52.7% ActiveSockets=173
+Sep 20 10:23:38 GOKU system_monitor[932]: HEALTH_OK User='sujal' CPU=10.6% RAM=52.7% ActiveSockets=173
+Sep 20 10:23:42 GOKU system_monitor[933]: HEALTH_OK User='sujal' CPU=28.0% RAM=52.7% ActiveSockets=173
+Sep 20 10:23:42 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:23:46 GOKU system_monitor[934]: HEALTH_OK User='sujal' CPU=22.2% RAM=52.9% ActiveSockets=173
+Sep 20 10:23:50 GOKU system_monitor[935]: HEALTH_OK User='sujal' CPU=16.4% RAM=52.6% ActiveSockets=173
+Sep 20 10:23:54 GOKU system_monitor[936]: HEALTH_OK User='sujal' CPU=50.2% RAM=52.7% ActiveSockets=174
+Sep 20 10:23:54 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:23:58 GOKU system_monitor[937]: HEALTH_OK User='sujal' CPU=14.4% RAM=52.7% ActiveSockets=174
+Sep 20 10:24:02 GOKU system_monitor[938]: HEALTH_OK User='sujal' CPU=12.5% RAM=52.6% ActiveSockets=174
+Sep 20 10:24:06 GOKU system_monitor[939]: HEALTH_OK User='sujal' CPU=17.6% RAM=52.6% ActiveSockets=174
+Sep 20 10:24:06 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:24:10 GOKU system_monitor[940]: HEALTH_OK User='sujal' CPU=7.6% RAM=52.6% ActiveSockets=173
+Sep 20 10:24:14 GOKU system_monitor[941]: HEALTH_OK User='sujal' CPU=8.4% RAM=52.6% ActiveSockets=173
+Sep 20 10:24:18 GOKU system_monitor[942]: HEALTH_OK User='sujal' CPU=5.5% RAM=52.6% ActiveSockets=173
+Sep 20 10:24:18 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:24:22 GOKU system_monitor[943]: HEALTH_OK User='sujal' CPU=14.9% RAM=52.6% ActiveSockets=173
+Sep 20 10:24:26 GOKU system_monitor[944]: HEALTH_OK User='sujal' CPU=7.6% RAM=52.5% ActiveSockets=173
+Sep 20 10:24:30 GOKU system_monitor[945]: HEALTH_OK User='sujal' CPU=7.6% RAM=52.6% ActiveSockets=173
+Sep 20 10:24:30 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:24:34 GOKU system_monitor[946]: HEALTH_OK User='sujal' CPU=13.3% RAM=52.6% ActiveSockets=173
+Sep 20 10:24:38 GOKU system_monitor[947]: HEALTH_OK User='sujal' CPU=14.5% RAM=52.6% ActiveSockets=173
+Sep 20 10:24:42 GOKU system_monitor[948]: HEALTH_OK User='sujal' CPU=7.0% RAM=52.6% ActiveSockets=172
+Sep 20 10:24:42 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:24:46 GOKU system_monitor[949]: HEALTH_OK User='sujal' CPU=12.0% RAM=52.6% ActiveSockets=171
+Sep 20 10:24:50 GOKU system_monitor[950]: HEALTH_OK User='sujal' CPU=17.8% RAM=52.6% ActiveSockets=171
+Sep 20 10:24:54 GOKU system_monitor[951]: HEALTH_OK User='sujal' CPU=10.5% RAM=52.6% ActiveSockets=171
+Sep 20 10:24:54 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:24:58 GOKU system_monitor[952]: HEALTH_OK User='sujal' CPU=19.7% RAM=52.6% ActiveSockets=171
+Sep 20 10:25:02 GOKU system_monitor[953]: HEALTH_OK User='sujal' CPU=27.5% RAM=52.9% ActiveSockets=171
+Sep 20 10:25:06 GOKU system_monitor[954]: HEALTH_OK User='sujal' CPU=12.8% RAM=52.9% ActiveSockets=172
+Sep 20 10:25:06 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:25:10 GOKU system_monitor[955]: HEALTH_OK User='sujal' CPU=18.7% RAM=53.3% ActiveSockets=173
+Sep 20 10:29:10 GOKU system_monitor[956]: HEALTH_OK User='sujal' CPU=2.8% RAM=52.2% ActiveSockets=58
+Sep 20 10:29:14 GOKU system_monitor[957]: HEALTH_OK User='sujal' CPU=50.3% RAM=53.2% ActiveSockets=106
+Sep 20 10:29:14 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:34:21 GOKU system_monitor[958]: HEALTH_OK User='sujal' CPU=100.0% RAM=53.8% ActiveSockets=112
+Sep 20 10:34:25 GOKU system_monitor[959]: HEALTH_OK User='sujal' CPU=100.0% RAM=54.8% ActiveSockets=128
+Sep 20 10:34:29 GOKU system_monitor[960]: HEALTH_OK User='sujal' CPU=40.5% RAM=54.6% ActiveSockets=140
+Sep 20 10:34:29 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:34:33 GOKU system_monitor[961]: HEALTH_OK User='sujal' CPU=67.3% RAM=54.9% ActiveSockets=149
+Sep 20 10:34:37 GOKU system_monitor[962]: HEALTH_OK User='sujal' CPU=41.0% RAM=55.5% ActiveSockets=154
+Sep 20 10:34:41 GOKU system_monitor[963]: HEALTH_OK User='sujal' CPU=8.1% RAM=55.4% ActiveSockets=153
+Sep 20 10:34:41 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:34:45 GOKU system_monitor[964]: HEALTH_OK User='sujal' CPU=15.5% RAM=55.4% ActiveSockets=157
+Sep 20 10:34:49 GOKU system_monitor[965]: HEALTH_OK User='sujal' CPU=17.2% RAM=55.4% ActiveSockets=159
+Sep 20 10:34:53 GOKU system_monitor[966]: HEALTH_OK User='sujal' CPU=28.3% RAM=55.4% ActiveSockets=200
+Sep 20 10:34:53 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:34:57 GOKU system_monitor[967]: HEALTH_OK User='sujal' CPU=11.9% RAM=55.5% ActiveSockets=199
+Sep 20 10:35:01 GOKU system_monitor[968]: HEALTH_OK User='sujal' CPU=7.7% RAM=55.6% ActiveSockets=199
+Sep 20 10:35:05 GOKU system_monitor[969]: HEALTH_OK User='sujal' CPU=7.7% RAM=55.7% ActiveSockets=198
+Sep 20 10:35:05 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:35:09 GOKU system_monitor[970]: HEALTH_OK User='sujal' CPU=19.7% RAM=55.7% ActiveSockets=200
+Sep 20 10:35:13 GOKU system_monitor[971]: HEALTH_OK User='sujal' CPU=9.1% RAM=55.8% ActiveSockets=199
+Sep 20 10:35:17 GOKU system_monitor[972]: HEALTH_OK User='sujal' CPU=22.0% RAM=55.8% ActiveSockets=201
+Sep 20 10:35:17 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:35:21 GOKU system_monitor[973]: HEALTH_OK User='sujal' CPU=11.0% RAM=55.9% ActiveSockets=203
+Sep 20 10:35:25 GOKU system_monitor[974]: HEALTH_OK User='sujal' CPU=12.1% RAM=56.3% ActiveSockets=203
+Sep 20 10:35:29 GOKU system_monitor[975]: HEALTH_OK User='sujal' CPU=21.0% RAM=56.1% ActiveSockets=202
+Sep 20 10:35:29 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:35:33 GOKU system_monitor[976]: HEALTH_OK User='sujal' CPU=9.7% RAM=56.1% ActiveSockets=202
+Sep 20 10:35:37 GOKU system_monitor[977]: HEALTH_OK User='sujal' CPU=13.1% RAM=56.1% ActiveSockets=201
+Sep 20 10:35:41 GOKU system_monitor[978]: HEALTH_OK User='sujal' CPU=7.0% RAM=56.2% ActiveSockets=201
+Sep 20 10:35:41 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:35:45 GOKU system_monitor[979]: HEALTH_OK User='sujal' CPU=12.6% RAM=56.3% ActiveSockets=199
+Sep 20 10:35:49 GOKU system_monitor[980]: HEALTH_OK User='sujal' CPU=19.4% RAM=56.4% ActiveSockets=189
+Sep 20 10:35:53 GOKU system_monitor[981]: HEALTH_OK User='sujal' CPU=31.6% RAM=56.4% ActiveSockets=189
+Sep 20 10:35:53 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:35:57 GOKU system_monitor[982]: HEALTH_OK User='sujal' CPU=20.4% RAM=56.3% ActiveSockets=190
+Sep 20 10:36:01 GOKU system_monitor[983]: HEALTH_OK User='sujal' CPU=47.8% RAM=56.5% ActiveSockets=189
+Sep 20 10:36:05 GOKU system_monitor[984]: HEALTH_OK User='sujal' CPU=21.1% RAM=56.5% ActiveSockets=191
+Sep 20 10:36:05 GOKU sshd[8842]: Failed password for invalid user admin from 192.168.1.199 port 22 ssh2
+Sep 20 10:36:06 GOKU siem_agent[01]: AGENT_STOP Endpoint agent graceful shutdown

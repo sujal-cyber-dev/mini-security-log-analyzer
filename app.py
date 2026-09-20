@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 import requests
 from fpdf import FPDF
 from datetime import datetime
@@ -14,6 +15,7 @@ st.title("🛡️ Mini SIEM - Security Log Analyzer")
 st.markdown("Automated ingestion, telemetry normalization, explainable threat detection, visual analytics, and incident response.")
 
 # Helper: Free Public IP Intelligence & Geo-Lookup (Cached to optimize speed)
+# Helper: Free Public IP Intelligence & Geo-Lookup (Cached to optimize speed)
 @st.cache_data(ttl=3600)
 def lookup_ip_intelligence(ip):
     # Private / Localhost check
@@ -24,10 +26,12 @@ def lookup_ip_intelligence(ip):
             "city": "Private Subnet",
             "lat": 20.2961,
             "lon": 85.8245,
+            "isp": "Local Subnet / Router",
+            "org": "Internal Infrastructure",
             "reputation": "Internal Asset (Low Risk)"
         }
     try:
-        res = requests.get(f"http://ip-api.com/json/{ip}?fields=status,country,city,lat,lon,query", timeout=3).json()
+        res = requests.get(f"http://ip-api.com/json/{ip}?fields=status,country,city,lat,lon,isp,org,as,query", timeout=3).json()
         if res.get("status") == "success":
             return {
                 "status": "Public",
@@ -35,12 +39,22 @@ def lookup_ip_intelligence(ip):
                 "city": res.get("city", "Unknown"),
                 "lat": res.get("lat", 0.0),
                 "lon": res.get("lon", 0.0),
+                "isp": res.get("isp", "Unknown ISP"),
+                "org": res.get("org", "Unknown Org"),
                 "reputation": "External Ingress (Flagged for Threat Correlation)"
             }
     except Exception:
         pass
-    return {"status": "Unknown", "country": "Unknown", "city": "Unknown", "lat": 0.0, "lon": 0.0, "reputation": "Unverified"}
-
+    return {
+        "status": "Unknown",
+        "country": "Unknown",
+        "city": "Unknown",
+        "lat": 0.0,
+        "lon": 0.0,
+        "isp": "Unknown ISP",
+        "org": "Unknown Organization",
+        "reputation": "Unverified"
+    }
 # Universal Safe PDF Generation Helper (Compatible with both fpdf & fpdf2)
 def generate_pdf_report(incidents_list, total_ips):
     pdf = FPDF(orientation='P', unit='mm', format='A4')
@@ -205,6 +219,7 @@ if incidents and all_events:
             st.info("No target accounts found for chart.")
 
     # GeoIP Threat Map
+    # 3D Geospatial Threat Intelligence (Deep Space Globe)
     map_points = []
     for inc in filtered_incidents:
         geo = lookup_ip_intelligence(inc["source_ip"])
@@ -213,12 +228,111 @@ if incidents and all_events:
                 "lat": geo["lat"],
                 "lon": geo["lon"],
                 "IP": inc["source_ip"],
-                "Location": f"{geo['city']}, {geo['country']}"
+                "Country": geo["country"],
+                "City": geo["city"],
+                "Threat": inc.get("incident_type", "Suspicious Activity"),
+                "Risk": inc.get("risk_level", "LOW")
             })
 
     if map_points:
-        st.caption("🗺️ Attacker / Source Ingress Coordinates (Geospatial Mapping)")
-        st.map(pd.DataFrame(map_points), zoom=1)
+        st.markdown("---")
+        st.subheader("🌍 3D Geospatial Threat Ingress (Deep Space Intelligence)")
+        geo_df = pd.DataFrame(map_points)
+
+        col_tbl, col_globe = st.columns([1.1, 1.9])
+
+        with col_tbl:
+            st.markdown("##### 🎯 Target Ingress Vectors")
+            # Attacker options for auto-focus selection
+            attacker_options = [
+                f"{row['IP']} | {row['City']}, {row['Country']}" 
+                for _, row in geo_df.iterrows()
+            ]
+            selected_option = st.selectbox("Select Attacker to Lock Coordinates:", attacker_options)
+            
+            selected_idx = attacker_options.index(selected_option)
+            target = geo_df.iloc[selected_idx]
+            
+            target_lat = target["lat"]
+            target_lon = target["lon"]
+
+            # Live intelligence lookup for ISP & Datacenter details
+            target_intel = lookup_ip_intelligence(target['IP'])
+
+            st.info(f"""
+            🎯 **Locked Target:** `{target['IP']}`
+            
+            📍 **Incident Origin:** {target['City']}, {target['Country']}
+            🏢 **ISP Organization:** `{target_intel.get('org', target_intel.get('isp', 'Unknown ISP'))}`
+            🛰️ **ISP Gateway / Routing POP:** {target_intel.get('city', 'Unknown')}, {target_intel.get('country', 'Unknown')}
+            🌐 **ISP Gateway Coordinates:** `{target_lat}°, {target_lon}°`
+            
+            🚨 **Threat Signature:** `{target['Threat']}` (`{target['Risk']}`)
+            """)
+
+            # Quick overview table
+            st.dataframe(geo_df[["IP", "Country", "Risk"]], height=180, use_container_width=True)
+
+        with col_globe:
+            fig_globe = go.Figure()
+
+            # Attacker Red Markers
+            fig_globe.add_trace(go.Scattergeo(
+                lat=geo_df["lat"],
+                lon=geo_df["lon"],
+                mode="markers+text",
+                text=geo_df["IP"],
+                textposition="top right",
+                textfont=dict(color="#FF4B4B", size=11),
+                marker=dict(
+                    size=11,
+                    color="#FF2B2B",
+                    symbol="circle",
+                    line=dict(width=1.5, color="#FFFFFF")
+                ),
+                name="Attackers"
+            ))
+
+            # Target Lock Reticle Ring
+            fig_globe.add_trace(go.Scattergeo(
+                lat=[target_lat],
+                lon=[target_lon],
+                mode="markers",
+                marker=dict(
+                    size=26,
+                    color="rgba(255, 0, 51, 0.25)",
+                    symbol="circle",
+                    line=dict(width=3, color="#FFDD00")
+                ),
+                name="Target Lock"
+            ))
+
+            # Realistic Earth & Space Configuration
+            fig_globe.update_geos(
+                projection_type="orthographic",
+                projection_rotation=dict(lon=target_lon, lat=target_lat, roll=0),
+                showocean=True,
+                oceancolor="#0a192f",      # Realistic Deep Blue Ocean
+                showland=True,
+                landcolor="#1b4332",       # Natural Earth Continents
+                showlakes=True,
+                lakecolor="#0a192f",
+                showrivers=True,
+                rivercolor="#1e3d59",
+                showcountries=True,
+                countrycolor="#40916c",    # Country Borders
+                bgcolor="#000000"          # Pitch Black Deep Space
+            )
+
+            fig_globe.update_layout(
+                height=480,
+                paper_bgcolor="#000000",
+                plot_bgcolor="#000000",
+                margin={"r": 0, "t": 0, "l": 0, "b": 0},
+                showlegend=False
+            )
+
+            st.plotly_chart(fig_globe, use_container_width=True)
 
     st.markdown("---")
 
