@@ -14,7 +14,7 @@ st.set_page_config(page_title="Security Log Analyzer & SIEM", layout="wide")
 st.title("🛡️ Mini SIEM - Security Log Analyzer")
 st.markdown("Automated ingestion, telemetry normalization, explainable threat detection, visual analytics, and incident response.")
 
-# Helper: Free Public IP Intelligence & Geo-Lookup (Cached to optimize speed)
+# Helper: Public IP Intelligence & Geo-Lookup (Cached to optimize speed)
 @st.cache_data(ttl=3600)
 def lookup_ip_intelligence(ip):
     # Simulated Global Threat Nodes for Private/Demo IPs to show realistic SOC telemetry
@@ -38,13 +38,14 @@ def lookup_ip_intelligence(ip):
             "reputation": "External Ingress (Threat Flagged)"
         }
 
+    # If it's a private/internal IP without simulation, DO NOT map to default location
     if ip.startswith(("10.", "192.168.", "172.16.", "127.", "Localhost", "Unknown")):
         return {
             "status": "Private/Local",
             "country": "Internal Network",
             "city": "Private Subnet",
-            "lat": 20.2961,
-            "lon": 85.8245,
+            "lat": None,
+            "lon": None,
             "isp": "Local Subnet / Router",
             "org": "Internal Infrastructure",
             "reputation": "Internal Asset (Low Risk)"
@@ -56,8 +57,8 @@ def lookup_ip_intelligence(ip):
                 "status": "Public",
                 "country": res.get("country", "Unknown"),
                 "city": res.get("city", "Unknown"),
-                "lat": res.get("lat", 0.0),
-                "lon": res.get("lon", 0.0),
+                "lat": res.get("lat"),
+                "lon": res.get("lon"),
                 "isp": res.get("isp", "Unknown ISP"),
                 "org": res.get("org", "Unknown Org"),
                 "reputation": "External Ingress (Flagged for Threat Correlation)"
@@ -68,14 +69,14 @@ def lookup_ip_intelligence(ip):
         "status": "Unknown",
         "country": "Unknown",
         "city": "Unknown",
-        "lat": 0.0,
-        "lon": 0.0,
+        "lat": None,
+        "lon": None,
         "isp": "Unknown ISP",
         "org": "Unknown Organization",
         "reputation": "Unverified"
     }
 
-# Universal Safe PDF Generation Helper (Compatible with both fpdf & fpdf2)
+# Universal Safe PDF Generation Helper
 def generate_pdf_report(incidents_list, total_ips):
     pdf = FPDF(orientation='P', unit='mm', format='A4')
     pdf.set_auto_page_break(auto=True, margin=15)
@@ -238,11 +239,11 @@ if incidents and all_events:
         else:
             st.info("No target accounts found for chart.")
 
-    # 2D Flat Threat Ingress Map (Dark Matte Minimalist Aesthetic)
+    # 2D Flat Threat Ingress Map (Fixed Frame, Valid Geographic Points Only)
     map_points = []
     for inc in filtered_incidents:
         geo = lookup_ip_intelligence(inc["source_ip"])
-        if geo["lat"] != 0.0 and geo["lon"] != 0.0:
+        if geo["lat"] is not None and geo["lon"] is not None:
             map_points.append({
                 "lat": geo["lat"],
                 "lon": geo["lon"],
@@ -255,7 +256,7 @@ if incidents and all_events:
 
     if map_points:
         st.markdown("---")
-        st.subheader("🗺️ Global Threat Ingress Map (Flat Telemetry)")
+        st.subheader("🗺️ Global Threat Ingress Map (Fixed Telemetry)")
         geo_df = pd.DataFrame(map_points)
 
         col_tbl, col_map = st.columns([1.1, 1.9])
@@ -302,7 +303,7 @@ if incidents and all_events:
                 projection="equirectangular"
             )
 
-            # Exact Matte Dark Style from screenshot
+            # Exact Matte Dark Style
             fig_map.update_geos(
                 showocean=True,
                 oceancolor="#222b35",      # Slate grey-blue background
@@ -342,7 +343,12 @@ if incidents and all_events:
                 legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
             )
 
-            st.plotly_chart(fig_map, use_container_width=True)
+            # Completely lock the map: Non-movable, static, no pan/zoom controls
+            st.plotly_chart(
+                fig_map, 
+                use_container_width=True, 
+                config={"staticPlot": True, "displayModeBar": False}
+            )
 
     st.markdown("---")
 
