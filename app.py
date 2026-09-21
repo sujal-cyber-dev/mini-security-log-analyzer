@@ -238,7 +238,7 @@ if incidents and all_events:
         else:
             st.info("No target accounts found for chart.")
 
-    # 2D Flat Threat Ingress Map (Reliable, Clean & Overview-Friendly)
+    # 2D Flat Threat Ingress Map (Dark Matte Minimalist Aesthetic)
     map_points = []
     for inc in filtered_incidents:
         geo = lookup_ip_intelligence(inc["source_ip"])
@@ -297,28 +297,47 @@ if incidents and all_events:
                 hover_name="IP",
                 hover_data={"City": True, "Country": True, "Threat": True, "Risk": True, "lat": False, "lon": False},
                 color="Risk",
-                color_discrete_map={"CRITICAL": "#ff4b4b", "HIGH": "#ffa500", "MEDIUM": "#ffe600", "LOW": "#2ecc71"},
-                size=[14] * len(geo_df),
-                projection="natural earth"
+                color_discrete_map={"CRITICAL": "#ff3344", "HIGH": "#ffa500", "MEDIUM": "#ffe600", "LOW": "#00ffa3"},
+                size=[10] * len(geo_df),
+                projection="equirectangular"
             )
 
+            # Exact Matte Dark Style from screenshot
             fig_map.update_geos(
                 showocean=True,
-                oceancolor="#0e1726",
+                oceancolor="#222b35",      # Slate grey-blue background
                 showland=True,
-                landcolor="#1b2a47",
+                landcolor="#111317",       # Deep matte black continents
                 showcountries=True,
-                countrycolor="#4b5d78",
-                countrywidth=0.6,
-                showlakes=True,
-                lakecolor="#0e1726",
-                bgcolor="#000000"
+                countrycolor="#2d3748",    # Crisp boundary grid
+                countrywidth=0.7,
+                showlakes=False,
+                bgcolor="#0e1117"
             )
 
+            # High-contrast continent annotations
+            continents_labels = [
+                {"name": "NORTH<br>AMERICA", "lat": 42.0, "lon": -100.0},
+                {"name": "AMERICA", "lat": -15.0, "lon": -60.0},
+                {"name": "EUROPE", "lat": 50.0, "lon": 15.0},
+                {"name": "AFRICA", "lat": 5.0, "lon": 22.0},
+                {"name": "ASIA", "lat": 45.0, "lon": 90.0}
+            ]
+            for cl in continents_labels:
+                fig_map.add_trace(go.Scattergeo(
+                    lat=[cl["lat"]],
+                    lon=[cl["lon"]],
+                    mode="text",
+                    text=[cl["name"]],
+                    textfont=dict(color="#718096", size=11, family="sans-serif"),
+                    hoverinfo="none",
+                    showlegend=False
+                ))
+
             fig_map.update_layout(
-                height=480,
-                paper_bgcolor="#000000",
-                plot_bgcolor="#000000",
+                height=460,
+                paper_bgcolor="#0e1117",
+                plot_bgcolor="#0e1117",
                 margin={"r": 0, "t": 0, "l": 0, "b": 0},
                 legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
             )
