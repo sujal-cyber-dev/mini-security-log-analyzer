@@ -238,7 +238,7 @@ if incidents and all_events:
         else:
             st.info("No target accounts found for chart.")
 
-    # 3D Geospatial Threat Intelligence (Deep Space Globe)
+    # 2D Flat Threat Ingress Map (Reliable, Clean & Overview-Friendly)
     map_points = []
     for inc in filtered_incidents:
         geo = lookup_ip_intelligence(inc["source_ip"])
@@ -255,10 +255,10 @@ if incidents and all_events:
 
     if map_points:
         st.markdown("---")
-        st.subheader("🌍 3D Geospatial Threat Ingress (Deep Space Intelligence)")
+        st.subheader("🗺️ Global Threat Ingress Map (Flat Telemetry)")
         geo_df = pd.DataFrame(map_points)
 
-        col_tbl, col_globe = st.columns([1.1, 1.9])
+        col_tbl, col_map = st.columns([1.1, 1.9])
 
         with col_tbl:
             st.markdown("##### 🎯 Target Ingress Vectors")
@@ -266,7 +266,7 @@ if incidents and all_events:
                 f"{row['IP']} | {row['City']}, {row['Country']}" 
                 for _, row in geo_df.iterrows()
             ]
-            selected_option = st.selectbox("Select Attacker to Lock Coordinates:", attacker_options)
+            selected_option = st.selectbox("Select Attacker to Inspect:", attacker_options)
             
             selected_idx = attacker_options.index(selected_option)
             target = geo_df.iloc[selected_idx]
@@ -289,84 +289,41 @@ if incidents and all_events:
 
             st.dataframe(geo_df[["IP", "Country", "Risk"]], height=180, use_container_width=True)
 
-        with col_globe:
-            fig_globe = go.Figure()
+        with col_map:
+            fig_map = px.scatter_geo(
+                geo_df,
+                lat="lat",
+                lon="lon",
+                hover_name="IP",
+                hover_data={"City": True, "Country": True, "Threat": True, "Risk": True, "lat": False, "lon": False},
+                color="Risk",
+                color_discrete_map={"CRITICAL": "#ff4b4b", "HIGH": "#ffa500", "MEDIUM": "#ffe600", "LOW": "#2ecc71"},
+                size=[14] * len(geo_df),
+                projection="natural earth"
+            )
 
-            # Attacker Red Markers
-            fig_globe.add_trace(go.Scattergeo(
-                lat=geo_df["lat"],
-                lon=geo_df["lon"],
-                mode="markers+text",
-                text=geo_df["IP"],
-                textposition="top center",
-                textfont=dict(color="#00FFA3", size=10, family="Courier New"),
-                marker=dict(
-                    size=10,
-                    color="#FF3344",
-                    symbol="circle",
-                    opacity=0.9,
-                    line=dict(width=1.5, color="#FFAA00")
-                ),
-                name="Threat Vectors"
-            ))
-
-            # Radar pulse wave
-            fig_globe.add_trace(go.Scattergeo(
-                lat=[target_lat],
-                lon=[target_lon],
-                mode="markers",
-                marker=dict(
-                    size=28,
-                    color="rgba(255, 51, 68, 0.2)",
-                    symbol="circle",
-                    line=dict(width=2, color="#00FFA3")
-                ),
-                name="Radar Wave"
-            ))
-
-            # Target Lock Reticle
-            fig_globe.add_trace(go.Scattergeo(
-                lat=[target_lat],
-                lon=[target_lon],
-                mode="markers",
-                marker=dict(
-                    size=14,
-                    color="#FFCC00",
-                    symbol="circle",
-                    line=dict(width=2, color="#FFFFFF")
-                ),
-                name="Active Lock"
-            ))
-
-            # Earth & Space Configuration
-            fig_globe.update_geos(
-                projection_type="orthographic",
-                projection_rotation=dict(lon=target_lon, lat=target_lat, roll=0),
+            fig_map.update_geos(
                 showocean=True,
-                oceancolor="#020813",
+                oceancolor="#0e1726",
                 showland=True,
-                landcolor="#12251d",
-                showlakes=True,
-                lakecolor="#020813",
-                showrivers=True,
-                rivercolor="#07182e",
+                landcolor="#1b2a47",
                 showcountries=True,
-                countrycolor="#1e4d38",
-                countrywidth=0.8,
-                coastlinecolor="#00FFA3",
-                coastlinewidth=1.2,
+                countrycolor="#4b5d78",
+                countrywidth=0.6,
+                showlakes=True,
+                lakecolor="#0e1726",
                 bgcolor="#000000"
             )
 
-            fig_globe.update_layout(
-                height=520,
+            fig_map.update_layout(
+                height=480,
                 paper_bgcolor="#000000",
                 plot_bgcolor="#000000",
                 margin={"r": 0, "t": 0, "l": 0, "b": 0},
-                showlegend=False
+                legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
             )
 
-            st.plotly_chart(fig_globe, use_container_width=True)
+            st.plotly_chart(fig_map, use_container_width=True)
 
     st.markdown("---")
 
