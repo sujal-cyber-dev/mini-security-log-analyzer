@@ -74,6 +74,7 @@ def lookup_ip_intelligence(ip):
         "org": "Unknown Organization",
         "reputation": "Unverified"
     }
+
 # Universal Safe PDF Generation Helper (Compatible with both fpdf & fpdf2)
 def generate_pdf_report(incidents_list, total_ips):
     pdf = FPDF(orientation='P', unit='mm', format='A4')
@@ -237,7 +238,6 @@ if incidents and all_events:
         else:
             st.info("No target accounts found for chart.")
 
-    # GeoIP Threat Map
     # 3D Geospatial Threat Intelligence (Deep Space Globe)
     map_points = []
     for inc in filtered_incidents:
@@ -262,7 +262,6 @@ if incidents and all_events:
 
         with col_tbl:
             st.markdown("##### 🎯 Target Ingress Vectors")
-            # Attacker options for auto-focus selection
             attacker_options = [
                 f"{row['IP']} | {row['City']}, {row['Country']}" 
                 for _, row in geo_df.iterrows()
@@ -275,7 +274,6 @@ if incidents and all_events:
             target_lat = target["lat"]
             target_lon = target["lon"]
 
-            # Live intelligence lookup for ISP & Datacenter details
             target_intel = lookup_ip_intelligence(target['IP'])
 
             st.info(f"""
@@ -289,13 +287,12 @@ if incidents and all_events:
             🚨 **Threat Signature:** `{target['Threat']}` (`{target['Risk']}`)
             """)
 
-            # Quick overview table
             st.dataframe(geo_df[["IP", "Country", "Risk"]], height=180, use_container_width=True)
 
-       with col_globe:
+        with col_globe:
             fig_globe = go.Figure()
 
-            # 1. Base Ingress Threat Vectors (Glowing Red Nodes)
+            # Attacker Red Markers
             fig_globe.add_trace(go.Scattergeo(
                 lat=geo_df["lat"],
                 lon=geo_df["lon"],
@@ -313,7 +310,7 @@ if incidents and all_events:
                 name="Threat Vectors"
             ))
 
-            # 2. Outer Atmospheric Radar Pulse (Visual Orbit Depth)
+            # Radar pulse wave
             fig_globe.add_trace(go.Scattergeo(
                 lat=[target_lat],
                 lon=[target_lon],
@@ -327,7 +324,7 @@ if incidents and all_events:
                 name="Radar Wave"
             ))
 
-            # 3. Precision Target Locked Reticle (Center Core)
+            # Target Lock Reticle
             fig_globe.add_trace(go.Scattergeo(
                 lat=[target_lat],
                 lon=[target_lon],
@@ -341,24 +338,24 @@ if incidents and all_events:
                 name="Active Lock"
             ))
 
-            # 4. Cinematic Space & Earth Shading
+            # Earth & Space Configuration
             fig_globe.update_geos(
                 projection_type="orthographic",
                 projection_rotation=dict(lon=target_lon, lat=target_lat, roll=0),
                 showocean=True,
-                oceancolor="#020813",          # Ultra-deep midnight abyss ocean
+                oceancolor="#020813",
                 showland=True,
-                landcolor="#12251d",           # Tactical night satellite land tone
+                landcolor="#12251d",
                 showlakes=True,
                 lakecolor="#020813",
                 showrivers=True,
                 rivercolor="#07182e",
                 showcountries=True,
-                countrycolor="#1e4d38",        # Subtle boundary grid
+                countrycolor="#1e4d38",
                 countrywidth=0.8,
-                coastlinecolor="#00FFA3",      # Atmospheric neon horizon edge
+                coastlinecolor="#00FFA3",
                 coastlinewidth=1.2,
-                bgcolor="#000000"              # Deep space black
+                bgcolor="#000000"
             )
 
             fig_globe.update_layout(
