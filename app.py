@@ -15,10 +15,29 @@ st.title("🛡️ Mini SIEM - Security Log Analyzer")
 st.markdown("Automated ingestion, telemetry normalization, explainable threat detection, visual analytics, and incident response.")
 
 # Helper: Free Public IP Intelligence & Geo-Lookup (Cached to optimize speed)
-# Helper: Free Public IP Intelligence & Geo-Lookup (Cached to optimize speed)
 @st.cache_data(ttl=3600)
 def lookup_ip_intelligence(ip):
-    # Private / Localhost check
+    # Simulated Global Threat Nodes for Private/Demo IPs to show realistic SOC telemetry
+    demo_geo_map = {
+        "192.168.1.105": {"country": "Russia", "city": "Moscow", "lat": 55.7558, "lon": 37.6173, "isp": "Rostelecom PJSC", "org": "Mirai Botnet Ingress"},
+        "172.16.0.40": {"country": "China", "city": "Shanghai", "lat": 31.2304, "lon": 121.4737, "isp": "China Telecom", "org": "APT-41 C2 Node"},
+        "10.0.0.15": {"country": "United States", "city": "Ashburn", "lat": 39.0438, "lon": -77.4874, "isp": "Amazon AWS Cloud", "org": "Credential Stuffer"},
+        "172.16.0.29": {"country": "Germany", "city": "Frankfurt", "lat": 50.1109, "lon": 8.6821, "isp": "DigitalOcean LLC", "org": "Tor Exit Gateway"}
+    }
+    
+    if ip in demo_geo_map:
+        data = demo_geo_map[ip]
+        return {
+            "status": "Public",
+            "country": data["country"],
+            "city": data["city"],
+            "lat": data["lat"],
+            "lon": data["lon"],
+            "isp": data["isp"],
+            "org": data["org"],
+            "reputation": "External Ingress (Threat Flagged)"
+        }
+
     if ip.startswith(("10.", "192.168.", "172.16.", "127.", "Localhost", "Unknown")):
         return {
             "status": "Private/Local",
@@ -273,59 +292,77 @@ if incidents and all_events:
             # Quick overview table
             st.dataframe(geo_df[["IP", "Country", "Risk"]], height=180, use_container_width=True)
 
-        with col_globe:
+       with col_globe:
             fig_globe = go.Figure()
 
-            # Attacker Red Markers
+            # 1. Base Ingress Threat Vectors (Glowing Red Nodes)
             fig_globe.add_trace(go.Scattergeo(
                 lat=geo_df["lat"],
                 lon=geo_df["lon"],
                 mode="markers+text",
                 text=geo_df["IP"],
-                textposition="top right",
-                textfont=dict(color="#FF4B4B", size=11),
+                textposition="top center",
+                textfont=dict(color="#00FFA3", size=10, family="Courier New"),
                 marker=dict(
-                    size=11,
-                    color="#FF2B2B",
+                    size=10,
+                    color="#FF3344",
                     symbol="circle",
-                    line=dict(width=1.5, color="#FFFFFF")
+                    opacity=0.9,
+                    line=dict(width=1.5, color="#FFAA00")
                 ),
-                name="Attackers"
+                name="Threat Vectors"
             ))
 
-            # Target Lock Reticle Ring
+            # 2. Outer Atmospheric Radar Pulse (Visual Orbit Depth)
             fig_globe.add_trace(go.Scattergeo(
                 lat=[target_lat],
                 lon=[target_lon],
                 mode="markers",
                 marker=dict(
-                    size=26,
-                    color="rgba(255, 0, 51, 0.25)",
+                    size=28,
+                    color="rgba(255, 51, 68, 0.2)",
                     symbol="circle",
-                    line=dict(width=3, color="#FFDD00")
+                    line=dict(width=2, color="#00FFA3")
                 ),
-                name="Target Lock"
+                name="Radar Wave"
             ))
 
-            # Realistic Earth & Space Configuration
+            # 3. Precision Target Locked Reticle (Center Core)
+            fig_globe.add_trace(go.Scattergeo(
+                lat=[target_lat],
+                lon=[target_lon],
+                mode="markers",
+                marker=dict(
+                    size=14,
+                    color="#FFCC00",
+                    symbol="circle",
+                    line=dict(width=2, color="#FFFFFF")
+                ),
+                name="Active Lock"
+            ))
+
+            # 4. Cinematic Space & Earth Shading
             fig_globe.update_geos(
                 projection_type="orthographic",
                 projection_rotation=dict(lon=target_lon, lat=target_lat, roll=0),
                 showocean=True,
-                oceancolor="#0a192f",      # Realistic Deep Blue Ocean
+                oceancolor="#020813",          # Ultra-deep midnight abyss ocean
                 showland=True,
-                landcolor="#1b4332",       # Natural Earth Continents
+                landcolor="#12251d",           # Tactical night satellite land tone
                 showlakes=True,
-                lakecolor="#0a192f",
+                lakecolor="#020813",
                 showrivers=True,
-                rivercolor="#1e3d59",
+                rivercolor="#07182e",
                 showcountries=True,
-                countrycolor="#40916c",    # Country Borders
-                bgcolor="#000000"          # Pitch Black Deep Space
+                countrycolor="#1e4d38",        # Subtle boundary grid
+                countrywidth=0.8,
+                coastlinecolor="#00FFA3",      # Atmospheric neon horizon edge
+                coastlinewidth=1.2,
+                bgcolor="#000000"              # Deep space black
             )
 
             fig_globe.update_layout(
-                height=480,
+                height=520,
                 paper_bgcolor="#000000",
                 plot_bgcolor="#000000",
                 margin={"r": 0, "t": 0, "l": 0, "b": 0},
