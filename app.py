@@ -17,7 +17,7 @@ st.markdown("Automated ingestion, telemetry normalization, explainable threat de
 # Helper: Public IP Intelligence & Geo-Lookup (Cached to optimize speed)
 @st.cache_data(ttl=3600)
 def lookup_ip_intelligence(ip):
-    # Simulated Global Threat Nodes for Private/Demo IPs to show realistic SOC telemetry
+    # Simulated Global Threat Nodes for Private/Demo IPs
     demo_geo_map = {
         "192.168.1.105": {"country": "Russia", "city": "Moscow", "lat": 55.7558, "lon": 37.6173, "isp": "Rostelecom PJSC", "org": "Mirai Botnet Ingress"},
         "172.16.0.40": {"country": "China", "city": "Shanghai", "lat": 31.2304, "lon": 121.4737, "isp": "China Telecom", "org": "APT-41 C2 Node"},
@@ -38,7 +38,7 @@ def lookup_ip_intelligence(ip):
             "reputation": "External Ingress (Threat Flagged)"
         }
 
-    # If it's a private/internal IP without simulation, DO NOT map to default location
+    # Private IPs without simulation ko default location assign nahi karna
     if ip.startswith(("10.", "192.168.", "172.16.", "127.", "Localhost", "Unknown")):
         return {
             "status": "Private/Local",
@@ -291,38 +291,15 @@ if incidents and all_events:
             st.dataframe(geo_df[["IP", "Country", "Risk"]], height=180, use_container_width=True)
 
         with col_map:
-            fig_map = px.scatter_geo(
-                geo_df,
-                lat="lat",
-                lon="lon",
-                hover_name="IP",
-                hover_data={"City": True, "Country": True, "Threat": True, "Risk": True, "lat": False, "lon": False},
-                color="Risk",
-                color_discrete_map={"CRITICAL": "#ff3344", "HIGH": "#ffa500", "MEDIUM": "#ffe600", "LOW": "#00ffa3"},
-                size=[10] * len(geo_df),
-                projection="equirectangular"
-            )
+            fig_map = go.Figure()
 
-            # Exact Matte Dark Style
-            fig_map.update_geos(
-                showocean=True,
-                oceancolor="#222b35",      # Slate grey-blue background
-                showland=True,
-                landcolor="#111317",       # Deep matte black continents
-                showcountries=True,
-                countrycolor="#2d3748",    # Crisp boundary grid
-                countrywidth=0.7,
-                showlakes=False,
-                bgcolor="#0e1117"
-            )
-
-            # High-contrast continent annotations
+            # Clean Continent Text Annotations
             continents_labels = [
-                {"name": "NORTH<br>AMERICA", "lat": 42.0, "lon": -100.0},
+                {"name": "NORTH<br>AMERICA", "lat": 45.0, "lon": -100.0},
                 {"name": "AMERICA", "lat": -15.0, "lon": -60.0},
-                {"name": "EUROPE", "lat": 50.0, "lon": 15.0},
+                {"name": "EUROPE", "lat": 52.0, "lon": 20.0},
                 {"name": "AFRICA", "lat": 5.0, "lon": 22.0},
-                {"name": "ASIA", "lat": 45.0, "lon": 90.0}
+                {"name": "ASIA", "lat": 48.0, "lon": 95.0}
             ]
             for cl in continents_labels:
                 fig_map.add_trace(go.Scattergeo(
@@ -335,12 +312,28 @@ if incidents and all_events:
                     showlegend=False
                 ))
 
+            # Full Natural Flat Earth Configuration (No Cropping on Sides)
+            fig_map.update_geos(
+                projection_type="natural earth",
+                showocean=True,
+                oceancolor="#222b35",      # Slate grey-blue background
+                showland=True,
+                landcolor="#111317",       # Deep matte black continents
+                showcountries=True,
+                countrycolor="#2d3748",    # Crisp boundary grid
+                countrywidth=0.7,
+                showlakes=False,
+                lonaxis=dict(range=[-180, 180], showgrid=False),
+                lataxis=dict(range=[-60, 85], showgrid=False),
+                bgcolor="#0e1117"
+            )
+
             fig_map.update_layout(
                 height=460,
                 paper_bgcolor="#0e1117",
                 plot_bgcolor="#0e1117",
-                margin={"r": 0, "t": 0, "l": 0, "b": 0},
-                legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+                margin={"r": 10, "t": 10, "l": 10, "b": 10},
+                showlegend=False
             )
 
             # Completely lock the map: Non-movable, static, no pan/zoom controls
